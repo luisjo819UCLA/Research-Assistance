@@ -5,7 +5,6 @@ library(censReg)  # For Tobit regression
 library(dplyr)
 library(tidyverse)
 library(lubridate)  # For easy date handling
-
 library(haven) # For reading Stata files
 
 #Lets see all the dta files that are in the folder SIEED_7518_v1_test
@@ -32,3 +31,5 @@ for (i in 1:length(dta_list)){
 #I think its using the last one!
 dta_list[[50]] %>%
   head()
+
+install.packages("httpgd")
