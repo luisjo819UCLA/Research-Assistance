@@ -1,0 +1,2805 @@
+
+
+Frequency counts for SIEED 7518 (v1), individual data
+
+No multiple counting within one feature value:
+(persnr jahr)
+
+Deletion of frequencies <20 for reasons of data privacy
+
+________________________________________________________________________________
+
+Individual ID (persnr)
+Number of unique values of persnr is  5567883
+Number of records is  108739551
+
+No missing values
+
+________________________________________________________________________________
+
+Establishment ID (betnr)
+Number of unique values of betnr is  5248850
+Number of records is  139167790
+
+--------------------------------------------
+              Establishment ID |       Freq.
+-------------------------------+------------
+.z no entry                    |      28,440
+--------------------------------------------
+
+________________________________________________________________________________
+
+panel establishment identificator  (betnr_pan)
+
+--------------------------------------------
+panel establishment            |
+identifier                     |       Freq.
+-------------------------------+------------
+0 no panel establishment       |  90,962,045
+1 panel establishment          |  24,007,569
+--------------------------------------------
+
+________________________________________________________________________________
+
+Observation counter per person (spell)
+
+--------------------------------------------------------------------------------
+                      Variable |    N(spell) mean(spell)  min(spell)  max(spell)
+-------------------------------+------------------------------------------------
+                               |    1.73e+08  33.5118332           /        9792
+--------------------------------------------------------------------------------
+
+No missing values
+
+________________________________________________________________________________
+
+Original start date (begorig)
+
+Dates are rounded and displayed on year level
+
+--------------------------------------------
+           Original start date |       Freq.
+-------------------------------+------------
+                          1975 |   1,383,100
+                          1976 |   1,569,930
+                          1977 |   1,655,632
+                          1978 |   1,730,307
+                          1979 |   1,886,787
+                          1980 |   1,946,213
+                          1981 |   1,908,490
+                          1982 |   1,838,879
+                          1983 |   1,828,015
+                          1984 |   1,946,668
+                          1985 |   2,015,137
+                          1986 |   2,136,185
+                          1987 |   2,215,889
+                          1988 |   2,290,148
+                          1989 |   2,447,713
+                          1990 |   2,656,123
+                          1991 |   3,124,247
+                          1992 |   3,314,845
+                          1993 |   3,212,804
+                          1994 |   3,168,210
+                          1995 |   3,211,414
+                          1996 |   3,192,288
+                          1997 |   3,267,433
+                          1998 |   3,273,569
+                          1999 |   4,227,484
+                          2000 |   4,440,979
+                          2001 |   4,520,490
+                          2002 |   4,387,380
+                          2003 |   4,715,869
+                          2004 |   4,386,332
+                          2005 |   4,285,572
+                          2006 |   4,463,583
+                          2007 |   4,726,339
+                          2008 |   4,725,985
+                          2009 |   4,723,812
+                          2010 |   4,889,337
+                          2011 |   4,969,809
+                          2012 |   4,911,887
+                          2013 |   5,022,062
+                          2014 |   4,994,718
+                          2015 |   5,011,914
+                          2016 |   5,019,074
+                          2017 |   5,064,471
+                          2018 |   4,982,828
+--------------------------------------------
+
+________________________________________________________________________________
+
+Original end date (endorig)
+
+Dates are rounded and displayed on year level
+
+--------------------------------------------
+             Original end date |       Freq.
+-------------------------------+------------
+                          1975 |   1,387,729
+                          1976 |   1,574,630
+                          1977 |   1,660,154
+                          1978 |   1,734,379
+                          1979 |   1,890,260
+                          1980 |   1,949,281
+                          1981 |   1,908,937
+                          1982 |   1,838,913
+                          1983 |   1,827,751
+                          1984 |   1,945,681
+                          1985 |   2,014,411
+                          1986 |   2,134,927
+                          1987 |   2,214,877
+                          1988 |   2,293,412
+                          1989 |   2,454,739
+                          1990 |   2,661,654
+                          1991 |   3,132,191
+                          1992 |   3,313,094
+                          1993 |   3,215,111
+                          1994 |   3,171,374
+                          1995 |   3,208,757
+                          1996 |   3,191,462
+                          1997 |   3,266,293
+                          1998 |   3,274,563
+                          1999 |   4,146,818
+                          2000 |   4,439,812
+                          2001 |   4,516,883
+                          2002 |   4,385,146
+                          2003 |   4,659,853
+                          2004 |   4,346,079
+                          2005 |   4,258,269
+                          2006 |   4,430,266
+                          2007 |   4,688,485
+                          2008 |   4,691,105
+                          2009 |   4,689,462
+                          2010 |   4,843,349
+                          2011 |   4,922,036
+                          2012 |   4,872,449
+                          2013 |   4,921,342
+                          2014 |   4,886,108
+                          2015 |   4,901,443
+                          2016 |   4,903,447
+                          2017 |   4,938,112
+                          2018 |   4,860,934
+--------------------------------------------
+
+________________________________________________________________________________
+
+Episode start date (begepi)
+
+Dates are rounded and displayed on year level
+
+--------------------------------------------
+            Episode start date |       Freq.
+-------------------------------+------------
+                          1975 |   1,403,933
+                          1976 |   1,600,754
+                          1977 |   1,685,759
+                          1978 |   1,760,909
+                          1979 |   1,921,915
+                          1980 |   1,976,685
+                          1981 |   1,927,274
+                          1982 |   1,859,161
+                          1983 |   1,847,227
+                          1984 |   1,970,746
+                          1985 |   2,044,512
+                          1986 |   2,158,306
+                          1987 |   2,240,627
+                          1988 |   2,322,401
+                          1989 |   2,492,478
+                          1990 |   2,707,974
+                          1991 |   3,182,024
+                          1992 |   3,357,152
+                          1993 |   3,257,051
+                          1994 |   3,208,046
+                          1995 |   3,254,114
+                          1996 |   3,223,749
+                          1997 |   3,302,314
+                          1998 |   3,324,541
+                          1999 |   4,377,946
+                          2000 |   4,619,954
+                          2001 |   4,684,484
+                          2002 |   4,528,152
+                          2003 |   4,891,641
+                          2004 |   4,610,070
+                          2005 |   4,519,254
+                          2006 |   4,721,851
+                          2007 |   5,006,944
+                          2008 |   5,017,828
+                          2009 |   5,014,425
+                          2010 |   5,195,527
+                          2011 |   5,290,585
+                          2012 |   5,230,970
+                          2013 |   5,332,905
+                          2014 |   5,307,502
+                          2015 |   5,322,102
+                          2016 |   5,324,220
+                          2017 |   5,371,398
+                          2018 |   5,289,696
+--------------------------------------------
+
+________________________________________________________________________________
+
+Episode end date (endepi)
+
+Dates are rounded and displayed on year level
+
+--------------------------------------------
+              Episode end date |       Freq.
+-------------------------------+------------
+                          1975 |   1,403,933
+                          1976 |   1,600,754
+                          1977 |   1,685,759
+                          1978 |   1,760,909
+                          1979 |   1,921,915
+                          1980 |   1,976,685
+                          1981 |   1,927,274
+                          1982 |   1,859,161
+                          1983 |   1,847,227
+                          1984 |   1,970,746
+                          1985 |   2,044,512
+                          1986 |   2,158,306
+                          1987 |   2,240,627
+                          1988 |   2,322,401
+                          1989 |   2,492,478
+                          1990 |   2,707,974
+                          1991 |   3,182,024
+                          1992 |   3,357,152
+                          1993 |   3,257,051
+                          1994 |   3,208,046
+                          1995 |   3,254,114
+                          1996 |   3,223,749
+                          1997 |   3,302,314
+                          1998 |   3,324,541
+                          1999 |   4,377,946
+                          2000 |   4,619,954
+                          2001 |   4,684,484
+                          2002 |   4,528,152
+                          2003 |   4,891,641
+                          2004 |   4,610,070
+                          2005 |   4,519,254
+                          2006 |   4,721,851
+                          2007 |   5,006,944
+                          2008 |   5,017,828
+                          2009 |   5,014,425
+                          2010 |   5,195,527
+                          2011 |   5,290,585
+                          2012 |   5,230,970
+                          2013 |   5,332,905
+                          2014 |   5,307,502
+                          2015 |   5,322,102
+                          2016 |   5,324,220
+                          2017 |   5,371,398
+                          2018 |   5,289,696
+--------------------------------------------
+
+________________________________________________________________________________
+
+Gender (frau)
+
+--------------------------------------------
+                        Gender |       Freq.
+-------------------------------+------------
+0 Male                         |  60,271,431
+1 Female                       |  48,468,120
+--------------------------------------------
+
+________________________________________________________________________________
+
+Year of birth (gebS)
+
+--------------------------------------------
+                 Year of birth |       Freq.
+-------------------------------+------------
+                          1899 |          21
+                          1900 |          71
+                          1901 |         155
+                          1902 |         247
+                          1903 |         427
+                          1904 |         643
+                          1905 |         828
+                          1906 |       1,029
+                          1907 |       1,512
+                          1908 |       1,787
+                          1909 |       2,517
+                          1910 |       3,688
+                          1911 |       4,635
+                          1912 |       7,338
+                          1913 |      10,197
+                          1914 |      12,428
+                          1915 |      14,082
+                          1916 |      13,253
+                          1917 |      14,151
+                          1918 |      17,817
+                          1919 |      33,034
+                          1920 |      49,526
+                          1921 |      57,004
+                          1922 |      64,493
+                          1923 |      69,760
+                          1924 |      79,540
+                          1925 |      98,527
+                          1926 |     114,158
+                          1927 |     131,533
+                          1928 |     158,915
+                          1929 |     176,297
+                          1930 |     205,225
+                          1931 |     213,715
+                          1932 |     239,067
+                          1933 |     270,166
+                          1934 |     370,053
+                          1935 |     425,833
+                          1936 |     479,042
+                          1937 |     546,434
+                          1938 |     663,775
+                          1939 |     792,220
+                          1940 |     894,364
+                          1941 |     930,124
+                          1942 |     849,832
+                          1943 |     950,966
+                          1944 |   1,023,437
+                          1945 |     856,396
+                          1946 |   1,056,474
+                          1947 |   1,240,129
+                          1948 |   1,425,276
+                          1949 |   1,631,324
+                          1950 |   1,803,989
+                          1951 |   1,912,589
+                          1952 |   2,061,527
+                          1953 |   2,172,619
+                          1954 |   2,377,358
+                          1955 |   2,535,684
+                          1956 |   2,787,482
+                          1957 |   3,029,322
+                          1958 |   3,156,143
+                          1959 |   3,403,790
+                          1960 |   3,486,180
+                          1961 |   3,540,622
+                          1962 |   3,552,563
+                          1963 |   3,652,606
+                          1964 |   3,628,484
+                          1965 |   3,473,642
+                          1966 |   3,412,071
+                          1967 |   3,254,711
+                          1968 |   3,057,896
+                          1969 |   2,846,988
+                          1970 |   2,561,194
+                          1971 |   2,396,754
+                          1972 |   2,114,463
+                          1973 |   1,874,083
+                          1974 |   1,780,200
+                          1975 |   1,677,312
+                          1976 |   1,658,934
+                          1977 |   1,611,896
+                          1978 |   1,555,029
+                          1979 |   1,517,948
+                          1980 |   1,528,739
+                          1981 |   1,452,730
+                          1982 |   1,402,746
+                          1983 |   1,291,112
+                          1984 |   1,195,711
+                          1985 |   1,106,619
+                          1986 |   1,035,278
+                          1987 |     942,335
+                          1988 |     860,655
+                          1989 |     745,367
+                          1990 |     674,709
+                          1991 |     541,793
+                          1992 |     454,158
+                          1993 |     371,874
+                          1994 |     293,445
+                          1995 |     233,527
+                          1996 |     182,018
+                          1997 |     135,948
+                          1998 |      89,157
+                          1999 |      54,608
+                          2000 |      29,675
+                          2001 |      12,618
+                          2002 |       5,107
+                          2003 |       1,532
+                          2004 |         465
+                          2005 |          81
+--------------------------------------------
+
+________________________________________________________________________________
+
+Month of birth (gebmon)
+
+--------------------------------------------
+                Month of birth |       Freq.
+-------------------------------+------------
+1 January                      |   9,600,222
+2 February                     |   8,891,755
+3 March                        |   9,845,239
+4 April                        |   9,254,900
+5 May                          |   9,543,909
+6 June                         |   8,946,964
+7 July                         |   9,138,827
+8 August                       |   8,932,214
+9 September                    |   9,081,403
+10 October                     |   8,657,315
+11 November                    |   8,268,390
+12 December                    |   8,578,413
+--------------------------------------------
+
+________________________________________________________________________________
+
+Nationality (nation)
+
+--------------------------------------------
+                   Nationality |       Freq.
+-------------------------------+------------
+0 Germany                      |  99,472,846
+121 Albania                    |      55,367
+122 Bosnia and Herzegovina     |     155,964
+123 Andorra                    |         599
+124 Belgium                    |      29,951
+125 Bulgaria                   |      75,967
+126 Denmark                    |      14,458
+127 Estonia                    |       3,153
+128 Finland                    |      10,647
+129 France                     |     214,696
+130 Croatia                    |     247,542
+131 Slovenia                   |      19,378
+132 Serbia and Montenegro      |      11,876
+133 Serbia                     |      20,503
+134 Greece                     |     491,870
+135 Ireland                    |      12,131
+136 Iceland                    |       2,189
+137 Italy                      |   1,079,289
+138 Yugoslavia                 |     914,261
+139 Latvia                     |      10,377
+140 Montenegro                 |      12,860
+141 Liechtenstein              |         186
+142 Lithuania                  |      15,703
+143 Luxembourg                 |       5,813
+144 Macedonia                  |      55,359
+145 Malta                      |         467
+146 Moldova                    |       5,962
+147 Monaco                     |         130
+148 Netherlands                |     124,509
+149 Norway                     |       3,746
+150 Kosovo                     |      69,310
+151 Austria                    |     251,135
+152 Poland                     |     378,450
+153 Portugal                   |     193,018
+154 Romania                    |     171,864
+155 Slovakia                   |      20,790
+156 San Marino                 |         136
+157 Sweden                     |      12,057
+158 Switzerland                |      27,352
+159 Former Soviet Union        |       5,819
+160 Russian Federation         |     130,836
+161 Spain                      |     184,361
+162 Former Czechoslovakia      |      24,046
+163 Turkey                     |   2,841,541
+164 Czech Republic             |      38,912
+165 Hungary                    |      83,937
+166 Ukraine                    |      62,633
+167 Vatican City               |         318
+168 United Kingdom             |     122,382
+169 Belarus                    |      10,579
+170 Serbia                     |     102,511
+181 Cyprus                     |         520
+195 UK Overseas Territories    |         146
+199 Europe (open)              |         717
+221 Algeria                    |      19,733
+223 Angola                     |       9,202
+224 Eritrea                    |      10,029
+225 Ethiopia                   |      24,116
+226 Lesotho                    |          77
+227 Botswana                   |         114
+229 Benin                      |       2,385
+230 Djibouti                   |         219
+231 Cote d'Ivoire              |       4,083
+232 Nigeria                    |      29,871
+233 Zimbabwe                   |         661
+236 Gabon                      |         688
+237 The Gambia                 |       6,948
+238 Ghana                      |      56,762
+239 Mauritania                 |         892
+242 Cape Verde                 |         897
+243 Kenya                      |       9,392
+244 Comoros                    |         119
+245 Republic of the Congo      |       9,222
+246 Democratic Republic of the |       6,076
+247 Liberia                    |       2,308
+248 Libya                      |       1,475
+249 Madagascar                 |         788
+251 Mali                       |         973
+252 Morocco                    |     125,908
+253 Mauritius                  |         989
+254 Mozambique                 |       5,864
+255 Niger                      |       1,461
+256 Malawi                     |         186
+257 Zambia                     |         336
+258 Burkina Faso               |       1,740
+259 Guinea-Bissau              |         833
+261 Guinea                     |       3,863
+262 Cameroon                   |      32,911
+263 South Africa               |       3,950
+265 Rwanda                     |         881
+267 Namibia                    |         434
+268 Sao Tome and Principe      |         114
+269 Senegal                    |       3,635
+271 Seychelles                 |         264
+272 Sierra Leone               |       4,213
+273 Somalia                    |       4,596
+274 Equatorial Guinea          |         194
+276 Sudan (incl. South Sudan)  |       2,970
+277 Sudan                      |         585
+278 South Sudan                |         105
+281 Swaziland                  |         115
+282 Tanzania                   |         972
+283 Togo                       |      17,988
+284 Chad                       |         256
+285 Tunisia                    |      53,209
+286 Uganda                     |       2,233
+287 Egypt                      |      18,002
+289 Central African Republic   |         589
+291 Burundi                    |         544
+295 UK Overseas Territories    |          78
+299 Africa (open)              |       1,694
+320 Antigua and Barbuda        |         102
+322 Barbados                   |         226
+323 Argentina                  |       4,515
+324 The Bahamas                |         130
+326 Bolivia                    |       1,567
+327 Brazil                     |      24,566
+328 Guyana                     |         156
+330 Belize                     |          54
+332 Chile                      |       7,707
+333 Dominica                   |       1,400
+334 Costa Rica                 |         723
+335 Dominican Republic         |       4,886
+336 Ecuador                    |       3,821
+337 El Salvador                |         450
+340 Grenada                    |         184
+345 Guatemala                  |         470
+346 Haiti                      |         392
+347 Honduras                   |         651
+348 Canada                     |       9,537
+349 Colombia                   |       7,962
+351 Cuba                       |      12,024
+353 Mexico                     |       4,633
+354 Nicaragua                  |         709
+355 Jamaica                    |       1,602
+357 Panama                     |         237
+359 Paraguay                   |         890
+361 Peru                       |       9,725
+364 Suriname                   |          84
+365 Uruguay                    |         818
+366 Saint Lucia                |         223
+367 Venezuela                  |       2,811
+368 United States              |      91,016
+369 St. Vincent and the Grenad |          64
+370 St. Kitts and Nevis        |          61
+371 Trinidad and Tobago        |         515
+395 UK Overseas Territories    |         233
+399 America (open)             |       1,147
+411 Hong Kong                  |          71
+412 Macao                      |         265
+421 Yemen, Arab Republic       |       1,866
+422 Armenia                    |       5,806
+423 Afghanistan                |      55,021
+424 Bahrein                    |          27
+425 Azerbaijan                 |       5,745
+426 Bhutan                     |         291
+427 Burma                      |       1,325
+429 Brunei                     |         106
+430 Georgia                    |      10,347
+431 Sri Lanka                  |      41,237
+432 Vietnam                    |      96,053
+434 North Korea, Demokratic Pe |       3,863
+436 India                      |      44,294
+437 Indonesia                  |      11,208
+438 Iraq                       |      55,281
+439 Iran                       |      73,879
+441 Israel                     |       9,576
+442 Japan                      |      13,455
+443 Republic of Yemen          |          39
+444 Kazakhstan                 |      44,119
+445 Jordan                     |      13,146
+446 Cambodia                   |       1,711
+447 Qatar                      |          66
+448 Kuwait                     |         333
+449 Laos                       |       1,759
+450 Kyrgyzstan                 |       4,307
+451 Lebanon                    |      35,036
+454 Maldives                   |          57
+456 Oman                       |          39
+457 Mongolia                   |       7,861
+458 Nepal                      |       3,505
+459 Palestinian Territories    |         788
+460 Bangladesh                 |       8,299
+461 Pakistan                   |      42,825
+462 Philippines                |      30,315
+465 China (Taiwan)             |       5,305
+467 South Korea, Republic of K |       9,036
+468 Democratic People's Republ |         481
+469 United Arab Emirates       |         396
+470 Tajikistan                 |       1,012
+471 Turkmenistan               |       1,009
+472 Saudi Arabia               |         480
+474 Singapore                  |         706
+475 Syria                      |      33,897
+476 Thailand                   |      39,482
+477 Uzbekistan                 |       4,602
+479 People's Republic of China |      53,635
+481 Cyprus                     |         214
+482 Malaysia                   |       3,715
+483 Timor-Leste                |           /
+495 UK Overseas Territories    |       1,047
+499 Asia (open)                |       3,003
+523 Australia                  |       5,828
+524 Solomon Islands            |         107
+525 Mariana Islands            |         108
+526 Fiji                       |          93
+527 Cook Islands               |          22
+530 Kiribati                   |          23
+531 Nauru                      |          59
+532 Vanuatu                    |          69
+533 Niue                       |           /
+536 New Zealand                |       1,058
+537 Palau                      |          32
+538 Papua New Guinea           |          62
+540 Tuvalu                     |          97
+541 Tonga                      |         301
+543 Samoa                      |          80
+544 Marshall Islands           |          42
+545 Federated States of Micron |           /
+595 Pitcairn-Island            |          47
+599 Australia (open)           |         311
+994 Sea                        |           /
+996 Foreign countries, unknown |       1,549
+997 Stateless                  |      23,748
+998 Unknown                    |      20,081
+.z no entry                    |      32,584
+--------------------------------------------
+
+________________________________________________________________________________
+
+Nationality, grouped (nation_gr)
+
+--------------------------------------------
+          Nationality, grouped |       Freq.
+-------------------------------+------------
+10 Germany                     |  99,472,846
+11 Turkey                      |   2,841,541
+12 Italy                       |   1,079,289
+13 Yugoslavia, Serbia and Mont |   1,123,888
+14 Greece                      |     491,870
+15 France                      |     214,696
+16 Poland                      |     378,450
+17 Austria                     |     251,135
+18 Croatia                     |     247,542
+19 Portugal                    |     193,018
+20 Spain                       |     184,361
+21 Netherlands, Luxembourg     |     130,315
+22 Russia, Belarus, Former Sov |     146,532
+23 Bosnia and Herzegovina      |     155,964
+24 United Kingdom, Ireland, Br |     134,305
+25 Romania                     |     171,864
+26 Czech Republic, Slovakia, F |      83,264
+27 Ukraina, Moldova            |      68,587
+28 Hungary                     |      83,937
+29 Albania                     |      55,367
+30 Belgium                     |      29,951
+31 Macedonia                   |      55,359
+32 Switzerland                 |      27,352
+33 Bulgaria                    |      75,967
+34 Slovenia                    |      19,378
+35 Denmark, Sweden             |      26,508
+36 Finland                     |      10,647
+37 Estonia, Latvia, Lithuania  |      28,998
+49 Europe (open)               |       9,154
+50 Ethiopia                    |      24,116
+51 Ghana                       |      56,762
+52 Marocco                     |     125,908
+53 Tunisia                     |      53,209
+59 Africa (open)               |     225,970
+60 USA, Canada                 |     100,537
+69 America (open)              |      95,338
+70 Afghanistan                 |      55,021
+71 Sri Lanka                   |      41,237
+72 Vietnam                     |      96,053
+73 India                       |      44,294
+74 Iraq                        |      55,281
+75 Iran                        |      73,879
+76 Lebanon                     |      35,036
+77 Philippines                 |      30,315
+78 Thailand                    |      39,482
+79 China, incl. Tibet          |      53,635
+89 Asia (open)                 |     256,705
+90 Oceania                     |       8,360
+.z no entry                    |      77,398
+--------------------------------------------
+
+________________________________________________________________________________
+
+Vocational training (ausbildung)
+
+--------------------------------------------
+           Vocational training |       Freq.
+-------------------------------+------------
+1 Without vocational training  |  24,972,772
+2 In-company voc. training/tra |  58,726,561
+11 University of applied scien |   1,978,178
+12 University without further  |   6,064,999
+.z no entry                    |  29,910,227
+--------------------------------------------
+
+________________________________________________________________________________
+
+Vocational training (imputed) (ausbildung_imp)
+
+--------------------------------------------
+ Vocational training (imputed) |       Freq.
+-------------------------------+------------
+1 Secondary / intermediate sch |  18,882,407
+2 Secondary / intermediate sch |  67,390,784
+3 Upper secondary school leavi |   2,382,917
+4 Upper secondary school leavi |   8,932,871
+5 Completion of a university o |   3,382,345
+6 College / university degree  |   8,028,327
+.z no entry                    |   1,896,690
+--------------------------------------------
+
+________________________________________________________________________________
+
+School leaving qualification (schule)
+
+--------------------------------------------
+  School leaving qualification |       Freq.
+-------------------------------+------------
+1 No school leaving certificat |     588,644
+4 lower secondary school certi |   5,988,834
+5 Grade-/lower school certific |  62,393,108
+6 Intermediate school leaving  |   7,139,521
+8 Completion of education at a |  11,673,810
+9 Upper secondary school leavi |   3,127,818
+.z no entry                    |  28,937,681
+--------------------------------------------
+
+________________________________________________________________________________
+
+Daily wage/daily benefit (tentgelt)
+
+--------------------------------------------------------------------------------
+                      Variable | N(tentgelt) mean(ten~t) min(tent~t) max(tent~t)
+-------------------------------+------------------------------------------------
+                               |    1.56e+08  53.4430202           0       55921
+--------------------------------------------------------------------------------
+
+No missing values
+
+________________________________________________________________________________
+
+Occupation - current/most recent (KldB 1988) (beruf)
+
+--------------------------------------------
+Occupation - current/most      |
+recent (KldB 1988)             |       Freq.
+-------------------------------+------------
+11 Farmers                     |      99,356
+12 Winegrowers                 |       6,431
+21 Animal breeders             |      34,785
+22 Fishermen                   |       5,607
+31 Managers in agriculture and |      11,768
+32 Agricultural engineers, agr |      42,569
+41 Land workers                |     362,127
+42 Milkers                     |      15,520
+43 Family-member land workers, |       3,727
+44 Animal keepers and related  |      93,688
+51 Gardeners, garden workers   |   1,038,887
+52 Garden architects, garden m |      51,823
+53 Florists                    |     202,003
+61 Forestry managers, forester |      22,712
+62 Forest workers, forest cult |     160,409
+71 Miners                      |     315,288
+72 Mechanical, electrical, fac |      69,304
+81 Stone crushers              |      12,464
+82 Earth, gravel, sand quarrie |      17,583
+83 Oil, natural gas quarriers  |       6,461
+91 Mineral preparers, mineral  |      21,076
+101 Stone preparers            |     100,093
+102 Jewel preparers            |      11,570
+111 Stoneware, earthenware mak |      44,959
+112 Shaped brick, concrete blo |      86,011
+121 Ceramics workers           |      92,576
+131 Frit makers                |       3,137
+132 Hollow glassware makers    |      31,700
+133 Flat glass makers          |       7,855
+134 Glass blowers (lamps)      |       4,345
+135 Glass processors, glass fi |      75,741
+141 Chemical plant operatives  |     574,261
+142 Chemical laboratory worker |      87,507
+143 Rubber makers, processors  |     278,519
+144 Vulcanisers                |      30,073
+151 Plastics processors        |     700,816
+161 Paper, cellulose makers    |     100,838
+162 Packaging makers           |      94,363
+163 Book binding occupations   |     164,008
+164 Other paper products maker |     107,583
+171 Type setters, compositors  |     116,185
+172 Printed goods makers       |      76,578
+173 Printers (letterpress)     |      56,960
+174 Printers (flat, gravure)   |     120,584
+175 Special printers, screener |      40,258
+176 Copiers                    |      52,358
+177 Printer's assistants       |     201,022
+181 Wood preparers             |     286,437
+182 Wood moulders and related  |       6,853
+183 Wood products makers       |      12,694
+184 Basket and wicker products |       4,070
+191 Iron, metal producers, mel |      84,912
+192 Rollers                    |      90,334
+193 Metal drawers              |      19,452
+201 Moulders, coremakers       |      38,082
+202 Mould casters              |      68,702
+203 Semi-finished product fett |      99,467
+211 Sheet metal pressers, draw |     154,583
+212 Wire moulders, processors  |     446,767
+213 Other metal moulders (non- |      41,889
+221 Turners                    |     435,944
+222 Drillers                   |     112,279
+223 Planers                    |       8,686
+224 Borers                     |      73,319
+225 Metal grinders             |     136,844
+226 Other metal-cutting occupa |      46,372
+231 Metal polishers            |      26,599
+232 Engravers, chasers         |       8,517
+233 Metal finishers            |      31,755
+234 Galvanisers, metal coloure |     112,684
+235 Enamellers, zinc platers a |      24,391
+241 Welders, oxy-acetylene cut |     364,862
+242 Solderers                  |      38,276
+243 Riveters                   |       4,447
+244 Metal bonders and other me |       2,990
+251 Steel smiths               |      75,449
+252 Container builders, copper |      40,949
+261 Sheet metal workers        |     293,521
+262 Plumbers                   |   1,022,829
+263 Pipe, tubing fitters       |     144,676
+270 Locksmiths, not specified  |     402,922
+271 Building fitters           |     542,912
+272 Sheet metal, plastics fitt |     116,296
+273 Engine fitters             |     965,504
+274 Plant fitters, maintenance |     527,861
+275 Steel structure fitters, m |     459,536
+281 Motor vehicle repairers    |   1,274,095
+282 Agricultural machinery rep |     114,859
+283 Aircraft mechanics         |      52,562
+284 Precision mechanics        |     177,972
+285 Other mechanics            |     349,246
+286 Watch-, clockmakers        |      18,901
+291 Toolmakers                 |     396,392
+301 Precision fitters n.e.c.   |      24,421
+302 Precious metal smiths      |      30,853
+303 Dental technicians         |     223,135
+304 Opthalmic opticians        |     100,114
+305 Musical instrument makers  |      12,461
+306 Doll makers, model makers, |      10,213
+311 Electrical fitters, mechan |   1,854,768
+312 Telecommunications mechani |     263,121
+313 Electric motor, transforme |     121,935
+314 Electrical appliance fitte |     466,753
+315 Radio, sound equipment mec |      98,951
+321 Electrical appliance, elec |     491,384
+322 Other assemblers           |     820,115
+323 Metal workers (no further  |     932,101
+331 Spinners, fibre preparers  |      49,759
+332 Spoolers, twisters, ropema |      28,889
+341 Weaving preparers          |      13,605
+342 Weavers                    |      59,961
+343 Tufted goods makers        |       4,386
+344 Machined goods makers      |      33,278
+345 Felt makers, hat body make |       2,392
+346 Textile processing operati |       5,672
+351 Cutters                    |      83,490
+352 Clothing sewers            |     308,523
+353 Laundry cutters, sewers    |      57,437
+354 Embroiderers               |      11,649
+355 Hat, cap makers            |      12,527
+356 Sewers, n.e.c.             |     109,079
+357 Other textile processing o |      23,708
+361 Textile dyers              |      14,458
+362 Textile finishers          |      56,802
+371 Leather makers, catgut str |      17,253
+372 Shoemakers                 |      24,925
+373 Footwear makers            |      63,011
+374 Coarse leather goods finis |      20,019
+375 Fine leather goods makers  |       5,129
+376 Leather clothing makers an |      46,446
+377 Hand shoemakers            |       1,892
+378 Skin processing operatives |      17,983
+391 Bakery goods makers        |     443,715
+392 Confectioners (pastry)     |     193,953
+401 Butchers                   |     367,955
+402 Meat, sausage goods makers |     130,588
+403 Fish processing operatives |      29,986
+411 Cooks                      |   2,689,001
+412 Ready-to-serve meals, frui |      54,669
+421 Wine coopers               |      12,465
+422 Brewers, maltsters         |      36,714
+423 Other beverage makers, tas |      24,179
+424 Tobacco goods makers       |      17,862
+431 Milk, fat processing opera |      91,631
+432 Flour, food processors     |     197,096
+433 Sugar, sweets, ice-cream m |      84,465
+441 Bricklayers                |   1,319,436
+442 Concrete workers           |     426,991
+451 Carpenters                 |     367,181
+452 Roofers                    |     383,604
+453 Scaffolders                |     138,707
+461 Paviors                    |      72,980
+462 Road makers                |     264,873
+463 Tracklayers                |      59,855
+464 Explosives men (except sho |       8,541
+465 Land improvement, hydrauli |      28,055
+466 Other civil engineering wo |     316,497
+470 Building labourer, general |     739,210
+471 Earth movers               |      22,642
+472 Other building labourers,  |     681,420
+481 Stucco workers, plasterers |     169,267
+482 Insulators, proofers       |     267,450
+483 Tile setters               |     171,826
+484 Furnace setter, air heatin |      18,070
+485 Glaziers                   |      71,672
+486 Screed, terrazzo layers    |      52,457
+491 Room equippers             |     146,553
+492 Upholsterers, mattress mak |     105,384
+501 Carpenters                 |     973,758
+502 Model, form carpenters     |      35,894
+503 Cartwrights, wheelwrights, |       5,594
+504 Other wood and sports equi |      26,879
+511 Painters, lacquerers (cons |     958,172
+512 Goods painters, lacquerers |     294,655
+513 Wood surface finishers, ve |      11,210
+514 Ceramics, glass painters   |      14,796
+521 Goods examiners, sorters,  |     549,465
+522 Packagers, goods receivers |   1,300,288
+531 Assistants (no further spe |   2,447,409
+541 Generator machinists       |      53,492
+542 Winding engine drivers, ae |      13,920
+543 Other machinists           |     245,584
+544 Crane drivers              |     102,754
+545 Earthmoving plant drivers  |     193,239
+546 Construction machine atten |     134,930
+547 Machine attendants, machin |      84,409
+548 Stokers                    |      28,772
+549 Machine setters (no furthe |     240,339
+555 Disabled                   |      61,206
+601 Mechanical, motor engineer |     325,411
+602 Electrical engineers       |     398,448
+603 Architects, civil engineer |     443,608
+604 Survey engineers           |      22,173
+605 Mining, metallurgy, foundr |      16,957
+606 Other manufacturing engine |      74,067
+607 Other engineers            |     609,047
+611 Chemists, chemical enginee |     117,052
+612 Physicists, physics engine |      66,372
+621 Mechanical engineering tec |     434,294
+622 Electrical engineering tec |     453,410
+623 Building technicians       |     215,948
+624 Measurement technicians    |      74,187
+625 Mining, metallurgy, foundr |      40,456
+626 Chemistry, physics technic |      83,696
+627 Remaining manufacturing te |     128,884
+628 Other technicians          |     948,761
+629 Foremen, master mechanics  |     394,867
+631 Biological specialists     |     106,197
+632 Physical and mathematical  |      77,999
+633 Chemical laboratory assist |     162,817
+634 Photo laboratory assistant |      66,811
+635 Technical draughtspersons  |     495,097
+666 Rehabilitants              |      34,503
+681 Wholesale and retail trade |   1,984,925
+682 Salespersons               |   8,256,543
+683 Publishing house dealers,  |     157,222
+684 Druggists/chemists (pharma |     123,232
+685 Pharmacy aids              |     147,010
+686 Service-station attendants |     101,979
+687 Commercial agents, travell |     844,119
+688 Mobile traders             |      27,297
+691 Bank specialists           |   1,289,179
+692 Building society specialis |      20,865
+693 Health insurance specialis |      79,271
+694 Life, property insurance s |     622,974
+701 Forwarding business dealer |     468,867
+702 Tourism specialists        |     259,440
+703 Publicity occupations      |     619,272
+704 Brokers, property managers |      67,653
+705 Landlords, agents, auction |     149,429
+706 Cash collectors, cashiers, |     263,200
+711 Railway engine drivers     |     133,899
+712 Railway controllers, condu |     237,064
+713 Other traffic controllers, |      71,234
+714 Motor vehicle drivers      |   5,008,427
+715 Coachmen                   |      16,090
+716 Street attendants          |      61,145
+721 Navigating ships officers  |      26,365
+722 Technical ships officers,  |      25,661
+723 Deck seamen                |      37,709
+724 Inland boatmen             |      56,788
+725 Other water transport occu |       8,842
+726 Air transport occupations  |      56,505
+731 Post masters               |      17,849
+732 Postal deliverers          |   1,172,598
+733 Radio operators            |      12,604
+734 Telephonists               |     313,172
+741 Warehouse managers, wareho |   1,585,152
+742 Transportation equipment d |     325,441
+743 Stowers, furniture packers |     120,720
+744 Stores, transport workers  |   3,971,568
+751 Entrepreneurs, managing di |   1,584,630
+752 Management consultants, or |     473,304
+753 Chartered accountants, tax |     531,728
+761 Members of Parliament, Min |      16,682
+762 Senior government official |     316,736
+763 Association leaders, offic |      55,278
+771 Cost accountants, valuers  |     137,232
+772 Accountants                |     814,787
+773 Cashiers                   |     522,571
+774 Data processing specialist |   1,382,174
+781 Office specialists         |  12,295,264
+782 Stenographers, shorthand-t |   1,151,928
+783 Data typists               |     150,787
+784 Office auxiliary workers   |   1,372,070
+791 Factory guards, detectives |     105,515
+792 Watchmen, custodians       |   1,020,748
+793 Doormen, caretakers        |   1,151,186
+794 Domestic and non-domestic  |     174,412
+801 Soldiers, border guards, p |      31,519
+802 Firefighters               |      37,989
+803 Safety testers             |      26,939
+804 Chimney sweeps             |      38,067
+805 Health-protecting occupati |      56,585
+811 Arbitrators                |      13,161
+812 Judicial administrators    |       3,356
+813 Legal representatives, adv |     135,587
+814 Judicial enforcers         |       9,361
+821 Journalists                |     283,862
+822 Interpreters, translators  |      23,520
+823 Librarians, archivists, mu |     148,013
+831 Musicians                  |      69,833
+832 Artists' agents            |     167,279
+833 Visual, commercial artists |     152,672
+834 Scenery, sign painters     |      28,414
+835 Artistic and assisting occ |     204,262
+836 Interior, exhibition desig |      85,463
+837 Photographers              |      70,080
+838 Performers, professional s |     104,506
+841 Physicians                 |     420,382
+842 Dentists                   |      29,446
+843 Veterinary surgeons        |      20,646
+844 Pharmacists                |     134,568
+851 Non-medical practitioners  |      18,983
+852 Masseurs, physiotherapists |     507,270
+853 Nurses, midwives           |   2,110,768
+854 Nursing assistants         |     949,457
+855 Dietary assistants, pharma |     139,579
+856 Medical receptionists      |   1,984,296
+857 Medical laboratory assista |     306,925
+861 Social workers, care worke |   1,950,164
+862 Home wardens, social work  |     697,793
+863 Work, vocational advisers  |     111,223
+864 Nursery teachers, child nu |   1,461,683
+871 University teachers, lectu |     549,154
+872 Gymnasium teachers         |      90,083
+873 Primary, secondary (basic) |     465,619
+874 Technical, vocational, fac |     217,950
+875 Music teachers, n.e.c.     |      46,976
+876 Sports teachers            |     209,347
+877 Other teachers             |     277,915
+881 Economic and social scient |     309,001
+882 Humanities specialists, n. |     171,260
+883 Scientists n.e.c.          |     132,445
+888 Nursing staff              |       1,740
+891 Ministers of religion      |      32,776
+892 Members of religious order |       2,661
+893 Religious care helpers     |      76,817
+901 Hairdressers               |     851,235
+902 Other body care occupation |     101,034
+911 Restaurant, inn, bar keepe |     552,790
+912 Waiters, stewards          |   2,467,198
+913 Others attending on guests |   1,163,502
+921 Housekeeping managers      |     231,887
+922 Consumer advisors          |      19,483
+923 Other housekeeping attenda |     901,600
+924 Employees by household che |     169,055
+931 Laundry workers, pressers  |     254,182
+932 Textile cleaners, dyers an |      27,629
+933 Household cleaners         |   4,690,133
+934 Glass, buildings cleaners  |     631,033
+935 Street cleaners, refuse di |     254,288
+936 Vehicle cleaners, servicer |     253,881
+937 Machinery, container clean |     294,631
+971 Non-agricultural family as |       1,418
+981 Trainees with recognised t |     355,334
+982 Interns, unpaid trainees w |     211,985
+983 Workforce (job seekers) wi |      23,995
+991 Workforce not further spec |     561,694
+995 Recipients of early retire |         691
+996 Employees in partial retir |       2,137
+997 Recipients of compensation |       2,558
+.z no entry                    |   1,618,873
+--------------------------------------------
+
+________________________________________________________________________________
+
+Occupational group - current/most recent (KldB 2010), 3-digit (beruf2010_3)
+
+--------------------------------------------
+Occupational group -           |
+current/most recent (KldB      |
+2010), 3-digit                 |       Freq.
+-------------------------------+------------
+11 Commissioned officers       |       3,543
+12 Senior non-commissioned off |         340
+13 Junior non-commissioned off |         106
+14 Armed forces personnel in o |       1,040
+111 Occupations in farming     |     483,039
+112 Occupations in animal husb |      50,990
+113 Occupations in horsekeepin |      27,332
+114 Occupations in fishing     |       6,134
+115 Occupations in animal care |      92,887
+116 Occupations in vini- and v |       6,959
+117 Occupations in forestry, h |     187,212
+121 Occupations in gardening   |   1,109,660
+122 Occupations in floristry   |     202,003
+211 Occupations in underground |     399,844
+212 Conditioning and processin |     282,471
+213 Occupations in industrial  |     123,185
+214 Occupations in industrial  |      91,048
+221 Occupations in plastic- an |   1,009,340
+222 Occupations in colour coat |     298,256
+223 Occupations in wood-workin |   1,287,042
+231 Technical occupations in p |     304,225
+232 Occupations in technical m |     411,727
+233 Occupations in photography |     133,372
+234 Occupations in printing te |     576,165
+241 Occupations in metal-makin |     451,871
+242 Occupations in metalworkin |   2,548,852
+243 Occupations in treatment o |     169,580
+244 Occupations in metal const |   1,925,223
+245 Occupations in precision m |     607,901
+251 Occupations in machine-bui |   3,798,650
+252 Technical occupations in t |   2,970,107
+261 Occupations in mechatronic |      61,344
+262 Technical occupations in e |     442,949
+263 Occupations in electrical  |   2,095,303
+271 Occupations in technical r |   1,245,133
+272 Draftspersons, technical d |     605,210
+273 Technical occupations in p |   1,251,893
+281 Occupations in textile mak |     282,950
+282 Occupations in the product |     691,480
+283 Occupations in leather- an |     196,730
+291 Occupations in beverage pr |      74,609
+292 Occupations in the product |   1,587,065
+293 Cooking occupations        |   2,689,001
+311 Occupations in constructio |     629,571
+312 Occupations in surveying a |      96,714
+321 Occupations in building co |   3,576,553
+322 Occupations in civil engin |     733,448
+331 Floor layers               |     190,350
+332 Painters and varnishers, p |   1,093,845
+333 Occupations in the interio |     764,418
+341 Occupations in building se |     592,147
+342 Occupations in plumping, s |   1,284,918
+343 Occupations in building se |     477,215
+411 Occupations in mathematics |       6,264
+412 Occupations in biology     |     222,305
+413 Occupations in chemistry   |   1,008,552
+414 Occupations in physics     |     148,264
+421 Occupations in geology, ge |       6,691
+422 Occupations in environment |      42,632
+423 Occupations in environment |      11,964
+431 Occupations in computer sc |   1,063,205
+432 Occupations in IT-system-a |     122,490
+433 Occupations in IT-network  |     102,661
+434 Occupations in software de |     110,679
+511 Technical occupations in r |      93,465
+512 Occupations in the inspect |      81,652
+513 Occupations in warehousing |   7,881,596
+514 Service occupations in pas |      45,778
+515 Occupations in traffic sur |     302,164
+516 Management assistants in t |     469,365
+521 Driver of vehicles in road |   5,008,427
+522 Drivers of vehicles in rai |     133,899
+523 Aircraft pilots            |      38,417
+524 Ship’s officers and mast   |      78,935
+525 Drivers and operators of c |     770,375
+531 Occupations in physical se |   1,895,845
+532 Occupations in police and  |      36,951
+533 Occupations in occupationa |      69,500
+541 Occupations in cleaning se |   5,942,279
+611 Occupations in purchasing  |   1,328,733
+612 Trading occupations        |   1,635,861
+613 Occupations in real estate |      57,286
+621 Sales occupations in retai |   8,290,113
+622 Sales occupations (retail  |     528,995
+623 Sales occupations (retail) |     457,035
+624 Sales occupations (retail) |     279,106
+625 Sales occupations (retail) |      11,915
+631 Occupations in tourism and |     285,364
+632 Occupations in hotels      |     597,861
+633 Gastronomy occupations     |   3,417,253
+634 Occupations in event organ |      54,178
+711 Managing directors and exe |     143,981
+712 Legislators and senior off |      71,701
+713 Occupations in business or |   2,411,719
+714 Office clerks and secretar |  13,849,590
+715 Occupations in human resou |     196,380
+721 Occupations in insurance a |   1,992,745
+722 Occupations in accounting, |   1,058,197
+723 Occupations in tax consult |     515,356
+731 Occupations in legal servi |     215,195
+732 Occupations in public admi |     747,274
+733 Occupations in media, docu |     142,759
+811 Doctors’ receptionists a   |   1,940,121
+812 Laboratory occupations in  |     256,421
+813 Occupations in nursing, em |   2,988,862
+814 Occupations in human medic |     445,140
+815 Occupations in veterinary  |      20,784
+816 Occupations in psychology  |      26,163
+817 Occupations in non-medical |     523,238
+818 Occupations in pharmacy    |     332,283
+821 Occupations in geriatric c |     529,609
+822 Occupations providing nutr |      17,469
+823 Occupations in body care   |     946,780
+824 Occupations in funeral ser |      17,504
+825 Technical occupations in m |     351,971
+831 Occupations in education a |   3,495,735
+832 Occupations in housekeepin |   1,142,601
+833 Occupations in theology an |     111,999
+841 Teachers in schools of gen |     560,425
+842 Teachers for occupation-sp |     238,910
+843 Teachers and researcher at |     549,154
+844 Teachers at educational in |     257,750
+845 Driving, flying and sports |     219,832
+911 Occupations in philology   |     107,203
+912 Occupations in the humanit |      11,882
+913 Occupations in the social  |      64,178
+914 Occupations in economics   |     175,839
+921 Occupations in advertising |     678,056
+922 Occupations in public rela |      23,394
+923 Occupations in publishing  |     124,650
+924 Occupations in editorial w |     276,031
+931 Occupations in product and |       5,190
+932 Occupations in interior de |     217,837
+933 Occupations in artisan cra |      13,374
+934 Artisans designing ceramic |      16,998
+935 Artisans working with meta |      79,702
+936 Occupations in musical ins |      12,461
+941 Musicians, singers and con |      72,363
+942 Actors, dancers, athletes  |     251,069
+943 Presenters and entertainer |      16,209
+944 Occupations in theatre, fi |      24,916
+945 Occupations in event techn |     182,752
+946 Occupations in stage, cost |      10,132
+947 Technical and management o |       9,686
+.z no entry                    |   5,393,961
+--------------------------------------------
+
+________________________________________________________________________________
+
+Occupational sub-group - current/most recent (KldB 2010), 4-digit (beruf2010_4)
+
+--------------------------------------------
+Occupational sub-group -       |
+current/most recent (KldB      |
+2010), 4-digit                 |       Freq.
+-------------------------------+------------
+110 Commissioned officers      |       3,543
+120 Senior non-commissioned of |         340
+130 Junior non-commissioned of |         106
+140 Armed forces personnel in  |       1,040
+1110 Occupations in farming (w |     465,529
+1111 Technical occupations in  |       1,062
+1112 Agricultural experts      |       1,210
+1113 Technical laboratory occu |       2,443
+1118 Occupations in farming (w |       2,443
+1119 Supervisors and managers  |      11,428
+1121 Occupations in livestock  |      48,137
+1122 Occupations in poultry fa |       1,541
+1123 Occupations in beekeeping |         127
+1128 Occupations in animal hus |         774
+1129 Supervisors and managers  |         501
+1130 Occupations in horsekeepi |       8,583
+1131 Occupations in horse bree |         450
+1132 Occupations in horsekeepi |       1,807
+1133 Farrier                   |         440
+1134 Coachman                  |      16,090
+1139 Supervisors and managers  |         285
+1140 Occupations in fishing (w |       1,140
+1141 Occupations in fish farmi |         534
+1142 Occupations in fishery    |       4,404
+1149 Supervisors and managers  |          83
+1150 Occupations in animal car |      86,021
+1151 Occupations in livestock  |       1,185
+1152 Occupations in pet and zo |       3,937
+1158 Occupations in animal car |       1,812
+1159 Supervisors and managers  |         222
+1160 Occupations in vini- and  |       6,753
+1169 Supervisors and managers  |         222
+1171 Occupations in forestry   |     177,344
+1172 Occupations in landscape  |       5,128
+1173 Occupations in hunting an |         328
+1174 Picking and extracting pl |          46
+1179 Supervisors and managers  |       4,477
+1210 Occupations in gardening  |   1,004,831
+1211 Occupations in fruit and  |       2,660
+1212 Occupations in tree, pere |       7,472
+1213 Occupations in cemetery g |       3,413
+1214 Occupations in horticultu |      95,821
+1219 Supervisors and managers  |       4,434
+1220 Occupations in floristry  |     201,540
+1229 Supervisors and managers  |         564
+2111 Occupations in undergroun |     390,761
+2112 Occupations in blasting e |       3,212
+2119 Supervisors and managers  |       5,957
+2120 Conditioning and processi |      10,311
+2121 Conditioning and processi |      39,296
+2122 Production of building ma |     152,143
+2123 Occupations in stonemason |      81,052
+2129 Supervisors in conditioni |         700
+2131 Occupations in glass-maki |      43,016
+2132 Manufacturing of glass in |         111
+2133 Occupations in industrial |       4,076
+2134 Occupations in glass fini |      74,005
+2135 Occupations in adjusting  |          71
+2136 Occupations in precision  |       2,235
+2139 Supervisors in industrial |         142
+2141 Occupations in industrial |      90,549
+2142 Occupations in industrial |         422
+2149 Supervisors in industrial |          83
+2210 Occupations in plastic- a |     975,559
+2211 Technical occupations in  |      30,073
+2218 Occupations in plastic- a |       3,234
+2219 Supervisors in plastic- a |       1,133
+2220 Occupations in colour coa |     271,810
+2221 Vehicle paintwork         |      24,278
+2222 Occupations in varnishing |       2,696
+2229 Supervisors in colour coa |       1,115
+2230 Occupations in wood-worki |     292,457
+2231 Occupations in wood dryin |         163
+2232 Occupations producing woo |       7,457
+2233 Occupations producing fin |     853,540
+2234 Occupations in wood const |     106,783
+2235 Wickerwork manufacturers, |       5,185
+2238 Occupations in wood-worki |      27,787
+2239 Supervisors and managers  |       4,418
+2310 Technical occupations in  |      29,543
+2311 Occupations in paper-maki |      71,815
+2312 Occupations in paper-proc |     203,136
+2319 Supervisors in paper-maki |         581
+2321 Occupations in digital an |     272,992
+2322 Occupations in graphic, c |     137,381
+2328 Occupations in technical  |         323
+2329 Supervisors and managers  |       4,006
+2331 Occupations in photograph |      66,875
+2332 Occupations in photograph |      67,029
+2339 Supervisors in photograph |          81
+2341 Occupations in printing t |     415,044
+2342 Occupations in book bindi |     163,077
+2349 Supervisors in printing t |         945
+2410 Occupations in metal-maki |      13,689
+2411 Occupations in metallurgy |      71,883
+2412 Occupations in metal moul |     110,151
+2413 Occupations in industrial |     254,318
+2414 Occupations in manual met |       3,298
+2419 Supervisors in metal-maki |         609
+2420 Occupations in metalworki |   1,346,824
+2421 Occupations in  metalwork |     387,427
+2422 Occupations in metalworki |     163,098
+2423 Occupations in metalworki |     677,282
+2424 Occupations in laser-assi |       1,426
+2429 Supervisors in metalworki |       5,318
+2430 Occupations in treatment  |     144,855
+2438 Occupations in treatment  |      24,391
+2439 Supervisors in treatment  |         514
+2441 Occupations in metal cons |   1,536,125
+2442 Occupations in welding an |     411,013
+2443 Industrial divers and oth |         359
+2449 Supervisors in metal cons |       8,352
+2451 Occupations in precision  |     191,112
+2452 Occupations in tool makin |     397,728
+2453 Occupations in watchmakin |      18,903
+2459 Supervisors in precision  |       1,831
+2510 Occupations in machine-bu |   2,637,604
+2511 Machine and equipment ass |     647,508
+2512 Machine and plant operato |     340,450
+2513 Technical service staff i |     168,067
+2518 Occupations in machine-bu |      12,646
+2519 Supervisors and managers  |      15,016
+2520 Technical occupations in  |      37,755
+2521 Technical occupations in  |   2,726,966
+2522 Technical occupations, ag |     115,137
+2523 Technical occupations in  |      57,135
+2524 Technical occupations in  |       2,691
+2525 Technical occupations in  |      10,674
+2529 Supervisors and managers  |      27,575
+2611 Occupations in mechatroni |      37,160
+2612 Occupations in automation |      23,862
+2619 Supervisors in mechatroni |         427
+2621 Electricians in construct |     161,662
+2622 Technical occupations in  |     116,149
+2623 Technical occupations in  |      68,466
+2624 Occupations in renewable  |       5,402
+2625 Occupations in installing |      68,949
+2626 Occupations in installing |      22,589
+2629 Supervisors in energy tec |       5,998
+2630 Occupations in electrical |   1,565,175
+2631 Occupations in informatio |     509,787
+2632 Occupations in microsyste |       4,079
+2633 Occupations in aeronautic |       5,491
+2638 Occupations in electrical |      10,250
+2639 Supervisors in electrical |      10,817
+2710 Occupations in technical  |   1,233,120
+2718 Occupations in technical  |       6,854
+2719 Managers in technical res |       5,372
+2721 Draftspersons             |     494,245
+2722 Occupations in technical  |      62,725
+2723 Model makers              |      44,511
+2728 Technical draftspersons,  |       2,582
+2729 Supervisors and managers  |       2,314
+2730 Technical occupations in  |     312,279
+2731 Technical occupations in  |     596,627
+2739 Supervisors and managers  |     345,813
+2810 Occupations in textile ma |      19,626
+2811 Occupations in textile de |      12,257
+2812 Occupations in textile pr |     119,015
+2813 Occupations in spinning a |      78,354
+2814 Occupations in textile fi |      55,009
+2819 Supervisors and managers  |         576
+2821 Occupations in fashion de |       4,925
+2822 Occupations in the produc |     479,071
+2823 Occupations in manufactur |     109,079
+2824 Occupations in upholstery |     105,384
+2829 Supervisors and managers  |         950
+2830 Occupations in leather- a |       5,099
+2831 Occupations in leather ma |      17,414
+2832 Occupations in saddlery a |      68,138
+2833 Occupations in shoemaking |      88,210
+2834 Occupations in fur treatm |      17,997
+2839 Supervisors and managers  |         652
+2910 Occupations in beverage p |      22,816
+2911 Brewers and maltsters     |      36,754
+2912 Coopers                   |      12,493
+2913 Distillers                |         666
+2914 Occupations in fruit juic |         980
+2915 Tasters of foodstuffs and |          45
+2919 Supervisors and managers  |       1,043
+2920 Occupations in the produc |     134,386
+2921 Occupations in the produc |      66,422
+2922 Occupations in the produc |     618,153
+2923 Occupations in meat proce |     492,208
+2924 Occupations in fish proce |      29,993
+2925 Occupations in the produc |      92,348
+2926 Occupations in confection |      84,513
+2927 Occupations in the manufa |      17,891
+2928 Occupations in the produc |      55,036
+2929 Supervisors and managers  |      10,021
+2930 Cooks (without specialisa |   2,662,653
+2931 Hors d'œuvrier, pantry o  |       2,533
+2932 Roast, grill or fish cook |       3,833
+2938 Cooks (with specialisatio |       1,855
+2939 Supervisors and managers  |      27,432
+3110 Occupations in constructi |     537,641
+3111 Occupations in architectu |      41,689
+3112 Occupations in urban and  |       2,794
+3113 Occupations in the planni |       2,275
+3114 Occupations in water reso |       1,697
+3115 Occupations in the mainte |       2,940
+3116 Construction surveyors an |       3,098
+3117 Occupations in constructi |       3,911
+3119 Supervisors and managers  |      36,851
+3121 Occupations in surveying  |      95,687
+3122 Occupations in cartograph |       1,047
+3210 Occupations in building c |   1,465,179
+3211 Occupations in the constr |     426,896
+3212 Occupations in the brickl |   1,294,206
+3213 Occupations in chimney co |       1,442
+3214 Occupations in roofing    |     383,604
+3215 Occupations in facade con |       1,545
+3216 Occupations in scaffoldin |     138,707
+3217 Occupations in building d |         771
+3219 Supervisors in building c |      18,413
+3220 Occupations in civil engi |     334,492
+3221 Pavers and stone setters  |      72,980
+3222 Occupations in road and a |     240,244
+3223 Occupations in railroad c |      60,094
+3224 Occupations in well const |       1,848
+3225 Occupations in canal and  |       3,179
+3226 Occupations in land impro |      28,988
+3229 Supervisors in civil engi |       7,122
+3310 Floor layers (without spe |      20,032
+3311 Pavers, tile setters and  |     162,220
+3312 Composition floor and ter |       4,863
+3313 Parquet floor layers      |       3,420
+3319 Supervisors in floor layi |         709
+3321 Painters and varnishers   |     919,880
+3322 Plasterers                |     169,267
+3323 Occupations in the waterp |       2,913
+3324 Occupations in the preser |       1,874
+3329 Supervisors in the painti |       6,308
+3330 Occupations in the interi |      52,443
+3331 Occupations in insulation |     244,345
+3332 Carpenters                |     367,181
+3333 Joiners                   |      24,171
+3334 Glaziers                  |      71,672
+3335 Roller shutter and jalous |       3,717
+3339 Supervisors in interior c |       5,523
+3410 Occupations in building s |     452,276
+3411 Green keepers and equipme |     139,009
+3419 Supervisors in building s |       2,489
+3420 Occupations in plumping ( |     249,860
+3421 Occupations in sanitation |   1,015,944
+3422 Occupations in the constr |      18,070
+3423 Occupations in ventilatin |       7,965
+3429 Supervisors in sanitation |       8,425
+3430 Occupations in building s |      65,860
+3431 Technical occupations in  |      20,012
+3432 Occupations in pipeline c |     144,925
+3433 Occupations in waste mana |     193,710
+3434 Occupations in plant, ves |      50,252
+3439 Supervisors in building s |       4,028
+4110 Occupations in mathematic |       2,261
+4111 Occupations in statistics |       2,316
+4118 Occupations in mathematic |       1,603
+4119 Managers in mathematics a |          98
+4120 Occupations in biology (w |     114,760
+4121 Biological technical labo |     101,903
+4122 Occupations in the prepar |         910
+4123 Occupations in ecology    |         729
+4124 Occupations in botany     |          68
+4125 Occupations in zoology    |         228
+4126 Occupations in microbiolo |         363
+4127 Occupations in human biol |         839
+4128 Occupations in biology (w |       2,224
+4129 Supervisors and managers  |         747
+4130 Occupations in chemistry  |     100,062
+4131 Occupations in chemical a |     655,217
+4132 Chemical technical labora |     246,978
+4133 Operators of chemical pro |         620
+4134 Operators of oil and gas  |         190
+4138 Occupations in chemistry  |       3,082
+4139 Supervisors and managers  |       6,533
+4140 Occupations in physics (w |      59,085
+4141 Occupations in physical t |      70,871
+4142 Occupations in material e |       9,032
+4143 Occupations in constructi |       2,805
+4148 Occupations in physics (w |       6,212
+4149 Supervisors and managers  |         455
+4211 Occupations in geotechnic |       1,146
+4212 Occupations in geology    |       3,574
+4213 Occupations in geography  |       1,430
+4214 Occupations in meteorolog |         576
+4220 Occupations in environmen |       4,429
+4221 Chimney sweeps            |      37,363
+4228 Occupations in environmen |         141
+4229 Supervisors in environmen |         834
+4231 Occupations in environmen |       8,811
+4232 Water pollution and emiss |         624
+4233 Radiation protection comm |       2,466
+4239 Managers in environmental |          71
+4310 Occupations in computer s |   1,023,920
+4311 Occupations in business i |      22,786
+4312 Occupations in computer e |       6,305
+4313 Occupations in bio- and m |         758
+4314 Occupations in geoinforma |         421
+4315 Occupations in media info |       8,621
+4319 Managers in computer scie |       1,391
+4321 Occupations in IT-system- |      20,000
+4322 Occupations in IT-applica |      86,796
+4323 Occupations in IT-sales   |      15,836
+4329 Managers in IT-system-ana |         509
+4331 Occupations in IT-network |       6,278
+4332 Occupations in IT-coordin |       7,846
+4333 Occupations in IT-organis |      15,321
+4334 Occupations in IT-system- |      51,258
+4335 Occupations in database d |       4,441
+4336 Occupations in web admini |         956
+4338 Occupations in IT-network |       5,395
+4339 Managers in IT-network en |      12,083
+4341 Occupations in software d |      88,138
+4342 Occupations in programmin |      21,494
+4349 Managers in software deve |       1,938
+5111 Technical occupations in  |       3,024
+5112 Technical occupations in  |      12,005
+5113 Technical occupations in  |      65,823
+5118 Technical occupations in  |      12,604
+5119 Supervisors in railway, a |          35
+5121 Road and tunnel inspectio |      60,862
+5122 Occupations in the inspec |      11,442
+5123 Technical occupations in  |         227
+5124 Waterway and bridges insp |       8,842
+5129 Supervisors in the inspec |         286
+5131 Occupations in warehousin |   6,641,295
+5132 Occupations in postal and |   1,190,026
+5133 Occupations in cargo hand |     120,720
+5139 Supervisors and managers  |      21,846
+5141 Service occupations in ro |      18,279
+5142 Service occupations in ai |      26,033
+5143 Service occupations in sh |         219
+5149 Supervisors of service pe |       1,300
+5150 Occupations in traffic su |       3,390
+5151 Occupations in the survei |      71,330
+5152 Occupations in the survei |     206,263
+5153 Occupations in the survei |       4,451
+5154 Occupations in the survei |         810
+5158 Occupations in traffic su |         308
+5159 Supervisors and managers  |      15,942
+5161 Management assistants in  |         527
+5162 Forwarding agents and man |     436,431
+5163 Management assistants in  |      12,771
+5164 Management assistants in  |       2,728
+5165 Management assistants in  |       3,184
+5166 Management assistants in  |       8,369
+5169 Managers in transport and |       6,699
+5211 Professional drivers (pas |     191,873
+5212 Professional drivers (car |   4,398,888
+5213 Bus and tram drivers      |     155,484
+5218 Drivers of vehicles in ro |     324,795
+5220 Drivers of train engines  |     133,899
+5231 Pilots of planes and airl |      38,240
+5238 Aircraft pilots (with spe |         185
+5241 Deck officers/mates and s |      25,557
+5242 Ship’s masters in inlan   |      53,637
+5251 Drivers of agricultural a |      13,742
+5252 Drivers of earthmoving an |     319,412
+5253 Operators of cranes, lift |     440,877
+5259 Supervisors of drivers an |       1,577
+5311 Occupations in physical s |   1,787,013
+5312 Occupations focusing on w |      41,251
+5313 Occupations in fire prote |      38,359
+5314 Pool attendants and lifeg |      12,948
+5315 Private detectives        |       7,252
+5316 Debt collectors           |       1,307
+5318 Occupations in physical s |      10,063
+5319 Supervisors and managers  |       9,607
+5321 Uniformed police personne |      26,197
+5322 Detectives and police off |         317
+5323 Court officers            |       1,043
+5324 Police officers in penal  |       9,418
+5331 Occupations in occupation |      22,598
+5332 Occupations in public hea |      41,650
+5333 Occupations in food contr |       3,076
+5334 Occupations in disinfecti |       2,170
+5339 Supervisors and managers  |          92
+5410 Occupations in cleaning s |   4,680,229
+5411 Occupations in building c |     223,154
+5412 Occupations in glass and  |     412,236
+5413 Occupations in textile cl |     280,960
+5414 Occupations in machine an |     288,789
+5415 Occupations in vehicle cl |     253,881
+5418 Occupations in cleaning s |       5,896
+5419 Supervisors in cleaning s |      12,012
+6111 Occupations in purchasing |      81,697
+6112 Occupations in sales (exc |   1,005,201
+6113 Trade brokers and auction |     150,912
+6114 Occupations in placing an |       7,187
+6115 Money lenders and pawn br |         366
+6116 Occupations in rental ser |      10,128
+6119 Managers in purchasing an |      79,113
+6120 Management assistants in  |      16,077
+6121 Management assistants in  |   1,612,905
+6128 Management assistants in  |       6,052
+6129 Managers in trade         |       1,074
+6131 Occupations in real estat |      48,427
+6132 Occupations in facility m |       7,538
+6139 Managers in real estate a |       1,440
+6210 Sales occupations in reta |   7,461,845
+6211 Cashiers and ticket agent |     777,395
+6212 Stall and market sellers  |      21,218
+6218 Sales occupations in reta |      32,359
+6219 Supervisors and managers  |      89,756
+6221 Sales occupations (retail |     184,694
+6222 Sales occupations (retail |      18,162
+6223 Sales occupations (retail |      19,896
+6224 Sales occupations (retail |      22,623
+6225 Sales occupations (retail |      38,134
+6226 Sales occupations (retail |      56,081
+6227 Sales occupations (retail |      64,832
+6228 Sales occupations in reta |     127,320
+6230 Sales occupations (retail |     133,324
+6231 Sales occupations (retail |     235,721
+6232 Sales occupations (retail |      75,620
+6238 Sales occupations (retail |      18,406
+6241 Sales occupations (retail |     269,361
+6242 Sales occupations (retail |       9,796
+6251 Sales occupations (retail |      10,482
+6252 Sales occupations (retail |         920
+6253 Sales occupations (retail |         514
+6311 Management assistants in  |     253,128
+6312 Management assistants in  |      12,404
+6313 Animators and guest atten |      14,198
+6314 Tourist guides and tour g |       3,901
+6319 Managers in tourism and t |       1,990
+6321 Management assistants in  |     379,814
+6322 Occupations in hotel serv |     198,329
+6329 Supervisors and managers  |      23,450
+6330 Gastronomy occupations (w |   2,738,804
+6331 Occupations in system cat |      29,006
+6332 Barkeepers                |     703,428
+6338 Gastronomy occupations (w |      19,367
+6339 Supervisors and managers  |      25,070
+6340 Occupations in event orga |      54,178
+7110 Managing directors and ex |     143,981
+7121 Legislators               |      16,682
+7122 Senior officials of speci |      48,284
+7123 Elected employee represen |       7,029
+7130 Occupations in business a |     749,004
+7131 Occupations in business o |      36,973
+7132 Occupations in business c |     286,014
+7133 Occupations in business d |         494
+7138 Occupations in business o |       3,511
+7139 Supervisors and managers  |   1,348,315
+7140 Office clerks and secreta |  12,645,665
+7141 Foreign language secretar |       8,834
+7142 Interpreters and translat |      23,520
+7143 Shorthand and audio typis |   1,151,928
+7144 Coders, proof readers and |     150,787
+7145 Customer or passenger inf |       4,259
+7149 Supervisors of office cle |      14,842
+7151 Occupations in human reso |      68,451
+7152 Occupations in recruiting |     118,569
+7159 Managers in human resourc |      11,978
+7211 Bankers                   |   1,243,242
+7212 Investment consultants an |      26,569
+7213 Insurance salespersons    |     699,127
+7214 Financial analysts        |      12,209
+7218 Occupations in insurance  |       5,673
+7219 Managers in insurance and |      11,331
+7221 Occupations in accounting |     823,715
+7222 Occupations in cost accou |     134,331
+7223 Occupations in controllin |      55,887
+7224 Occupations in auditing   |      30,139
+7229 Managers in accounting, c |      18,737
+7230 Occupations in tax consul |     515,356
+7310 Occupations in legal serv |      17,195
+7311 Assistants in lawyers’    |      74,179
+7312 Notaries                  |       2,578
+7313 Lawyers                   |      92,790
+7314 Prosecutors               |           /
+7315 Judges                    |      13,152
+7316 Occupations in the nation |           /
+7318 Occupations in legal serv |      21,479
+7319 Managers in legal service |         734
+7320 Occupations in public adm |     305,502
+7321 Occupations in the social |      72,301
+7322 Administrative occupation |      75,468
+7323 Occupations in tax admini |       1,144
+7324 Occupations in the custom |         889
+7325 Occupations in the admini |      11,979
+7328 Occupations in public adm |      27,316
+7329 Supervisors and managers  |     255,096
+7331 Occupations in archiving  |       7,589
+7332 Library occupations       |      14,506
+7333 Occupations in documentat |     114,263
+7334 Occupations in medical do |       5,565
+7339 Managers in media, docume |       1,193
+8110 Medical assistants (witho |   1,775,287
+8111 Dental assistants         |     142,094
+8112 Podologists               |       6,049
+8113 Orthoptists               |       1,336
+8114 Veterinary assistants     |      12,551
+8118 Medical assistants (with  |      10,087
+8121 Technical laboratory occu |     240,603
+8122 Technical occupations in  |       2,144
+8123 Technical occupations in  |      13,752
+8124 Technical occupations in  |         456
+8129 Managers in medical labor |         378
+8130 Occupations in nursing (w |   2,855,686
+8131 Occupations in nursing sp |      56,186
+8132 Occupations in nursing sp |       4,959
+8133 Surgical and medico-techn |       9,028
+8134 Occupations in emergency  |      41,385
+8135 Occupations in obstetrics |       7,044
+8138 Occupations in nursing (w |       3,992
+8139 Supervisors and managers  |      30,944
+8140 Medical doctors (without  |     358,984
+8141 Medical doctors specialis |       2,938
+8142 Medical doctors specialis |       9,466
+8143 Medical doctors specialis |       9,133
+8144 Medical doctors specialis |       6,841
+8145 Medical doctors specialis |       5,963
+8146 Medical doctors specialis |       5,951
+8147 Dentists and orthodontist |      29,446
+8148 Medical doctors (with spe |       9,480
+8149 Managers in human medicin |      20,062
+8150 Veterinaries (without spe |      19,733
+8151 Veterinaries for large an |         568
+8152 Veterinaries for pets     |         64*
+8153 Non-medical animal health |           /
+8158 Occupations in veterinary |         130
+8159 Managers in veterinary me |          36
+8161 Occupations in non-clinic |       2,000
+8162 Occupations in clinical p |      19,484
+8163 Occupations in non-medica |       5,326
+8171 Occupations in physiother |     452,732
+8172 Occupations in occupation |      34,751
+8173 Occupations in speech the |      10,916
+8174 Occupations in music and  |       1,873
+8175 Practitioners of alternat |      13,672
+8176 Dieticians and Nutritioni |       5,342
+8178 Occupations in non-medica |       7,186
+8179 Managers in non-medical t |         605
+8180 Pharmacists               |     133,407
+8181 Medical doctors specialis |          83
+8182 Pharmaceutical-technical  |     183,240
+8188 Occupations in pharmacy ( |      18,779
+8189 Managers in pharmacy      |       1,543
+8210 Occupations in geriatric  |     518,942
+8218 Occupations in geriatric  |       7,195
+8219 Managers in geriatric car |       5,091
+8221 Occupations providing hea |       4,734
+8222 Occupations in wellness   |       5,044
+8223 Occupations providing nut |       1,707
+8224 Quality assurance represe |       4,059
+8228 Occupations providing nut |       1,984
+8231 Occupations in hairdressi |     843,825
+8232 Occupations in cosmetics  |      94,367
+8233 Tattooists and piercers   |         944
+8234 Make-up artists           |       2,709
+8239 Supervisors in body care  |       9,382
+8240 Occupations in funeral se |      17,275
+8249 Supervisors and managers  |         246
+8250 Technical occupations in  |       5,442
+8251 Technical occupations in  |       8,476
+8252 Occupations in ophthalmic |     101,146
+8253 Occupations in hearing-ai |       6,349
+8254 Technical occupations in  |     223,135
+8259 Supervisors and managers  |       8,589
+8311 Occupations in child care |   1,449,215
+8312 Occupations in social wor |   1,865,319
+8313 Pedagogic specialists in  |     138,510
+8314 Social care workers speci |      60,552
+8315 Occupations in social, ed |       9,991
+8319 Supervisors and managers  |      36,372
+8321 Occupations in housekeepi |   1,113,333
+8322 Occupations in consumer c |      19,483
+8329 Supervisors in housekeepi |      10,665
+8331 Occupations in theology   |      31,091
+8332 Occupations in church com |      58,112
+8333 Members of religious orde |       2,661
+8338 Occupations in theology a |      20,470
+8339 Managers in theology and  |         138
+8411 Teachers in primary educa |      25,040
+8412 Teachers in secondary edu |     508,656
+8413 Teachers in schools for s |      13,730
+8414 Occupations in teacher tr |       1,892
+8418 Teachers in schools of ge |      12,892
+8419 Managers in schools of ge |       1,131
+8421 Teachers for occupation-s |     204,546
+8422 In-company instructors in |      31,754
+8429 Managers in vocational sc |       2,936
+8430 Teachers and researcher a |     548,578
+8439 Managers at universities  |         598
+8440 Teachers in adult educati |     199,169
+8441 Occupations in music educ |      46,237
+8442 Occupations in religious  |       2,361
+8443 Occupations in art and th |         782
+8444 Occupations in IT-applica |       2,390
+8445 (Foreign) Language teache |       2,951
+8448 Teachers at educational i |       3,379
+8449 Managers at educational i |         984
+8450 Sports instructors (witho |     152,056
+8451 Driving instructors       |      21,023
+8452 Flying instructors        |         228
+8453 Dance instructors         |       3,085
+8454 Coaches in ball sports    |       7,607
+8455 Trainer in fitness and gy |      31,467
+8458 Sports instructors (with  |       6,843
+9110 Occupations in philology  |     106,820
+9111 Occupations in German phi |          94
+9112 Occupations in English an |          41
+9113 Occupations in Romance ph |          28
+9114 Occupations in Slavic phi |           /
+9115 Occupations in Arabic and |          30
+9116 Occupations in Asian phil |           /
+9117 Occupations in Classics   |           /
+9118 Occupations in philology  |         160
+9121 Occupations in philosophy |       1,832
+9122 Occupations in history    |         873
+9123 Occupations in archaeolog |       1,911
+9124 Occupations in media scie |       6,790
+9125 Occupations in regional s |         317
+9126 Occupations in anthropolo |         167
+9131 Occupations in political  |       3,173
+9132 Occupations in sociology  |       2,455
+9133 Occupations in pedagogy   |      44,296
+9134 Occupations in market and |      13,231
+9135 Occupations in demography |          41
+9138 Occupations in the social |       1,025
+9140 Occupations in economics  |     175,424
+9148 Occupations in economics  |         418
+9211 Occupations in advertisin |     389,326
+9212 Occupations in dialog mar |     199,343
+9213 Occupations in customer m |      87,618
+9219 Managers in advertising a |       7,641
+9220 Occupations in public rel |      22,397
+9229 Managers in public relati |       1,029
+9230 Occupations in publishing |     113,018
+9238 Occupations in publishing |       9,836
+9239 Managers in publishing an |       1,944
+9241 Editors and journalists   |     269,656
+9242 Copy editors              |       2,415
+9243 Authors and writers       |         843
+9249 Managers in editorial wor |       3,362
+9310 Occupations in product an |       5,190
+9321 Occupations in interior d |       4,166
+9322 Occupations in visual mar |      81,342
+9323 Occupations in interior d |     132,593
+9329 Supervisors in interior d |         683
+9330 Occupations in artisan cr |       3,847
+9331 Occupations in sculpting  |         436
+9332 Painters and illustrators |         614
+9333 Occupations in turnery an |       6,673
+9334 Gilders                   |          93
+9335 Chandlers                 |         669
+9338 Occupations in artisan cr |         897
+9339 Supervisors in artisan cr |         158
+9341 Artisans designing cerami |       1,988
+9342 Artisans painting glasswa |      14,690
+9343 Artisans working in glass |         217
+9349 Supervisors in artisan cr |         106
+9351 Artisans working with met |         306
+9352 Artisans producing jewell |      42,543
+9353 Engravers                 |       8,517
+9354 Producers of advertising  |      27,896
+9359 Supervisors of artisans w |         524
+9360 Occupations in musical in |      10,971
+9361 Occupations making bowed  |         217
+9362 Occupations making woodwi |         192
+9363 Occupations making brass  |          75
+9364 Occupations making pianos |         544
+9365 Occupations making organs |         266
+9368 Occupations in musical in |         129
+9369 Supervisors in musical in |          97
+9411 Musicians                 |      67,899
+9412 Singers                   |       2,584
+9413 Conductors                |       1,821
+9414 Composers                 |          39
+9418 Musicians, singers and co |         365
+9421 Actors                    |     156,039
+9422 Dancers and choreographer |       2,143
+9423 Models                    |         718
+9424 Athletes and professional |      17,136
+9425 Occupations in personal e |         101
+9428 Occupations in acting, da |      85,064
+9430 Presenters and entertaine |         622
+9431 Comedians and cabaret art |          70
+9432 Magicians and illusionist |         116
+9433 Radio and television pres |       3,718
+9434 Occupations in gambling a |       9,735
+9438 Occupations in presentati |       1,960
+9440 Occupations in theatre, f |      13,839
+9441 Occupations in managing t |       3,298
+9448 Occupations in theatre, f |         933
+9449 Supervisors and managers  |       8,774
+9451 Technical occupation in e |      23,452
+9452 Cinematographers, camera  |       9,155
+9453 Technical occupations in  |     150,413
+9458 Occupations in event tech |         475
+9459 Supervisors in event tech |       2,632
+9461 Occupations in stage and  |       4,938
+9462 Prop designers            |       6,311
+9469 Supervisors in stage, cos |         272
+9470 Occupations in museums (w |       3,083
+9471 Technical occupations in  |       4,332
+9472 Art experts               |         269
+9479 Managers in museum        |       2,019
+.z no entry                    |   5,393,961
+--------------------------------------------
+
+________________________________________________________________________________
+
+Level of requirement - current/most recent job (KldB 2010) (niveau)
+
+--------------------------------------------
+Level of requirement -         |
+current/most recent job (KldB  |
+2010)                          |       Freq.
+-------------------------------+------------
+1 Unskilled/semiskilled task   |  14,078,478
+2 Skilled task                 |  80,107,418
+3 Complex task                 |   8,354,785
+4 Highly complex task          |  10,208,991
+.z no entry                    |   5,393,961
+--------------------------------------------
+
+________________________________________________________________________________
+
+Part-time (teilzeit)
+
+--------------------------------------------
+                     Part-time |       Freq.
+-------------------------------+------------
+0 Full-time                    |  84,844,948
+1 Part-time                    |  31,497,739
+.z no entry                    |     754,706
+--------------------------------------------
+
+________________________________________________________________________________
+
+Occupational status and working hours (stib)
+
+--------------------------------------------
+Occupational status and        |
+working hours                  |       Freq.
+-------------------------------+------------
+0 In vocational training       |   7,943,747
+1 Unskilled workers            |  19,244,475
+2 Skilled workers              |  16,829,158
+3 Master craftsmen, foremen (b |     868,410
+4 Employees (excl. employed ma |  26,931,134
+7 Home workers, Freelance home |     117,403
+8 Part-time up to half of full |  10,841,902
+9 Part-time more than half of  |   9,235,492
+.n n/a                         |  27,098,284
+.z no entry                    |     478,901
+--------------------------------------------
+
+________________________________________________________________________________
+
+Employment status (erwstat)
+
+--------------------------------------------
+             Employment status |       Freq.
+-------------------------------+------------
+101 Employees liable to social |  90,826,916
+102 Trainees without special c |   8,780,292
+103 Employees in partial retir |     493,448
+104 Freelance home workers     |          65
+105 Interns                    |     225,003
+106 Student trainees           |     785,583
+109 Marginal part-time workers |  17,130,116
+112 Family-member workers in a |      21,359
+118 Unsteady workers           |      43,309
+119 Retired persons exempt fro |     169,045
+120 Retired persons with compu |       4,869
+121 Trainees (below marginal p |      27,866
+122 Trainees (external (on-sch |      30,245
+123 Voluntary social or ecolog |      72,894
+124 Home workers               |       1,266
+140 Sailors                    |      17,093
+141 Trainees in maritime shipp |       1,050
+143 Maritime pilots            |         571
+149 Retired persons exempt fro |         281
+201 Employees (household chequ |       3,036
+203 Artists and publicists wit |       3,728
+205 Unsteady workers           |      24,991
+209 Marginal part-time workers |     452,442
+599 Others in labour force     |     232,051
+.z no entry                    |     355,138
+--------------------------------------------
+
+________________________________________________________________________________
+
+Transition zone (gleitz)
+
+--------------------------------------------
+               Transition zone |       Freq.
+-------------------------------+------------
+0 No transition zone           |  51,290,691
+1 Transition zone              |   1,576,884
+2 Mixed case                   |   1,211,393
+.n n/a                         |  56,131,149
+.z no entry                    |      48,541
+--------------------------------------------
+
+________________________________________________________________________________
+
+Temporary agency work (leih)
+
+--------------------------------------------
+         Temporary agency work |       Freq.
+-------------------------------+------------
+0 No temporary agency work     |  25,111,159
+1 Temporary agency work        |   1,548,910
+.z no entry                    |  83,829,666
+--------------------------------------------
+
+________________________________________________________________________________
+
+Fixed-term contract (befrist)
+
+--------------------------------------------
+           Fixed-term contract |       Freq.
+-------------------------------+------------
+0 permanent contract           |  21,839,452
+1 fixed-term contract          |   6,496,542
+.z no entry                    |  83,829,666
+--------------------------------------------
+
+________________________________________________________________________________
+
+Reason of cancellation/notification/termination (grund)
+
+--------------------------------------------
+Reason of                      |
+cancellation/notification/term |
+ination                        |       Freq.
+-------------------------------+------------
+30 Deregistration due to end o |  34,642,613
+31 Deregistration due to chang |   2,916,003
+32 Deregistration due to chang |   2,255,281
+33 Deregistration for other re |   2,875,588
+34 Deregistration due to inter |     868,003
+35 Deregistration due to inter |       1,871
+36 Deregistration due to chang |   1,882,329
+40 Simultaneous registration a |   1,386,246
+49 Deregistration due to death |      73,206
+50 Annual notification         |  84,023,375
+51 Employment interruption not |   3,649,118
+52 Employment interruption not |     139,980
+53 Employment interruption not |      26,892
+54 Notification of a lump sum  |   1,508,004
+55 Notification of credit not  |      27,315
+56 Notification of the differe |       4,344
+57 Special notification accord |     262,467
+59 Renumeration notification f |      25,389
+70 Annual notification for emp |       2,239
+71 Notification because of ins |      32,445
+72 Notification at the legal e |      29,428
+--------------------------------------------
+
+________________________________________________________________________________
+
+Duration of unemployment (alo_dau)
+
+--------------------------------------------------------------------------------
+                      Variable |  N(alo_dau) mean(alo~u) min(alo_~u) max(alo_~u)
+-------------------------------+------------------------------------------------
+                               |    1.16e+08  22.3381348           0       14930
+--------------------------------------------------------------------------------
+
+No missing values
+
+________________________________________________________________________________
+
+Place of residence - district (Kreis) (wo_kreis)
+
+--------------------------------------------
+Place of residence - district  |
+(Kreis)                        |       Freq.
+-------------------------------+------------
+0 Other foreign countries      |      20,493
+124 Belgium                    |       9,522
+126 Denmark                    |         710
+129 France                     |      87,448
+131 Slovenia                   |         146
+137 Italy                      |       1,767
+143 Luxembourg                 |         403
+148 Netherlands                |      15,564
+151 Austria                    |      13,886
+152 Poland                     |      20,917
+155 Slovakia                   |       1,048
+158 Switzerland                |       4,142
+163 Turkey                     |       1,593
+164 Czech Republic             |       9,079
+1001 Flensburg, City           |      74,383
+1002 Kiel, Capital of the Fede |     169,851
+1003 Luebeck, Hanseatic City   |     186,890
+1004 Neumuenster, City         |      74,458
+1051 Dithmarschen              |     107,012
+1053 Herzogtum Lauenburg       |     173,363
+1054 Nordfriesland             |     134,648
+1055 Ostholstein               |     153,036
+1056 Pinneberg                 |     263,960
+1057 Ploen                     |     109,278
+1058 Rendsburg-Eckernfoerde    |     191,936
+1059 Schleswig-Flensburg       |     138,083
+1060 Segeberg                  |     232,271
+1061 Steinburg                 |     138,832
+1062 Stormarn                  |     218,897
+2000 Hamburg, Free and Hanseat |   1,782,585
+3101 Braunschweig, City        |     187,154
+3102 Salzgitter, City          |      65,799
+3103 Wolfsburg, City           |      58,640
+3151 Gifhorn                   |     103,282
+3153 Goslar                    |     103,411
+3154 Helmstedt                 |      69,709
+3155 Northeim                  |     152,267
+3157 Peine                     |      97,341
+3158 Wolfenbuettel             |      82,500
+3159 Goettingen                |     235,775
+3241 Region Hannover           |     838,917
+3251 Diepholz                  |     162,726
+3252 Hameln-Pyrmont            |     102,027
+3254 Hildesheim                |     214,343
+3255 Holzminden                |      42,571
+3256 Nienburg (Weser)          |      98,342
+3257 Schaumburg                |     124,664
+3351 Celle                     |     128,913
+3352 Cuxhaven                  |     149,112
+3353 Harburg                   |     221,489
+3354 Luechow-Dannenberg        |      32,870
+3355 Lueneburg                 |     119,394
+3356 Osterholz                 |      82,843
+3357 Rotenburg (Wuemme)        |     125,271
+3358 Heidekreis                |     117,526
+3359 Stade                     |     150,684
+3360 Uelzen                    |      53,355
+3361 Verden                    |     104,904
+3401 Delmenhorst, City         |      79,724
+3402 Emden, City               |      28,345
+3403 Oldenburg (Oldenburg), Ci |     119,227
+3404 Osnabrueck, City          |     167,510
+3405 Wilhelmshaven, City       |      56,737
+3451 Ammerland                 |      83,800
+3452 Aurich                    |     108,792
+3453 Cloppenburg               |     107,360
+3454 Emsland                   |     258,416
+3455 Friesland                 |      67,500
+3456 Grafschaft Bentheim       |     115,256
+3457 Leer                      |      97,875
+3458 Oldenburg                 |     108,869
+3459 Osnabrueck                |     317,429
+3460 Vechta                    |     134,513
+3461 Wesermarsch               |      65,012
+3462 Wittmund                  |      40,953
+4011 Bremen, City              |     444,850
+4012 Bremerhaven, City         |      70,061
+5111 Duesseldorf, City         |     514,958
+5112 Duisburg, City            |     445,384
+5113 Essen, City               |     486,282
+5114 Krefeld, City             |     191,261
+5116 Moenchengladbach, City    |     238,371
+5117 Muelheim an der Ruhr, Cit |     144,792
+5119 Oberhausen, City          |     176,197
+5120 Remscheid, City           |     106,350
+5122 Solingen, City            |     148,239
+5124 Wuppertal, City           |     271,950
+5154 Kleve                     |     234,159
+5158 Mettmann                  |     439,019
+5162 Rhein-Kreis Neuss         |     354,281
+5166 Viersen                   |     235,216
+5170 Wesel                     |     396,929
+5314 Bonn, City                |     192,089
+5315 Koeln, City               |     957,781
+5316 Leverkusen, City          |     123,299
+5334 Staedteregion Aachen      |     398,164
+5358 Dueren                    |     204,549
+5362 Rhein-Erft-Kreis          |     365,194
+5366 Euskirchen                |     164,433
+5370 Heinsberg                 |     199,963
+5374 Oberbergischer Kreis      |     211,088
+5378 Rheinisch-Bergischer Krei |     201,235
+5382 Rhein-Sieg-Kreis          |     390,740
+5512 Bottrop, City             |     134,515
+5513 Gelsenkirchen, City       |     190,158
+5515 Muenster, City            |     301,302
+5554 Borken                    |     239,257
+5558 Coesfeld                  |     178,548
+5562 Recklinghausen            |     415,777
+5566 Steinfurt                 |     393,075
+5570 Warendorf                 |     208,947
+5711 Bielefeld, City           |     204,367
+5754 Guetersloh                |     274,835
+5758 Herford                   |     173,073
+5762 Hoexter                   |     126,102
+5766 Lippe                     |     256,618
+5770 Minden-Luebbecke          |     238,270
+5774 Paderborn                 |     224,278
+5911 Bochum, City              |     256,140
+5913 Dortmund, City            |     434,788
+5914 Hagen, City               |     167,269
+5915 Hamm, City                |     124,581
+5916 Herne, City               |     112,602
+5954 Ennepe-Ruhr-Kreis         |     270,868
+5958 Hochsauerlandkreis        |     214,729
+5962 Maerkischer Kreis         |     305,376
+5966 Olpe                      |     138,873
+5970 Siegen-Wittgenstein       |     183,017
+5974 Soest                     |     252,718
+5978 Unna                      |     263,635
+6411 Darmstadt, City           |     127,829
+6412 Frankfurt am Main, City   |     661,630
+6413 Offenbach am Main, City   |     118,994
+6414 Wiesbaden, Capital of the |     245,615
+6431 Bergstrasse               |     199,714
+6432 Darmstadt-Dieburg         |     223,188
+6433 Gross-Gerau               |     238,365
+6434 Hochtaunuskreis           |     162,855
+6435 Main-Kinzig-Kreis         |     390,180
+6436 Main-Taunus-Kreis         |     193,344
+6437 Odenwaldkreis             |      89,598
+6438 Offenbach                 |     292,505
+6439 Rheingau-Taunus-Kreis     |     157,016
+6440 Wetteraukreis             |     232,913
+6531 Giessen                   |     153,363
+6532 Lahn-Dill-Kreis           |     176,107
+6533 Limburg-Weilburg          |     119,469
+6534 Marburg-Biedenkopf        |     159,726
+6535 Vogelsbergkreis           |      73,075
+6611 Kassel, City              |     124,322
+6631 Fulda                     |     189,400
+6632 Hersfeld-Rotenburg        |      69,430
+6633 Kassel                    |     148,658
+6634 Schwalm-Eder-Kreis        |     128,554
+6635 Waldeck-Frankenberg       |     102,445
+6636 Werra-Meissner-Kreis      |      86,886
+7111 Koblenz, City             |     108,871
+7131 Ahrweiler                 |     118,200
+7132 Altenkirchen (Westerwald) |      95,461
+7133 Bad Kreuznach             |     136,879
+7134 Birkenfeld                |      52,403
+7135 Cochem-Zell               |      47,317
+7137 Mayen-Koblenz             |     173,283
+7138 Neuwied                   |     138,668
+7140 Rhein-Hunsrueck-Kreis     |      88,043
+7141 Rhein-Lahn-Kreis          |      91,247
+7143 Westerwaldkreis           |     168,643
+7211 Trier, City               |      54,977
+7231 Bernkastel-Wittlich       |      74,616
+7232 Eifelkreis Bitburg-Pruem  |      61,995
+7233 Vulkaneifel               |      41,400
+7235 Trier-Saarburg            |      85,652
+7311 Frankenthal (Pfalz), City |      29,362
+7312 Kaiserslautern, City      |      73,727
+7313 Landau in der Pfalz, City |      32,400
+7314 Ludwigshafen am Rhein, Ci |     113,985
+7315 Mainz, City               |     162,454
+7316 Neustadt an der Weinstras |      50,674
+7317 Pirmasens, City           |      49,157
+7318 Speyer, City              |      47,020
+7319 Worms, City               |      67,012
+7320 Zweibruecken, City        |      26,303
+7331 Alzey-Worms               |      98,756
+7332 Bad Duerkheim             |      97,885
+7333 Donnersbergkreis          |      55,427
+7334 Germersheim               |      87,112
+7335 Kaiserslautern            |      72,197
+7336 Kusel                     |      48,592
+7337 Suedliche Weinstrasse     |      78,134
+7338 Rhein-Pfalz-Kreis         |     111,197
+7339 Mainz-Bingen              |     163,335
+7340 Suedwestpfalz             |      84,055
+8111 Stuttgart, Capital of the |     715,615
+8115 Boeblingen                |     331,850
+8116 Esslingen                 |     449,641
+8117 Goeppingen                |     233,941
+8118 Ludwigsburg               |     666,540
+8119 Rems-Murr-Kreis           |     337,798
+8121 Heilbronn, City           |     118,913
+8125 Heilbronn                 |     277,132
+8126 Hohenlohekreis            |      92,192
+8127 Schwaebisch Hall          |     146,735
+8128 Main-Tauber-Kreis         |      86,394
+8135 Heidenheim                |     105,942
+8136 Ostalbkreis               |     182,687
+8211 Baden-Baden, City         |      52,178
+8212 Karlsruhe, City           |     234,634
+8215 Karlsruhe                 |     305,421
+8216 Rastatt                   |     195,420
+8221 Heidelberg, City          |      94,269
+8222 Mannheim, City            |     263,102
+8225 Neckar-Odenwald-Kreis     |      81,700
+8226 Rhein-Neckar-Kreis        |     396,179
+8231 Pforzheim, City           |      99,615
+8235 Calw                      |     137,067
+8236 Enzkreis                  |     161,001
+8237 Freudenstadt              |     103,496
+8311 Freiburg im Breisgau, Cit |     168,260
+8315 Breisgau-Hochschwarzwald  |     231,079
+8316 Emmendingen               |     148,017
+8317 Ortenaukreis              |     397,173
+8325 Rottweil                  |     121,870
+8326 Schwarzwald-Baar-Kreis    |     196,559
+8327 Tuttlingen                |      88,357
+8335 Konstanz                  |     185,818
+8336 Loerrach                  |     162,076
+8337 Waldshut                  |     110,426
+8415 Reutlingen                |     235,384
+8416 Tuebingen                 |     149,039
+8417 Zollernalbkreis           |     188,041
+8421 Ulm, City                 |      95,561
+8425 Alb-Donau-Kreis           |     166,102
+8426 Biberach                  |     124,740
+8435 Bodenseekreis             |     132,988
+8436 Ravensburg                |     188,890
+8437 Sigmaringen               |      88,870
+9161 Ingolstadt, City          |     107,347
+9162 Muenchen, Capital of the  |   1,148,763
+9163 Rosenheim, City           |      60,421
+9171 Altoetting                |      92,092
+9172 Berchtesgadener Land      |      64,706
+9173 Bad Toelz-Wolfratshausen  |      86,317
+9174 Dachau                    |     110,433
+9175 Ebersberg                 |     108,900
+9176 Eichstaett                |      78,166
+9177 Erding                    |      94,738
+9178 Freising                  |     133,674
+9179 Fuerstenfeldbruck         |     155,397
+9180 Garmisch-Partenkirchen    |      58,285
+9181 Landsberg am Lech         |      72,752
+9182 Miesbach                  |      65,571
+9183 Muehldorf a.Inn           |      83,686
+9184 Muenchen                  |     241,425
+9185 Neuburg-Schrobenhausen    |      66,510
+9186 Pfaffenhofen a.d.Ilm      |     106,192
+9187 Rosenheim                 |     228,938
+9188 Starnberg                 |      87,717
+9189 Traunstein                |     119,845
+9190 Weilheim-Schongau         |      84,949
+9261 Landshut, City            |      52,272
+9262 Passau, City              |      34,194
+9263 Straubing, City           |      43,526
+9271 Deggendorf                |      93,638
+9272 Freyung-Grafenau          |      52,353
+9273 Kelheim                   |     110,791
+9274 Landshut                  |     127,852
+9275 Passau                    |     139,870
+9276 Regen                     |      63,184
+9277 Rottal-Inn                |      73,298
+9278 Straubing-Bogen           |      96,620
+9279 Dingolfing-Landau         |      74,206
+9361 Amberg, City              |      31,003
+9362 Regensburg, City          |     156,792
+9363 Weiden i.d.OPf., City     |      33,699
+9371 Amberg-Sulzbach           |      69,911
+9372 Cham                      |     104,516
+9373 Neumarkt i.d.OPf.         |     129,409
+9374 Neustadt a.d.Waldnaab     |      67,287
+9375 Regensburg                |     225,871
+9376 Schwandorf                |     151,526
+9377 Tirschenreuth             |      43,355
+9461 Bamberg, City             |      43,943
+9462 Bayreuth, City            |      49,692
+9463 Coburg, City              |      40,279
+9464 Hof, City                 |      32,512
+9471 Bamberg                   |      92,398
+9472 Bayreuth                  |      65,310
+9473 Coburg                    |      93,577
+9474 Forchheim                 |      65,060
+9475 Hof                       |      65,915
+9476 Kronach                   |      46,058
+9477 Kulmbach                  |      54,650
+9478 Lichtenfels               |      63,867
+9479 Wunsiedel i.Fichtelgebirg |      45,997
+9561 Ansbach, City             |      31,866
+9562 Erlangen, City            |      68,674
+9563 Fuerth, City              |     112,433
+9564 Nuernberg, City           |     405,514
+9565 Schwabach, City           |      30,273
+9571 Ansbach                   |     147,697
+9572 Erlangen-Hoechstadt       |      71,338
+9573 Fuerth                    |      90,558
+9574 Nuernberger Land          |     121,542
+9575 Neustadt a.d.Aisch-Bad Wi |      95,706
+9576 Roth                      |      91,629
+9577 Weissenburg-Gunzenhausen  |      49,844
+9661 Aschaffenburg, City       |      73,548
+9662 Schweinfurt, City         |      35,856
+9663 Wuerzburg, City           |      82,505
+9671 Aschaffenburg             |     172,999
+9672 Bad Kissingen             |      68,182
+9673 Rhoen-Grabfeld            |      53,508
+9674 Hassberge                 |      57,283
+9675 Kitzingen                 |      63,986
+9676 Miltenberg                |     123,639
+9677 Main-Spessart             |      88,426
+9678 Schweinfurt               |      68,379
+9679 Wuerzburg                 |     109,026
+9761 Augsburg, City            |     252,581
+9762 Kaufbeuren, City          |      37,848
+9763 Kempten (Allgaeu), City   |      65,090
+9764 Memmingen, City           |      24,929
+9771 Aichach-Friedberg         |      89,721
+9772 Augsburg                  |     177,474
+9773 Dillingen a.d.Donau       |      82,016
+9774 Guenzburg                 |      69,871
+9775 Neu-Ulm                   |     121,856
+9776 Lindau (Bodensee)         |      49,920
+9777 Ostallgaeu                |      95,129
+9778 Unterallgaeu              |      97,916
+9779 Donau-Ries                |      99,266
+9780 Oberallgaeu               |     137,771
+10041 Regionalverband Saarbrue |     319,185
+10042 Merzig-Wadern            |      80,552
+10043 Neunkirchen              |     110,324
+10044 Saarlouis                |     155,752
+10045 Saarpfalz-Kreis          |     112,332
+10046 St. Wendel               |      63,720
+11000 Berlin, City             |   2,744,880
+12051 Brandenburg an der Havel |      41,712
+12052 Cottbus, City            |      55,245
+12053 Frankfurt (Oder), City   |      51,188
+12054 Potsdam, City            |     101,724
+12060 Barnim                   |     147,515
+12061 Dahme-Spreewald          |     125,572
+12062 Elbe-Elster              |      69,873
+12063 Havelland                |     121,256
+12064 Maerkisch-Oderland       |     144,989
+12065 Oberhavel                |     188,284
+12066 Oberspreewald-Lausitz    |      69,437
+12067 Oder-Spree               |     133,017
+12068 Ostprignitz-Ruppin       |      80,964
+12069 Potsdam-Mittelmark       |     133,048
+12070 Prignitz                 |      73,426
+12071 Spree-Neisse             |      81,856
+12072 Teltow-Flaeming          |     126,398
+12073 Uckermark                |      87,548
+13003 Rostock, Hanseatic City  |     122,459
+13004 Schwerin, Capital of the |      85,648
+13071 Mecklenburgische Seenpla |     225,379
+13072 Landkreis Rostock        |     126,647
+13073 Vorpommern-Ruegen        |     243,561
+13074 Nordwestmecklenburg      |     132,910
+13075 Vorpommern-Greifswald    |     198,393
+13076 Ludwigslust-Parchim      |     195,825
+14511 Chemnitz, City           |     171,266
+14521 Erzgebirgskreis          |     237,150
+14522 Mittelsachsen            |     219,123
+14523 Vogtlandkreis            |     227,787
+14524 Zwickau                  |     233,760
+14612 Dresden, City            |     374,584
+14625 Bautzen                  |     228,862
+14626 Goerlitz                 |     227,562
+14627 Meissen                  |     138,173
+14628 Saechs. Schweiz-Osterzge |     196,299
+14713 Leipzig, City            |     373,671
+14729 Leipzig                  |     162,134
+14730 Nordsachsen              |     157,779
+15001 Dessau-Rosslau, City     |      72,773
+15002 Halle (Saale), City      |     140,785
+15003 Magdeburg, Capital of th |     153,449
+15081 Altmarkkreis Salzwedel   |      59,844
+15082 Anhalt-Bitterfeld        |     125,956
+15083 Boerde                   |     137,449
+15084 Burgenlandkreis          |     117,165
+15085 Harz                     |     187,478
+15086 Jerichower Land          |      95,531
+15087 Mansfeld-Suedharz        |     171,284
+15088 Saalekreis               |     154,140
+15089 Salzlandkreis            |     136,497
+15090 Stendal                  |     110,965
+15091 Wittenberg               |     105,672
+16051 Erfurt, City             |     144,952
+16052 Gera, City               |      73,647
+16053 Jena, City               |      78,993
+16054 Suhl, City               |      30,437
+16055 Weimar, City             |      40,215
+16056 Eisenach, City           |      37,606
+16061 Eichsfeld                |      59,506
+16062 Nordhausen               |      89,245
+16063 Wartburgkreis            |     108,764
+16064 Unstrut-Hainich-Kreis    |      70,770
+16065 Kyffhaeuserkreis         |      55,193
+16066 Schmalkalden-Meiningen   |     103,867
+16067 Gotha                    |      97,816
+16068 Soemmerda                |      48,108
+16069 Hildburghausen           |      60,360
+16070 Ilm-Kreis                |      94,101
+16071 Weimarer Land            |      61,748
+16072 Sonneberg                |      55,078
+16073 Saalfeld-Rudolstadt      |      82,820
+16074 Saale-Holzland-Kreis     |     100,113
+16075 Saale-Orla-Kreis         |      76,849
+16076 Greiz                    |      81,008
+16077 Altenburger Land         |      56,337
+.n n/a                         |  43,741,647
+.z no entry                    |      40,890
+--------------------------------------------
+
+________________________________________________________________________________
+
+Place of residence - federal state (Bundesland) (wo_bula)
+
+--------------------------------------------
+Place of residence - federal   |
+state (Bundesland)             |       Freq.
+-------------------------------+------------
+1 Schleswig-Holstein           |   2,366,581
+2 Hamburg                      |   1,782,585
+3 Lower Saxony                 |   5,981,949
+4 Bremen                       |     514,903
+5 North Rhine-Westphalia       |  14,070,635
+6 Hesse                        |   4,864,144
+7 Rhineland-Palatinate         |   3,085,856
+8 Baden-Wuerttemberg           |   9,046,551
+9 Bavaria                      |   9,905,307
+10 Saarland                    |     841,695
+11 Berlin                      |   2,744,880
+12 Brandenburg                 |   1,832,777
+13 Mecklenburg-Western Pomeran |   1,330,614
+14 Saxony                      |   2,947,419
+15 Saxony-Anhalt               |   1,768,544
+16 Thuringia                   |   1,707,218
+.n n/a                         |  43,741,647
+.z no entry                    |     227,601
+--------------------------------------------
+
+________________________________________________________________________________
+
+Place of residence - employment agency (Arbeitsagentur) (wo_aa)
+
+--------------------------------------------
+Place of residence -           |
+employment agency              |
+(Arbeitsagentur)               |       Freq.
+-------------------------------+------------
+30 Greifswald                  |     198,393
+31 Neubrandenburg              |     225,379
+32 Rostock                     |     249,088
+33 Schwerin                    |     414,353
+34 Stralsund                   |     243,561
+35 Cottbus                     |     401,969
+36 Eberswalde                  |     235,046
+37 Frankfurt (Oder)            |     329,192
+38 Neuruppin                   |     463,927
+39 Potsdam                     |     402,868
+41 Bernburg                    |     136,497
+42 Dessau-Rosslau Wittenberg   |     304,379
+43 Halberstadt                 |     187,478
+44 Halle                       |     294,920
+45 Magdeburg                   |     386,418
+46 Weissenfels                 |     117,165
+47 Sangerhausen                |     171,284
+48 Stendal                     |     170,809
+71 Annaberg-Buchholz           |     237,150
+72 Bautzen                     |     456,394
+73 Chemnitz                    |     171,266
+74 Dresden                     |     374,584
+75 Leipzig                     |     373,671
+76 Oschatz                     |     319,889
+77 Pirna                       |     196,299
+78 Plauen                      |     227,787
+79 Riesa                       |     138,173
+80 Freiberg                    |     219,123
+92 Zwickau                     |     233,760
+93 Erfurt                      |     389,108
+94 Altenburg Gera              |     287,818
+95 Gotha                       |     168,586
+96 Jena                        |     261,912
+97 Nordhausen                  |     203,944
+98 Suhl                        |     396,101
+111 Bad Oldesloe               |     392,250
+115 Elmshorn                   |     496,224
+119 Flensburg                  |     347,106
+123 Hamburg                    |   1,782,585
+127 Heide                      |     245,844
+131 Kiel                       |     279,119
+135 Luebeck                    |     339,920
+139 Neumuenster                |     266,388
+211 Braunschweig Goslar        |     438,816
+214 Bremen Bremerhaven         |     597,732
+221 Celle                      |     246,437
+224 Emden Leer                 |     275,960
+231 Goettingen                 |     388,037
+234 Hameln                     |     269,261
+237 Hannover                   |     838,917
+241 Helmstedt                  |     231,631
+244 Hildesheim                 |     311,683
+251 Lueneburg Uelzen           |     427,089
+257 Nordhorn                   |     373,669
+261 Oldenburg Wilhelmshaven    |     580,817
+264 Osnabrueck                 |     484,922
+267 Stade                      |     425,066
+274 Vechta                     |     241,852
+277 Nienburg Verden            |     365,968
+311 Aachen Dueren              |     802,631
+315 Bergisch Gladbach          |     535,610
+317 Bielefeld                  |     479,178
+321 Bochum                     |     368,737
+323 Bonn                       |     582,810
+325 Bruehl                     |     529,625
+327 Coesfeld                   |     417,784
+331 Detmold                    |     256,618
+333 Dortmund                   |     434,788
+337 Duesseldorf                |     514,958
+341 Duisburg                   |     445,384
+343 Essen                      |     486,282
+345 Gelsenkirchen              |     324,673
+347 Hagen                      |     438,136
+351 Hamm                       |     388,194
+353 Herford                    |     411,326
+355 Iserlohn                   |     305,376
+357 Koeln                      |     957,781
+361 Krefeld                    |     426,459
+364 Mettmann                   |     439,019
+365 Moenchengladbach           |     592,645
+367 Ahlen Muenster             |     510,234
+371 Oberhausen                 |     320,987
+373 Paderborn                  |     350,377
+375 Recklinghausen             |     415,777
+377 Rheine                     |     393,075
+381 Siegen                     |     321,887
+383 Meschede Soest             |     467,442
+387 Wesel                      |     631,079
+391 Solingen Wuppertal         |     526,528
+411 Bad Hersfeld Fulda         |     258,829
+415 Darmstadt                  |     640,276
+419 Frankfurt                  |     661,630
+427 Giessen                    |     459,350
+431 Hanau                      |     390,180
+433 Bad Homburg                |     594,552
+435 Kassel                     |     359,837
+439 Korbach                    |     230,999
+443 Limburg Wetzlar            |     295,573
+447 Marburg                    |     159,726
+451 Offenbach                  |     411,461
+459 Wiesbaden                  |     402,618
+511 Bad Kreuznach              |     277,322
+515 Kaiserslautern Pirmasens   |     409,437
+519 Koblenz Mayen              |     447,651
+523 Ludwigshafen               |     301,547
+527 Mainz                      |     491,536
+535 Montabaur                  |     259,890
+543 Landau                     |     346,192
+547 Neuwied                    |     234,129
+555 Saarland                   |     841,695
+563 Trier                      |     318,616
+611 Aalen                      |     288,626
+614 Balingen                   |     276,906
+617 Freiburg                   |     547,324
+621 Goeppingen                 |     683,578
+624 Heidelberg                 |     490,428
+627 Heilbronn                  |     396,017
+631 Karlsruhe Rastatt          |     787,607
+634 Konstanz Ravensburg        |     507,667
+637 Loerrach                   |     272,498
+641 Ludwigsburg                |     666,498
+644 Mannheim                   |     263,102
+647 Nagold Pforzheim           |     501,164
+651 Offenburg                  |     397,173
+664 Reutlingen                 |     384,406
+671 Waiblingen                 |     337,798
+674 Schwaebisch Hall Tauberbis |     407,012
+677 Stuttgart                  |   1,047,503
+684 Ulm                        |     386,370
+687 Rottweil Villingen-Schwenn |     406,770
+711 Ansbach Weissenburg        |     321,026
+715 Aschaffenburg              |     370,176
+723 Bayreuth Hof               |     314,073
+727 Bamberg Coburg             |     445,171
+729 Fuerth                     |     438,694
+735 Nuernberg                  |     557,316
+739 Regensburg                 |     622,842
+743 Schwandorf                 |     356,946
+747 Schweinfurt                |     283,203
+751 Weiden                     |     144,338
+759 Wuerzburg                  |     343,921
+811 Augsburg                   |     519,748
+815 Deggendorf                 |     296,966
+819 Donauwoerth                |     372,991
+823 Freising                   |     447,738
+827 Ingolstadt                 |     358,212
+831 Kempten Memmingen          |     508,600
+835 Landshut Pfarrkirchen      |     327,623
+843 Muenchen                   |   1,390,136
+847 Passau                     |     226,417
+855 Rosenheim                  |     441,244
+859 Traunstein                 |     360,328
+863 Weilheim                   |     459,078
+922 Berlin South               |     899,312
+955 Berlin North               |     792,350
+962 Berlin Central             |   1,053,771
+999 Foreign Places             |     186,717
+.n n/a                         |  43,741,647
+.z no entry                    |      40,890
+--------------------------------------------
+
+________________________________________________________________________________
+
+Place of residence - regional directorate (Regionaldirektion) (wo_rd)
+
+--------------------------------------------
+Place of residence - regional  |
+directorate                    |
+(Regionaldirektion)            |       Freq.
+-------------------------------+------------
+101 North                      |   5,479,454
+102 Berlin-Brandenburg         |   4,577,405
+103 Saxony-Anhalt/Thuringia    |   3,475,685
+104 Saxony                     |   2,947,419
+105 Lower Saxony-Bremen        |   6,496,687
+106 North Rhine-Westphalia     |  14,070,635
+107 Hesse (incl. ZAV)          |   4,864,144
+108 Rhineland-Palatinate-Saarl |   3,927,469
+109 Baden-Wuerttemberg         |   9,046,551
+110 Bavaria                    |   9,905,307
+111 Foreign places             |     186,717
+.n n/a                         |  43,741,647
+.z no entry                    |      40,890
+--------------------------------------------

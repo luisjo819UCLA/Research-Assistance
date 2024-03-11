@@ -1,0 +1,2351 @@
+__________________________________________________________________________________________________
+
+Individual ID (persnr)
+No value label defined
+
+____________________________________________________________________________________________________
+
+Establishment ID (betnr)
+miss_en:
+          .z no entry
+
+____________________________________________________________________________________________________
+
+panel establishment identifier  (betnr_pan)
+betnr_pan_en:
+           0 no panel establishment
+           1 panel establishment
+
+____________________________________________________________________________________________________
+
+Observation counter per person (spell)
+No value label defined
+
+____________________________________________________________________________________________________
+
+Original start date (begorig)
+No value label defined
+
+____________________________________________________________________________________________________
+
+Original end date (endorig)
+No value label defined
+
+____________________________________________________________________________________________________
+
+Episode start date (begepi)
+No value label defined
+
+____________________________________________________________________________________________________
+
+Episode end date (endepi)
+No value label defined
+
+____________________________________________________________________________________________________
+
+Gender (frau)
+frau_en:
+           0 Male
+           1 Female
+
+____________________________________________________________________________________________________
+
+Year of birth (gebjahr)
+miss_en:
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Month of birth (gebmon)
+gebmon_en:
+           1 January
+           2 February
+           3 March
+           4 April
+           5 May
+           6 June
+           7 July
+           8 August
+           9 September
+          10 October
+          11 November
+          12 December
+
+____________________________________________________________________________________________________
+
+Nationality (nation)
+nation_en:
+           0 Germany
+         121 Albania
+         122 Bosnia and Herzegovina
+         123 Andorra
+         124 Belgium
+         125 Bulgaria
+         126 Denmark
+         127 Estonia
+         128 Finland
+         129 France
+         130 Croatia
+         131 Slovenia
+         132 Serbia and Montenegro
+         133 Serbia
+         134 Greece
+         135 Ireland
+         136 Iceland
+         137 Italy
+         138 Yugoslavia
+         139 Latvia
+         140 Montenegro
+         141 Liechtenstein
+         142 Lithuania
+         143 Luxembourg
+         144 Macedonia
+         145 Malta
+         146 Moldova
+         147 Monaco
+         148 Netherlands
+         149 Norway
+         150 Kosovo
+         151 Austria
+         152 Poland
+         153 Portugal
+         154 Romania
+         155 Slovakia
+         156 San Marino
+         157 Sweden
+         158 Switzerland
+         159 Former Soviet Union
+         160 Russian Federation
+         161 Spain
+         162 Former Czechoslovakia
+         163 Turkey
+         164 Czech Republic
+         165 Hungary
+         166 Ukraine
+         167 Vatican City
+         168 United Kingdom
+         169 Belarus
+         170 Serbia
+         181 Cyprus
+         195 UK Overseas Territories
+         199 Europe (open)
+         221 Algeria
+         223 Angola
+         224 Eritrea
+         225 Ethiopia
+         226 Lesotho
+         227 Botswana
+         229 Benin
+         230 Djibouti
+         231 Cote d'Ivoire
+         232 Nigeria
+         233 Zimbabwe
+         236 Gabon
+         237 The Gambia
+         238 Ghana
+         239 Mauritania
+         242 Cape Verde
+         243 Kenya
+         244 Comoros
+         245 Republic of the Congo
+         246 Democratic Republic of the Congo (former Zaire)
+         247 Liberia
+         248 Libya
+         249 Madagascar
+         251 Mali
+         252 Morocco
+         253 Mauritius
+         254 Mozambique
+         255 Niger
+         256 Malawi
+         257 Zambia
+         258 Burkina Faso
+         259 Guinea-Bissau
+         261 Guinea
+         262 Cameroon
+         263 South Africa
+         265 Rwanda
+         267 Namibia
+         268 Sao Tome and Principe
+         269 Senegal
+         271 Seychelles
+         272 Sierra Leone
+         273 Somalia
+         274 Equatorial Guinea
+         276 Sudan (incl. South Sudan)
+         277 Sudan
+         278 South Sudan
+         281 Swaziland
+         282 Tanzania
+         283 Togo
+         284 Chad
+         285 Tunisia
+         286 Uganda
+         287 Egypt
+         289 Central African Republic
+         291 Burundi
+         295 UK Overseas Territories
+         299 Africa (open)
+         320 Antigua and Barbuda
+         322 Barbados
+         323 Argentina
+         324 The Bahamas
+         326 Bolivia
+         327 Brazil
+         328 Guyana
+         330 Belize
+         332 Chile
+         333 Dominica
+         334 Costa Rica
+         335 Dominican Republic
+         336 Ecuador
+         337 El Salvador
+         340 Grenada
+         345 Guatemala
+         346 Haiti
+         347 Honduras
+         348 Canada
+         349 Colombia
+         351 Cuba
+         353 Mexico
+         354 Nicaragua
+         355 Jamaica
+         357 Panama
+         359 Paraguay
+         361 Peru
+         364 Suriname
+         365 Uruguay
+         366 Saint Lucia
+         367 Venezuela
+         368 United States
+         369 St. Vincent and the Grenadines
+         370 St. Kitts and Nevis
+         371 Trinidad and Tobago
+         395 UK Overseas Territories
+         399 America (open)
+         411 Hong Kong
+         412 Macao
+         421 Yemen, Arab Republic
+         422 Armenia
+         423 Afghanistan
+         424 Bahrein
+         425 Azerbaijan
+         426 Bhutan
+         427 Burma
+         429 Brunei
+         430 Georgia
+         431 Sri Lanka
+         432 Vietnam
+         434 North Korea, Demokratic People's Republic of Korea
+         436 India
+         437 Indonesia
+         438 Iraq
+         439 Iran
+         441 Israel
+         442 Japan
+         443 Republic of Yemen
+         444 Kazakhstan
+         445 Jordan
+         446 Cambodia
+         447 Qatar
+         448 Kuwait
+         449 Laos
+         450 Kyrgyzstan
+         451 Lebanon
+         454 Maldives
+         456 Oman
+         457 Mongolia
+         458 Nepal
+         459 Palestinian Territories
+         460 Bangladesh
+         461 Pakistan
+         462 Philippines
+         465 China (Taiwan)
+         467 South Korea, Republic of Korea
+         468 Democratic People's Republic of Korea
+         469 United Arab Emirates
+         470 Tajikistan
+         471 Turkmenistan
+         472 Saudi Arabia
+         474 Singapore
+         475 Syria
+         476 Thailand
+         477 Uzbekistan
+         479 People's Republic of China
+         481 Cyprus
+         482 Malaysia
+         483 Timor-Leste
+         495 UK Overseas Territories
+         499 Asia (open)
+         523 Australia
+         524 Solomon Islands
+         525 Mariana Islands
+         526 Fiji
+         527 Cook Islands
+         530 Kiribati
+         531 Nauru
+         532 Vanuatu
+         533 Niue
+         536 New Zealand
+         537 Palau
+         538 Papua New Guinea
+         540 Tuvalu
+         541 Tonga
+         543 Samoa
+         544 Marshall Islands
+         545 Federated States of Micronesia
+         595 Pitcairn-Island
+         599 Australia (open)
+         994 Sea
+         996 Foreign countries, unknown
+         997 Stateless
+         998 Unknown
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Nationality, grouped (nation_gr)
+nation_gr_en:
+          10 Germany
+          11 Turkey
+          12 Italy
+          13 Yugoslavia, Serbia and Montenegro
+          14 Greece
+          15 France
+          16 Poland
+          17 Austria
+          18 Croatia
+          19 Portugal
+          20 Spain
+          21 Netherlands, Luxembourg
+          22 Russia, Belarus, Former Soviet Union
+          23 Bosnia and Herzegovina
+          24 United Kingdom, Ireland, Brit. Overseas Terr.
+          25 Romania
+          26 Czech Republic, Slovakia, Former Czechoslovakia
+          27 Ukraina, Moldova
+          28 Hungary
+          29 Albania
+          30 Belgium
+          31 Macedonia
+          32 Switzerland
+          33 Bulgaria
+          34 Slovenia
+          35 Denmark, Sweden
+          36 Finland
+          37 Estonia, Latvia, Lithuania
+          49 Europe (open)
+          50 Ethiopia
+          51 Ghana
+          52 Marocco
+          53 Tunisia
+          59 Africa (open)
+          60 USA, Canada
+          69 America (open)
+          70 Afghanistan
+          71 Sri Lanka
+          72 Vietnam
+          73 India
+          74 Iraq
+          75 Iran
+          76 Lebanon
+          77 Philippines
+          78 Thailand
+          79 China, incl. Tibet
+          89 Asia (open)
+          90 Oceania
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Vocational training (ausbildung)
+ausbildung_en:
+           1 Without vocational training
+           2 In-company voc. training/traineeship/External (on-school) voc. training
+          11 University of applied sciences without further specifications
+          12 University without further specifications
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Vocational training (imputed) (ausbildung_imp)
+ausbildung_imp_en:
+           1 Secondary / intermediate school leaving certificate without completed vocational training
+           2 Secondary / intermediate school leaving certificate with completed vocational training
+           3 Upper secondary school leaving certificate (general or subject-specific) without completed vocational training
+           4 Upper secondary school leaving certificate (general or subject-specific) with completed vocational training
+           5 Completion of a university of applied sciences
+           6 College / university degree
+          .z no entry
+
+____________________________________________________________________________________________________
+
+School leaving qualification (schule)
+schule_en:
+           1 No school leaving certificate
+           4 lower secondary school certificate/ grade school certificate
+           5 Grade-/lower school certificate, intermediate school or equivalent qualification
+           6 Intermediate school leaving certificate
+           8 Completion of education at a specialised upper secondary school/completion of higher education at a specialised college or upper secondary school leaving certificate, A-level equivalent, qualification for university; 13 years of schooling
+           9 Upper secondary school leaving certificate, A-level equivalent, qualification for university; 13 years of schooling
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Daily wage/daily benefit (tentgelt)
+miss_en:
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Occupation - current/most recent (KldB 1988) (beruf)
+beruf_en:
+          11 Farmers
+          12 Winegrowers
+          21 Animal breeders
+          22 Fishermen
+          31 Managers in agriculture and animal breeding
+          32 Agricultural engineers, agriculture advisors
+          41 Land workers
+          42 Milkers
+          43 Family-member land workers, n.e.c.
+          44 Animal keepers and related occupations
+          51 Gardeners, garden workers
+          52 Garden architects, garden managers
+          53 Florists
+          61 Forestry managers, foresters, hunters
+          62 Forest workers, forest cultivators
+          71 Miners
+          72 Mechanical, electrical, face workers, shot firers
+          81 Stone crushers
+          82 Earth, gravel, sand quarriers
+          83 Oil, natural gas quarriers
+          91 Mineral preparers, mineral burners
+         101 Stone preparers
+         102 Jewel preparers
+         111 Stoneware, earthenware makers
+         112 Shaped brick, concrete block makers
+         121 Ceramics workers
+         131 Frit makers
+         132 Hollow glassware makers
+         133 Flat glass makers
+         134 Glass blowers (lamps)
+         135 Glass processors, glass finishers
+         141 Chemical plant operatives
+         142 Chemical laboratory workers
+         143 Rubber makers, processors
+         144 Vulcanisers
+         151 Plastics processors
+         161 Paper, cellulose makers
+         162 Packaging makers
+         163 Book binding occupations
+         164 Other paper products makers
+         171 Type setters, compositors
+         172 Printed goods makers
+         173 Printers (letterpress)
+         174 Printers (flat, gravure)
+         175 Special printers, screeners
+         176 Copiers
+         177 Printer's assistants
+         181 Wood preparers
+         182 Wood moulders and related occupations
+         183 Wood products makers
+         184 Basket and wicker products makers
+         191 Iron, metal producers, melters
+         192 Rollers
+         193 Metal drawers
+         201 Moulders, coremakers
+         202 Mould casters
+         203 Semi-finished product fettlers and other mould casting occupations
+         211 Sheet metal pressers, drawers, stampers
+         212 Wire moulders, processors
+         213 Other metal moulders (non-cutting deformation)
+         221 Turners
+         222 Drillers
+         223 Planers
+         224 Borers
+         225 Metal grinders
+         226 Other metal-cutting occupations
+         231 Metal polishers
+         232 Engravers, chasers
+         233 Metal finishers
+         234 Galvanisers, metal colourers
+         235 Enamellers, zinc platers and other metal surface finishers
+         241 Welders, oxy-acetylene cutters
+         242 Solderers
+         243 Riveters
+         244 Metal bonders and other metal connectors
+         251 Steel smiths
+         252 Container builders, coppersmiths and related occupations
+         261 Sheet metal workers
+         262 Plumbers
+         263 Pipe, tubing fitters
+         270 Locksmiths, not specified
+         271 Building fitters
+         272 Sheet metal, plastics fitters
+         273 Engine fitters
+         274 Plant fitters, maintenance fitters
+         275 Steel structure fitters, metal shipbuilders
+         281 Motor vehicle repairers
+         282 Agricultural machinery repairers
+         283 Aircraft mechanics
+         284 Precision mechanics
+         285 Other mechanics
+         286 Watch-, clockmakers
+         291 Toolmakers
+         301 Precision fitters n.e.c.
+         302 Precious metal smiths
+         303 Dental technicians
+         304 Opthalmic opticians
+         305 Musical instrument makers
+         306 Doll makers, model makers, taxidermists
+         311 Electrical fitters, mechanics
+         312 Telecommunications mechanics, craftsmen
+         313 Electric motor, transformer fitters
+         314 Electrical appliance fitters
+         315 Radio, sound equipment mechanics
+         321 Electrical appliance, electrical parts assemblers
+         322 Other assemblers
+         323 Metal workers (no further specification)
+         331 Spinners, fibre preparers
+         332 Spoolers, twisters, ropemakers
+         341 Weaving preparers
+         342 Weavers
+         343 Tufted goods makers
+         344 Machined goods makers
+         345 Felt makers, hat body makers
+         346 Textile processing operatives (braiders)
+         351 Cutters
+         352 Clothing sewers
+         353 Laundry cutters, sewers
+         354 Embroiderers
+         355 Hat, cap makers
+         356 Sewers, n.e.c.
+         357 Other textile processing operatives
+         361 Textile dyers
+         362 Textile finishers
+         371 Leather makers, catgut string makers
+         372 Shoemakers
+         373 Footwear makers
+         374 Coarse leather goods finishers, truss makers
+         375 Fine leather goods makers
+         376 Leather clothing makers and other leather processing operatives
+         377 Hand shoemakers
+         378 Skin processing operatives
+         391 Bakery goods makers
+         392 Confectioners (pastry)
+         401 Butchers
+         402 Meat, sausage goods makers
+         403 Fish processing operatives
+         411 Cooks
+         412 Ready-to-serve meals, fruit, vegetable preservers, preparers
+         421 Wine coopers
+         422 Brewers, maltsters
+         423 Other beverage makers, tasters
+         424 Tobacco goods makers
+         431 Milk, fat processing operatives
+         432 Flour, food processors
+         433 Sugar, sweets, ice-cream makers
+         441 Bricklayers
+         442 Concrete workers
+         451 Carpenters
+         452 Roofers
+         453 Scaffolders
+         461 Paviors
+         462 Road makers
+         463 Tracklayers
+         464 Explosives men (except shotfirers)
+         465 Land improvement, hydraulic engineering workers
+         466 Other civil engineering workers
+         470 Building labourer, general
+         471 Earth movers
+         472 Other building labourers, building assistants, n.e.c.
+         481 Stucco workers, plasterers, rough casters
+         482 Insulators, proofers
+         483 Tile setters
+         484 Furnace setter, air heating installers
+         485 Glaziers
+         486 Screed, terrazzo layers
+         491 Room equippers
+         492 Upholsterers, mattress makers
+         501 Carpenters
+         502 Model, form carpenters
+         503 Cartwrights, wheelwrights, coopers
+         504 Other wood and sports equipment makers
+         511 Painters, lacquerers (construction)
+         512 Goods painters, lacquerers
+         513 Wood surface finishers, veneerers
+         514 Ceramics, glass painters
+         521 Goods examiners, sorters, n.e.c.
+         522 Packagers, goods receivers, despatchers
+         531 Assistants (no further specification)
+         541 Generator machinists
+         542 Winding engine drivers, aerial ropeway machinists
+         543 Other machinists
+         544 Crane drivers
+         545 Earthmoving plant drivers
+         546 Construction machine attendants
+         547 Machine attendants, machinists' helpers
+         548 Stokers
+         549 Machine setters (no further specification)
+         555 Disabled
+         601 Mechanical, motor engineers
+         602 Electrical engineers
+         603 Architects, civil engineers
+         604 Survey engineers
+         605 Mining, metallurgy, foundry engineers
+         606 Other manufacturing engineers
+         607 Other engineers
+         611 Chemists, chemical engineers
+         612 Physicists, physics engineers, mathematicians
+         621 Mechanical engineering technicians
+         622 Electrical engineering technicians
+         623 Building technicians
+         624 Measurement technicians
+         625 Mining, metallurgy, foundry technicians
+         626 Chemistry, physics technicians
+         627 Remaining manufacturing technicians
+         628 Other technicians
+         629 Foremen, master mechanics
+         631 Biological specialists
+         632 Physical and mathematical specialists
+         633 Chemical laboratory assistants
+         634 Photo laboratory assistants
+         635 Technical draughtspersons
+         666 Rehabilitants
+         681 Wholesale and retail trade buyers, buyers
+         682 Salespersons
+         683 Publishing house dealers, booksellers
+         684 Druggists/chemists (pharmacy)
+         685 Pharmacy aids
+         686 Service-station attendants
+         687 Commercial agents, travellers
+         688 Mobile traders
+         691 Bank specialists
+         692 Building society specialists
+         693 Health insurance specialists (not social security)
+         694 Life, property insurance specialists
+         701 Forwarding business dealers
+         702 Tourism specialists
+         703 Publicity occupations
+         704 Brokers, property managers
+         705 Landlords, agents, auctioneers
+         706 Cash collectors, cashiers, ticket sellers, inspectors
+         711 Railway engine drivers
+         712 Railway controllers, conductors
+         713 Other traffic controllers, conductors
+         714 Motor vehicle drivers
+         715 Coachmen
+         716 Street attendants
+         721 Navigating ships officers
+         722 Technical ships officers, ships engineers
+         723 Deck seamen
+         724 Inland boatmen
+         725 Other water transport occupations
+         726 Air transport occupations
+         731 Post masters
+         732 Postal deliverers
+         733 Radio operators
+         734 Telephonists
+         741 Warehouse managers, warehousemen
+         742 Transportation equipment drivers
+         743 Stowers, furniture packers
+         744 Stores, transport workers
+         751 Entrepreneurs, managing directors, divisional managers
+         752 Management consultants, organisors
+         753 Chartered accountants, tax advisers
+         761 Members of Parliament, Ministers, elected officials
+         762 Senior government officials
+         763 Association leaders, officials
+         771 Cost accountants, valuers
+         772 Accountants
+         773 Cashiers
+         774 Data processing specialists
+         781 Office specialists
+         782 Stenographers, shorthand-typists, typists
+         783 Data typists
+         784 Office auxiliary workers
+         791 Factory guards, detectives
+         792 Watchmen, custodians
+         793 Doormen, caretakers
+         794 Domestic and non-domestic servants
+         801 Soldiers, border guards, police officers
+         802 Firefighters
+         803 Safety testers
+         804 Chimney sweeps
+         805 Health-protecting occupations
+         811 Arbitrators
+         812 Judicial administrators
+         813 Legal representatives, advisors
+         814 Judicial enforcers
+         821 Journalists
+         822 Interpreters, translators
+         823 Librarians, archivists, museum specialists
+         831 Musicians
+         832 Artists' agents
+         833 Visual, commercial artists
+         834 Scenery, sign painters
+         835 Artistic and assisting occupations (stage, video and audio)
+         836 Interior, exhibition designers, window dressers
+         837 Photographers
+         838 Performers, professional sportsmen, auxiliary artistic occupations
+         841 Physicians
+         842 Dentists
+         843 Veterinary surgeons
+         844 Pharmacists
+         851 Non-medical practitioners
+         852 Masseurs, physiotherapists and related occupations
+         853 Nurses, midwives
+         854 Nursing assistants
+         855 Dietary assistants, pharmaceutical assistants
+         856 Medical receptionists
+         857 Medical laboratory assistants
+         861 Social workers, care workers
+         862 Home wardens, social work teachers
+         863 Work, vocational advisers
+         864 Nursery teachers, child nurses
+         871 University teachers, lecturers at higher technical schools and academies
+         872 Gymnasium teachers
+         873 Primary, secondary (basic), special school teachers
+         874 Technical, vocational, factory instructors
+         875 Music teachers, n.e.c.
+         876 Sports teachers
+         877 Other teachers
+         881 Economic and social scientists, statisticians
+         882 Humanities specialists, n.e.c.
+         883 Scientists n.e.c.
+         888 Nursing staff
+         891 Ministers of religion
+         892 Members of religious orders without specific occupation
+         893 Religious care helpers
+         901 Hairdressers
+         902 Other body care occupations
+         911 Restaurant, inn, bar keepers, hotel proprietors, catering trade dealers
+         912 Waiters, stewards
+         913 Others attending on guests
+         921 Housekeeping managers
+         922 Consumer advisors
+         923 Other housekeeping attendants
+         924 Employees by household cheque procedure
+         931 Laundry workers, pressers
+         932 Textile cleaners, dyers and dry cleaners
+         933 Household cleaners
+         934 Glass, buildings cleaners
+         935 Street cleaners, refuse disposers
+         936 Vehicle cleaners, servicers
+         937 Machinery, container cleaners and related occupations
+         971 Non-agricultural family assistants, n.e.c.
+         981 Trainees with recognised training occupation still to be specified
+         982 Interns, unpaid trainees with recognised training occupation still to be specified
+         983 Workforce (job seekers) with occupation still to be specified
+         991 Workforce not further specified
+         995 Recipients of early retirement pension
+         996 Employees in partial retirement
+         997 Recipients of compensations allowance
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Occupational group - current/most recent (KldB 2010), 3-digit (beruf2010_3)
+beruf2010_3_en:
+          11 Commissioned officers
+          12 Senior non-commissioned officers and higher
+          13 Junior non-commissioned officers
+          14 Armed forces personnel in other ranks
+         111 Occupations in farming
+         112 Occupations in animal husbandry
+         113 Occupations in horsekeeping
+         114 Occupations in fishing
+         115 Occupations in animal care
+         116 Occupations in vini- and viticulture
+         117 Occupations in forestry, hunting and landscape preservation
+         121 Occupations in gardening
+         122 Occupations in floristry
+         211 Occupations in underground and surface mining and blasting engineering
+         212 Conditioning and processing of natural stone and minerals, production of building materials
+         213 Occupations in industrial glass-making and -processing
+         214 Occupations in industrial ceramic-making and -processing
+         221 Occupations in plastic- and rubber-making and -processing
+         222 Occupations in colour coating and varnishing
+         223 Occupations in wood-working and -processing
+         231 Technical occupations in paper-making and -processing and packaging
+         232 Occupations in technical media design
+         233 Occupations in photography and photographic technology
+         234 Occupations in printing technology, print finishing, and book binding
+         241 Occupations in metal-making
+         242 Occupations in metalworking
+         243 Occupations in treatment of metal surfaces
+         244 Occupations in metal constructing and welding
+         245 Occupations in precision mechanics and tool making
+         251 Occupations in machine-building and -operating
+         252 Technical occupations in the automotive, aeronautic, aerospace and ship building industries
+         261 Occupations in mechatronics, automation and control technology
+         262 Technical occupations in energy technologies
+         263 Occupations in electrical engineering
+         271 Occupations in technical research and development
+         272 Draftspersons, technical designers, and model makers
+         273 Technical occupations in production planning and scheduling
+         281 Occupations in textile making
+         282 Occupations in the production of clothing and other textile products
+         283 Occupations in leather- and fur-making and -processing
+         291 Occupations in beverage production
+         292 Occupations in the production of foodstuffs, confectionery and tobacco products
+         293 Cooking occupations
+         311 Occupations in construction scheduling and supervision, and architecture
+         312 Occupations in surveying and cartography
+         321 Occupations in building construction
+         322 Occupations in civil engineering
+         331 Floor layers
+         332 Painters and varnishers, plasterers, occupations in the waterproofing of buildings, preservation of structures and wooden building components
+         333 Occupations in the interior construction and dry walling, insulation, carpentry, glazing, roller shutter and jalousie installation
+         341 Occupations in building services engineering
+         342 Occupations in plumping, sanitation, heating, ventilating, and air conditioning
+         343 Occupations in building services and waste disposal
+         411 Occupations in mathematics and statistics
+         412 Occupations in biology
+         413 Occupations in chemistry
+         414 Occupations in physics
+         421 Occupations in geology, geography and meteorology
+         422 Occupations in environmental protection engineering
+         423 Occupations in environmental protection management and environmental protection consulting
+         431 Occupations in computer science
+         432 Occupations in IT-system-analysis, IT-application-consulting and IT-sales
+         433 Occupations in IT-network engineering, IT-coordination, IT-administration and IT-organisation
+         434 Occupations in software development and programming
+         511 Technical occupations in railway, aircraft and ship operation
+         512 Occupations in the inspection and maintenance of traffic infrastructure
+         513 Occupations in warehousing and logistics, in postal and other delivery services, and in cargo handling
+         514 Service occupations in passenger traffic
+         515 Occupations in traffic surveillance and control
+         516 Management assistants in transport and logistics
+         521 Driver of vehicles in road traffic
+         522 Drivers of vehicles in railway traffic
+         523 Aircraft pilots
+         524 Ship’s officers and masters
+         525 Drivers and operators of construction and transportation vehicles and equipment
+         531 Occupations in physical security, personal protection, fire protection and workplace safety
+         532 Occupations in police and criminal investigation, jurisdiction and the penal institution
+         533 Occupations in occupational health and safety administration, public health authority, and disinfection
+         541 Occupations in cleaning services
+         611 Occupations in purchasing and sales
+         612 Trading occupations
+         613 Occupations in real estate and facility management
+         621 Sales occupations in retail trade (without product specialisation)
+         622 Sales occupations (retail trade) selling clothing, electronic devices, furniture, motor vehicles and other durables
+         623 Sales occupations (retail) selling foodstuffs
+         624 Sales occupations (retail) selling drugstore products, pharmaceuticals, medical supplies and healthcare goods
+         625 Sales occupations (retail) selling books, art, antiques, musical instruments, recordings or sheet music
+         631 Occupations in tourism and the sports (and fitness) industry
+         632 Occupations in hotels
+         633 Gastronomy occupations
+         634 Occupations in event organisation and management
+         711 Managing directors and executive board members
+         712 Legislators and senior officials of special interest organisations
+         713 Occupations in business organisation and strategy
+         714 Office clerks and secretaries
+         715 Occupations in human resources management and personnel service
+         721 Occupations in insurance and financial services
+         722 Occupations in accounting, controlling and auditing
+         723 Occupations in tax consultancy
+         731 Occupations in legal services, jurisdiction, and other officers of the court
+         732 Occupations in public administration
+         733 Occupations in media, documentation and information services
+         811 Doctors’ receptionists and assistants
+         812 Laboratory occupations in medicine
+         813 Occupations in nursing, emergency medical services and obstetrics
+         814 Occupations in human medicine and dentistry
+         815 Occupations in veterinary medicine and non-medical animal health practitioners
+         816 Occupations in psychology and non-medical psychotherapy
+         817 Occupations in non-medical therapy and alternative medicine
+         818 Occupations in pharmacy
+         821 Occupations in geriatric care
+         822 Occupations providing nutritional advice or health counselling, and occupations in wellness
+         823 Occupations in body care
+         824 Occupations in funeral services
+         825 Technical occupations in medicine, orthopaedic and rehabilitation
+         831 Occupations in education and social work, and pedagogic specialists in social care work
+         832 Occupations in housekeeping and consumer counselling
+         833 Occupations in theology and church community work
+         841 Teachers in schools of general education
+         842 Teachers for occupation-specific subjects at vocational schools and in-company instructors in vocational training
+         843 Teachers and researcher at universities and colleges
+         844 Teachers at educational institutions other than schools (except driving, flying and sports instructors)
+         845 Driving, flying and sports instructors at educational institutions other than schools
+         911 Occupations in philology
+         912 Occupations in the humanities
+         913 Occupations in the social sciences
+         914 Occupations in economics
+         921 Occupations in advertising and marketing
+         922 Occupations in public relations
+         923 Occupations in publishing and media management
+         924 Occupations in editorial work and journalism
+         931 Occupations in product and industrial design
+         932 Occupations in interior design, visual marketing, and interior decoration
+         933 Occupations in artisan craftwork and fine arts
+         934 Artisans designing ceramics and glassware
+         935 Artisans working with metal
+         936 Occupations in musical instrument making
+         941 Musicians, singers and conductors
+         942 Actors, dancers, athletes and related occupations
+         943 Presenters and entertainers
+         944 Occupations in theatre, film and television productions
+         945 Occupations in event technology, cinematography, and sound engineering
+         946 Occupations in stage, costume and prop design,
+         947 Technical and management occupations in museums and exhibitions
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Occupational sub-group - current/most recent (KldB 2010), 4-digit (beruf2010_4)
+beruf2010_4_en:
+         110 Commissioned officers
+         120 Senior non-commissioned officers and higher
+         130 Junior non-commissioned officers
+         140 Armed forces personnel in other ranks
+        1110 Occupations in farming (without specialisation)
+        1111 Technical occupations in farming
+        1112 Agricultural experts
+        1113 Technical laboratory occupations in agriculture
+        1118 Occupations in farming (with specialisation, not elsewhere classified)
+        1119 Supervisors and managers in farming
+        1121 Occupations in livestock farming (without poultry farming)
+        1122 Occupations in poultry farming
+        1123 Occupations in beekeeping
+        1128 Occupations in animal husbandry (with specialisation, not elsewhere classified)
+        1129 Supervisors and managers in animal husbandry
+        1130 Occupations in horsekeeping (without specialisation)
+        1131 Occupations in horse breeding
+        1132 Occupations in horsekeeping: riding
+        1133 Farrier
+        1134 Coachman
+        1139 Supervisors and managers in horsekeeping
+        1140 Occupations in fishing (without specialisation)
+        1141 Occupations in fish farming
+        1142 Occupations in fishery
+        1149 Supervisors and managers in fishing
+        1150 Occupations in animal care (without specialisation)
+        1151 Occupations in livestock care
+        1152 Occupations in pet and zoo animal care
+        1158 Occupations in animal care (with specialisation, not elsewhere classified)
+        1159 Supervisors and managers in animal care
+        1160 Occupations in vini- and viticulture
+        1169 Supervisors and managers in vini- and viticulture
+        1171 Occupations in forestry
+        1172 Occupations in landscape preservation
+        1173 Occupations in hunting and gamekeeping
+        1174 Picking and extracting plants and other natural products
+        1179 Supervisors and managers in forestry, hunting and landscape preservation
+        1210 Occupations in gardening (without specialisation)
+        1211 Occupations in fruit and vegetable farming
+        1212 Occupations in tree, perennial and ornamental plants farming
+        1213 Occupations in cemetery gardening
+        1214 Occupations in horticulture, landscape gardening, and sports field maintenance
+        1219 Supervisors and managers in gardening
+        1220 Occupations in floristry
+        1229 Supervisors and managers in floristry
+        2111 Occupations in underground and surface mining
+        2112 Occupations in blasting engineering
+        2119 Supervisors and managers in underground and surface mining and blasting engineering
+        2120 Conditioning and processing of natural stone and minerals, production of building materials (without specialisation)
+        2121 Conditioning and processing of natural stone and minerals
+        2122 Production of building materials
+        2123 Occupations in stonemasonry
+        2129 Supervisors in conditioning and processing of natural stone and minerals, production of building materials
+        2131 Occupations in glass-making
+        2132 Manufacturing of glass instruments
+        2133 Occupations in industrial glassblowing
+        2134 Occupations in glass finishing
+        2135 Occupations in adjusting of glass instruments
+        2136 Occupations in precision optics
+        2139 Supervisors in industrial glass-making and -processing
+        2141 Occupations in industrial process and plant engineering for ceramic materials
+        2142 Occupations in industrial ceramic model making
+        2149 Supervisors in industrial ceramic-making and -processing
+        2210 Occupations in plastic- and rubber-making (without specialisation)
+        2211 Technical occupations in tire production and vulcanisation
+        2218 Occupations in plastic- and rubber-making and -processing (with specialisation, not elsewhere classified)
+        2219 Supervisors in plastic- and rubber-making and -processing
+        2220 Occupations in colour coating and varnishing (without specialisation)
+        2221 Vehicle paintwork
+        2222 Occupations in varnishing laboratories
+        2229 Supervisors in colour coating and varnishing
+        2230 Occupations in wood-working and -processing (without specialisation)
+        2231 Occupations in wood drying and preservation
+        2232 Occupations producing wood-based materials and wooden components
+        2233 Occupations producing finished products from wood and wood-based materials
+        2234 Occupations in wood construction, furniture and cabinet making, and interior finishing
+        2235 Wickerwork manufacturers, broom and brush makers
+        2238 Occupations in wood-working and -processing (with specialisation, not elsewhere classified)
+        2239 Supervisors and managers in wood-working and –processing
+        2310 Technical occupations in paper-making and -processing and packaging (without specialisation)
+        2311 Occupations in paper-making
+        2312 Occupations in paper-processing and packaging
+        2319 Supervisors in paper-making and -processing and packaging
+        2321 Occupations in digital and print media design
+        2322 Occupations in graphic, communication, and photo design
+        2328 Occupations in technical media design (with specialisation, not elsewhere classified)
+        2329 Supervisors and managers in technical media design
+        2331 Occupations in photographic technology
+        2332 Occupations in photography
+        2339 Supervisors in photography and photographic technology
+        2341 Occupations in printing technology
+        2342 Occupations in book binding and print finishing
+        2349 Supervisors in printing technology, print finishing, and book binding
+        2410 Occupations in metal-making (without specialisation)
+        2411 Occupations in metallurgy
+        2412 Occupations in metal moulding
+        2413 Occupations in industrial metal casting
+        2414 Occupations in manual metal and bell founding
+        2419 Supervisors in metal-making
+        2420 Occupations in metalworking (without specialisation)
+        2421 Occupations in  metalworking: non-cutting
+        2422 Occupations in metalworking: grinding
+        2423 Occupations in metalworking: cutting
+        2424 Occupations in laser-assisted metalworking
+        2429 Supervisors in metalworking
+        2430 Occupations in treatment of metal surfaces (without specialisation)
+        2438 Occupations in treatment of metal surfaces (with specialisation, not elsewhere classified)
+        2439 Supervisors in treatment of metal surfaces
+        2441 Occupations in metal constructing
+        2442 Occupations in welding and joining
+        2443 Industrial divers and other diving occupations
+        2449 Supervisors in metal constructing and welding
+        2451 Occupations in precision mechanics
+        2452 Occupations in tool making
+        2453 Occupations in watchmaking
+        2459 Supervisors in precision mechanics and tool making
+        2510 Occupations in machine-building and -operating (without specialisation)
+        2511 Machine and equipment assemblers
+        2512 Machine and plant operators
+        2513 Technical service staff in maintenance and repair
+        2518 Occupations in machine-building and -operating (with specialisation, not elsewhere classified)
+        2519 Supervisors and managers in machine-building and -operating
+        2520 Technical occupations in the automotive industries (without specialisation)
+        2521 Technical occupations in the automotive industries
+        2522 Technical occupations, agricultural and construction machinery
+        2523 Technical occupations in the aeronautic and aerospace industries
+        2524 Technical occupations in ship building
+        2525 Technical occupations in the maintenance and construction of bicycles and motorbikes
+        2529 Supervisors and managers in the automotive, aeronautic, aerospace and ship building industries
+        2611 Occupations in mechatronics
+        2612 Occupations in automation and control technology
+        2619 Supervisors in mechatronics and automation and control technology
+        2621 Electricians in construction
+        2622 Technical occupations in maintenance of electric machines
+        2623 Technical occupations in energy and power plant technology
+        2624 Occupations in renewable energy technology
+        2625 Occupations in installing and maintaining electrical machines and equipment in plants
+        2626 Occupations in installing and servicing electrical cables
+        2629 Supervisors in energy technology
+        2630 Occupations in electrical engineering (without specialisation)
+        2631 Occupations in information and telecommunication technology
+        2632 Occupations in microsystems technology
+        2633 Occupations in aeronautic, naval, and automotive electronics
+        2638 Occupations in electrical engineering (with specialisation, not elsewhere classified)
+        2639 Supervisors in electrical engineering
+        2710 Occupations in technical research and development (without specialisation)
+        2718 Occupations in technical research and development (with specialisation, not elsewhere classified)
+        2719 Managers in technical research and development
+        2721 Draftspersons
+        2722 Occupations in technical design and apparatus building
+        2723 Model makers
+        2728 Technical draftspersons, engineering designers and model makers (with specialisation, not elsewhere classified)
+        2729 Supervisors and managers in technical drawing, engineering design and model making
+        2730 Technical occupations in production planning and scheduling
+        2731 Technical occupations in quality control
+        2739 Supervisors and managers in production planning and scheduling
+        2810 Occupations in textile making (without specialisation)
+        2811 Occupations in textile design
+        2812 Occupations in textile production
+        2813 Occupations in spinning and rope-making
+        2814 Occupations in textile finishing
+        2819 Supervisors and managers in textile making
+        2821 Occupations in fashion design
+        2822 Occupations in the production of clothing, hat and cap making
+        2823 Occupations in manufacturing of heavy duty textile products, sail makers
+        2824 Occupations in upholstery and interior fitting of vehicles
+        2829 Supervisors and managers in the production of clothing and other textile products
+        2830 Occupations in leather- and fur-making and -processing (without specialisation)
+        2831 Occupations in leather making
+        2832 Occupations in saddlery and production of leather wares
+        2833 Occupations in shoemaking
+        2834 Occupations in fur treatment and processing
+        2839 Supervisors and managers in leather- and fur-making and -processing
+        2910 Occupations in beverage production (without specialisation)
+        2911 Brewers and maltsters
+        2912 Coopers
+        2913 Distillers
+        2914 Occupations in fruit juice production
+        2915 Tasters of foodstuffs and beverages
+        2919 Supervisors and managers in beverages production
+        2920 Occupations in the production of foodstuffs (without specialisation)
+        2921 Occupations in the production of milling products and animal feeds
+        2922 Occupations in the production of baked goods and pastries
+        2923 Occupations in meat processing
+        2924 Occupations in fish processing
+        2925 Occupations in the production of dairy goods
+        2926 Occupations in confectionery production
+        2927 Occupations in the manufacturing of tobacco products
+        2928 Occupations in the production of foodstuffs (with specialisation, not elsewhere classified)
+        2929 Supervisors and managers in the production of foodstuffs, confectionery and tobacco products
+        2930 Cooks (without specialisation)
+        2931 Hors d'œuvrier, pantry or pastry cooks
+        2932 Roast, grill or fish cooks
+        2938 Cooks (with specialisation, not elsewhere classified)
+        2939 Supervisors and managers in cooking
+        3110 Occupations in construction scheduling and supervision (without specialisation)
+        3111 Occupations in architecture
+        3112 Occupations in urban and spatial planning
+        3113 Occupations in the planning of traffic routes and other infrastructure
+        3114 Occupations in water resource management
+        3115 Occupations in the maintenance and renovation of buildings
+        3116 Construction surveyors and inspectors
+        3117 Occupations in construction accounting and cost calculation for buildings
+        3119 Supervisors and managers in construction scheduling and supervision, and architecture
+        3121 Occupations in surveying
+        3122 Occupations in cartography
+        3210 Occupations in building construction (without specialisation)
+        3211 Occupations in the construction of concrete and reinforced concrete structures
+        3212 Occupations in the bricklayer's trade
+        3213 Occupations in chimney construction
+        3214 Occupations in roofing
+        3215 Occupations in facade construction
+        3216 Occupations in scaffolding
+        3217 Occupations in building demolition
+        3219 Supervisors in building construction
+        3220 Occupations in civil engineering (without specialisation)
+        3221 Pavers and stone setters
+        3222 Occupations in road and asphalt construction
+        3223 Occupations in railroad construction
+        3224 Occupations in well construction
+        3225 Occupations in canal and tunnel construction
+        3226 Occupations in land improvement and hydraulic construction
+        3229 Supervisors in civil engineering
+        3310 Floor layers (without specialisation)
+        3311 Pavers, tile setters and mosaic-layers
+        3312 Composition floor and terrazzo-layers
+        3313 Parquet floor layers
+        3319 Supervisors in floor laying
+        3321 Painters and varnishers
+        3322 Plasterers
+        3323 Occupations in the waterproofing of buildings
+        3324 Occupations in the preservation of structures and wooden building components
+        3329 Supervisors in the painting, varnishing, plastering, water proofing of buildings, preservation of structures and wooden building components
+        3330 Occupations in the interior construction and dry walling (without specialisation)
+        3331 Occupations in insulation
+        3332 Carpenters
+        3333 Joiners
+        3334 Glaziers
+        3335 Roller shutter and jalousie installers
+        3339 Supervisors in interior construction and dry walling, insulation, carpentry, glazing, roller shutter and jalousie installation
+        3410 Occupations in building services engineering (without specialisation)
+        3411 Green keepers and equipment managers
+        3419 Supervisors in building services engineering
+        3420 Occupations in plumping (without specialisation)
+        3421 Occupations in sanitation, heating, ventilating, and air conditioning
+        3422 Occupations in the construction of stoves, storage heaters, and forced-air heating systems
+        3423 Occupations in ventilating, and air conditioning
+        3429 Supervisors in sanitation, heating, ventilating, and air conditioning
+        3430 Occupations in building services and waste disposal (without specialisation)
+        3431 Technical occupations in water supply and wastewater disposal
+        3432 Occupations in pipeline construction
+        3433 Occupations in waste management
+        3434 Occupations in plant, vessels, tank and apparatus construction
+        3439 Supervisors in building services and waste disposal
+        4110 Occupations in mathematics (without specialisation)
+        4111 Occupations in statistics
+        4118 Occupations in mathematics (with specialisation, not elsewhere classified)
+        4119 Managers in mathematics and statistics
+        4120 Occupations in biology (without specialisation)
+        4121 Biological technical laboratory occupations
+        4122 Occupations in the preparation of biological specimen
+        4123 Occupations in ecology
+        4124 Occupations in botany
+        4125 Occupations in zoology
+        4126 Occupations in microbiology
+        4127 Occupations in human biology
+        4128 Occupations in biology (with specialisation, not elsewhere classified)
+        4129 Supervisors and managers in biology
+        4130 Occupations in chemistry (without specialisation)
+        4131 Occupations in chemical and pharmaceutical engineering
+        4132 Chemical technical laboratory occupations
+        4133 Operators of chemical production plants
+        4134 Operators of oil and gas refinery plants
+        4138 Occupations in chemistry (with specialisation, not elsewhere classified)
+        4139 Supervisors and managers in chemistry
+        4140 Occupations in physics (without specialisation)
+        4141 Occupations in physical technical laboratory
+        4142 Occupations in material engineering
+        4143 Occupations in construction materials testing
+        4148 Occupations in physics (with specialisation, not elsewhere classified)
+        4149 Supervisors and managers in physics
+        4211 Occupations in geotechnical engineering
+        4212 Occupations in geology
+        4213 Occupations in geography
+        4214 Occupations in meteorology
+        4220 Occupations in environmental protection engineering (without specialisation)
+        4221 Chimney sweeps
+        4228 Occupations in environmental protection engineering (with specialisation, not elsewhere classified)
+        4229 Supervisors in environmental protection engineering
+        4231 Occupations in environmental protection administration and environmental protection consulting
+        4232 Water pollution and emission control, waste management commissioners
+        4233 Radiation protection commissioners
+        4239 Managers in environmental protection administration and consulting
+        4310 Occupations in computer science (without specialisation)
+        4311 Occupations in business informatics
+        4312 Occupations in computer engineering
+        4313 Occupations in bio- and medical informatics
+        4314 Occupations in geoinformatics
+        4315 Occupations in media informatics
+        4319 Managers in computer science
+        4321 Occupations in IT-system-analysis
+        4322 Occupations in IT-application-consulting
+        4323 Occupations in IT-sales
+        4329 Managers in IT-system-analysis, IT-application-consulting and IT-sales
+        4331 Occupations in IT-network engineering
+        4332 Occupations in IT-coordination
+        4333 Occupations in IT-organisation
+        4334 Occupations in IT-system-administration
+        4335 Occupations in database development and administration
+        4336 Occupations in web administration
+        4338 Occupations in IT-network engineering, IT-coordination, IT-administration and IT-organisation (with specialisation, not elsewhere classified)
+        4339 Managers in IT-network engineering, IT-coordination, IT-administration and IT-organisation (with specialisation, not elsewhere classified)
+        4341 Occupations in software development
+        4342 Occupations in programming
+        4349 Managers in software development and programming
+        5111 Technical occupations in railway operation
+        5112 Technical occupations in aircraft operation
+        5113 Technical occupations in ship operation
+        5118 Technical occupations in railway, aircraft and ship operation (with specialisation, not elsewhere classified)
+        5119 Supervisors in railway, aircraft and ship operation
+        5121 Road and tunnel inspection and controlling commissioners
+        5122 Occupations in the inspection and maintenance of railway infrastructure
+        5123 Technical occupations in air traffic control
+        5124 Waterway and bridges inspection and controlling commissioners
+        5129 Supervisors in the inspection and maintenance of traffic infrastructure
+        5131 Occupations in warehousing and logistics
+        5132 Occupations in postal and other delivery services
+        5133 Occupations in cargo handling
+        5139 Supervisors and managers in warehousing and logistics, in postal and other delivery services, and in cargo handling
+        5141 Service occupations in road and railway traffic
+        5142 Service occupations in air traffic
+        5143 Service occupations in shipping traffic
+        5149 Supervisors of service personnel in passenger traffic
+        5150 Occupations in traffic surveillance and control (without specialisation)
+        5151 Occupations in the surveillance and control of road traffic
+        5152 Occupations in the surveillance and control of railway traffic
+        5153 Occupations in the surveillance and control of air traffic
+        5154 Occupations in the surveillance and control of shipping traffic
+        5158 Occupations in traffic surveillance and control (with specialisation, not elsewhere classified)
+        5159 Supervisors and managers in traffic surveillance and control
+        5161 Management assistants in transport
+        5162 Forwarding agents and management assistants in logistics
+        5163 Management assistants in road and railway transport
+        5164 Management assistants in air transport
+        5165 Management assistants in shipping transport
+        5166 Management assistants in courier services, express and postal delivery services
+        5169 Managers in transport and logistics
+        5211 Professional drivers (passengers transport)
+        5212 Professional drivers (cargo trucks)
+        5213 Bus and tram drivers
+        5218 Drivers of vehicles in road traffic (with specialisation, not elsewhere classified)
+        5220 Drivers of train engines and other railway vehicles
+        5231 Pilots of planes and airliners
+        5238 Aircraft pilots (with specialisation, not elsewhere classified)
+        5241 Deck officers/mates and ship’s captains or skippers
+        5242 Ship’s masters in inland navigation and port traffic
+        5251 Drivers of agricultural and forestry machines
+        5252 Drivers of earthmoving and related machines
+        5253 Operators of cranes, lifts and related lifting devices
+        5259 Supervisors of drivers and operators of construction and transportation vehicles and equipment
+        5311 Occupations in physical security, protection of valuables, and personal protection
+        5312 Occupations focusing on workplace safety and safety technology
+        5313 Occupations in fire protection
+        5314 Pool attendants and lifeguards
+        5315 Private detectives
+        5316 Debt collectors
+        5318 Occupations in physical security, personal protection, fire protection and workplace safety (with specialisation, not elsewhere classified)
+        5319 Supervisors and managers in physical security, personal protection, fire protection and workplace safety
+        5321 Uniformed police personnel
+        5322 Detectives and police officers in criminal investigation departments
+        5323 Court officers
+        5324 Police officers in penal institutions
+        5331 Occupations in occupational health and safety administration
+        5332 Occupations in public health authority and hygiene control
+        5333 Occupations in food control
+        5334 Occupations in disinfection and pest control
+        5339 Supervisors and managers in occupational health and safety administration, public health authority, and disinfection
+        5410 Occupations in cleaning services (without specialisation)
+        5411 Occupations in building cleaning services
+        5412 Occupations in glass and window cleaning services
+        5413 Occupations in textile cleaning services
+        5414 Occupations in machine and equipment cleaning services
+        5415 Occupations in vehicle cleaning services
+        5418 Occupations in cleaning services (with specialisation, not elsewhere classified)
+        5419 Supervisors in cleaning services
+        6111 Occupations in purchasing
+        6112 Occupations in sales (except information and communication technologies)
+        6113 Trade brokers and auctioneers
+        6114 Occupations in placing and servicing vending machines
+        6115 Money lenders and pawn brokers
+        6116 Occupations in rental services (except money lending and pawn broking)
+        6119 Managers in purchasing and sales
+        6120 Management assistants in trade (without specialisation)
+        6121 Management assistants in wholesale and foreign trade
+        6128 Management assistants in trade (with specialisation, not elsewhere classified)
+        6129 Managers in trade
+        6131 Occupations in real estate marketing and administration
+        6132 Occupations in facility management
+        6139 Managers in real estate and facility management
+        6210 Sales occupations in retail trade (without product specialisation)
+        6211 Cashiers and ticket agents
+        6212 Stall and market sellers
+        6218 Sales occupations in retail trade (without product specialisation; with specialisation, not elsewhere classified)
+        6219 Supervisors and managers in retail trade
+        6221 Sales occupations (retail trade) selling clothing, sporting goods, leather goods and shoes
+        6222 Sales occupations (retail trade) selling jewellery and watches
+        6223 Sales occupations (retail trade) selling office supplies, gifts and toys
+        6224 Sales occupations (retail trade) selling electrical and electronic goods, and household supplies
+        6225 Sales occupations (retail trade) selling furniture and furnishings
+        6226 Sales occupations (retail trade) in gardening stores, home improvement stores, pet shops and zoo supplies stores
+        6227 Sales occupations (retail trade) selling motor vehicles, bicycles, motorbikes, and related supplies
+        6228 Sales occupations in retail trade (with specialisation, not elsewhere classified)
+        6230 Sales occupations (retail) selling foodstuffs (without specialisation)
+        6231 Sales occupations (retail) selling baked goods, pastries and confectionaries
+        6232 Sales occupations (retail) selling meat products
+        6238 Sales occupations (retail) selling foodstuffs (with specialisation, not elsewhere classified)
+        6241 Sales occupations (retail) selling drugstore products and pharmaceuticals
+        6242 Sales occupations (retail) selling medical supplies and healthcare goods
+        6251 Sales occupations (retail) selling books
+        6252 Sales occupations (retail) selling art and antiques
+        6253 Sales occupations (retail) selling musical instruments, recordings or sheet music
+        6311 Management assistants in tourism
+        6312 Management assistants in the sports and fitness industry, sports administrators
+        6313 Animators and guest attendants
+        6314 Tourist guides and tour guides
+        6319 Managers in tourism and the sports (and fitness) industry
+        6321 Management assistants in hotels
+        6322 Occupations in hotel service
+        6329 Supervisors and managers in hotels
+        6330 Gastronomy occupations (without specialisation)
+        6331 Occupations in system catering
+        6332 Barkeepers
+        6338 Gastronomy occupations (with specialisation, not elsewhere classified)
+        6339 Supervisors and managers in gastronomy and system catering
+        6340 Occupations in event organisation and management
+        7110 Managing directors and executive board members
+        7121 Legislators
+        7122 Senior officials of special interest organisations
+        7123 Elected employee representatives in firms
+        7130 Occupations in business administration and technical business management (without specialisation)
+        7131 Occupations in business organisation and planning
+        7132 Occupations in business consulting
+        7133 Occupations in business development
+        7138 Occupations in business organisation and strategy (with specialisation, not elsewhere classified)
+        7139 Supervisors and managers in business organisation and strategy
+        7140 Office clerks and secretaries (without specialisation)
+        7141 Foreign language secretaries and foreign language correspondence clerks
+        7142 Interpreters and translators
+        7143 Shorthand and audio typists
+        7144 Coders, proof readers and related clerks
+        7145 Customer or passenger information office clerks
+        7149 Supervisors of office clerks and secretaries
+        7151 Occupations in human resources development and personnel service
+        7152 Occupations in recruiting and employment services
+        7159 Managers in human resources management and personnel services
+        7211 Bankers
+        7212 Investment consultants and other occupations in financial services
+        7213 Insurance salespersons
+        7214 Financial analysts
+        7218 Occupations in insurance and financial services (with specialisation, not elsewhere classified)
+        7219 Managers in insurance and financial services
+        7221 Occupations in accounting
+        7222 Occupations in cost accounting and calculation
+        7223 Occupations in controlling
+        7224 Occupations in auditing
+        7229 Managers in accounting, controlling and auditing
+        7230 Occupations in tax consultancy
+        7310 Occupations in legal services, jurisdiction, and other officers of the court (without specialisation)
+        7311 Assistants in lawyers’ and notaries' offices
+        7312 Notaries
+        7313 Lawyers
+        7314 Prosecutors
+        7315 Judges
+        7316 Occupations in the national security service
+        7318 Occupations in legal services, jurisdiction, and other officers of the court (with specialisation, not elsewhere classified)
+        7319 Managers in legal services, jurisdiction, and of other officers of the court
+        7320 Occupations in public administration (without specialisation)
+        7321 Occupations in the social service administration and the social security system
+        7322 Administrative occupations in the welfare and health care system
+        7323 Occupations in tax administration
+        7324 Occupations in the customs service
+        7325 Occupations in the administration of justice
+        7328 Occupations in public administration (with specialisation, not elsewhere classified)
+        7329 Supervisors and managers in public administration
+        7331 Occupations in archiving
+        7332 Library occupations
+        7333 Occupations in documentation and information services
+        7334 Occupations in medical documentation
+        7339 Managers in media, documentation and information services
+        8110 Medical assistants (without specialisation)
+        8111 Dental assistants
+        8112 Podologists
+        8113 Orthoptists
+        8114 Veterinary assistants
+        8118 Medical assistants (with specialisation, not elsewhere classified)
+        8121 Technical laboratory occupations in medicine
+        8122 Technical occupations in medical laboratories for functional diagnostics
+        8123 Technical occupations in radiology
+        8124 Technical occupations in veterinary medicine
+        8129 Managers in medical laboratories
+        8130 Occupations in nursing (without specialisation)
+        8131 Occupations in nursing specialised in a particular branch of nursing
+        8132 Occupations in nursing specialised in paediatrics
+        8133 Surgical and medico-technical assistants
+        8134 Occupations in emergency medical services
+        8135 Occupations in obstetrics and maternity care
+        8138 Occupations in nursing (with specialisation, not elsewhere classified)
+        8139 Supervisors and managers in nursing, emergency medical services and obstetrics
+        8140 Medical doctors (without specialisation)
+        8141 Medical doctors specialised in pediatrics and adolescent medicine
+        8142 Medical doctors specialised in internal medicine
+        8143 Medical doctors specialised in surgery
+        8144 Medical doctors specialised in dermatology, otorhinolaryngology, ophthalmology, gynaecology, andrology or related medical fields
+        8145 Medical doctors specialised in anaesthesiology
+        8146 Medical doctors specialised in neurology, psychiatry, psychotherapy and psychosomatic medicine
+        8147 Dentists and orthodontists
+        8148 Medical doctors (with specialisation, not elsewhere classified)
+        8149 Managers in human medicine and dentistry
+        8150 Veterinaries (without specialisation)
+        8151 Veterinaries for large and farm animals
+        8152 Veterinaries for pets
+        8153 Non-medical animal health practitioners
+        8158 Occupations in veterinary medicine and non-medical animal health practitioners (with specialisation, not elsewhere classified)
+        8159 Managers in veterinary medicine and non-medical animal health practitioners
+        8161 Occupations in non-clinical psychology
+        8162 Occupations in clinical psychology
+        8163 Occupations in non-medical psychotherapy
+        8171 Occupations in physiotherapy
+        8172 Occupations in occupational therapy
+        8173 Occupations in speech therapy
+        8174 Occupations in music and art therapy
+        8175 Practitioners of alternative medicine and homeopathy
+        8176 Dieticians and Nutritionists
+        8178 Occupations in non-medical therapy and alternative medicine (with specialisation, not elsewhere classified)
+        8179 Managers in non-medical therapy and alternative medicine
+        8180 Pharmacists
+        8181 Medical doctors specialised in pharmacology
+        8182 Pharmaceutical-technical assistants
+        8188 Occupations in pharmacy (with specialisation, not elsewhere classified)
+        8189 Managers in pharmacy
+        8210 Occupations in geriatric care (without specialisation)
+        8218 Occupations in geriatric care (with specialisation, not elsewhere classified)
+        8219 Managers in geriatric care
+        8221 Occupations providing health counselling
+        8222 Occupations in wellness
+        8223 Occupations providing nutritional advice
+        8224 Quality assurance representative in the health care system
+        8228 Occupations providing nutritional advice or health counselling, and occupations in wellness (with specialisation, not elsewhere classified)
+        8231 Occupations in hairdressing
+        8232 Occupations in cosmetics
+        8233 Tattooists and piercers
+        8234 Make-up artists
+        8239 Supervisors in body care
+        8240 Occupations in funeral services
+        8249 Supervisors and managers in funeral services
+        8250 Technical occupations in medicine (without specialisation)
+        8251 Technical occupations in orthopaedic and rehabilitation
+        8252 Occupations in ophthalmic optics
+        8253 Occupations in hearing-aid acoustics
+        8254 Technical occupations in prosthetic dentistry
+        8259 Supervisors and managers in medicine, orthopaedic and rehabilitation technology
+        8311 Occupations in child care and child-rearing
+        8312 Occupations in social work and social pedagogics
+        8313 Pedagogic specialists in social care work and special needs education
+        8314 Social care workers specialized in household assistance and family care
+        8315 Occupations in social, educational and addiction counselling
+        8319 Supervisors and managers in education and social work, and of pedagogic specialists in social care work
+        8321 Occupations in housekeeping
+        8322 Occupations in consumer counselling
+        8329 Supervisors in housekeeping and consumer counselling
+        8331 Occupations in theology
+        8332 Occupations in church community work
+        8333 Members of religious orders
+        8338 Occupations in theology and church community work (with specialisation, not elsewhere classified)
+        8339 Managers in theology and church community work
+        8411 Teachers in primary education
+        8412 Teachers in secondary education
+        8413 Teachers in schools for special needs education
+        8414 Occupations in teacher training
+        8418 Teachers in schools of general education (with specialisation, not elsewhere classified)
+        8419 Managers in schools of general education
+        8421 Teachers for occupation-specific subjects at vocational schools
+        8422 In-company instructors in vocational training
+        8429 Managers in vocational schools, and in-company training of apprentices
+        8430 Teachers and researcher at universities and colleges
+        8439 Managers at universities and colleges
+        8440 Teachers in adult education (without specialisation)
+        8441 Occupations in music education
+        8442 Occupations in religious education
+        8443 Occupations in art and theatre education
+        8444 Occupations in IT-application training
+        8445 (Foreign) Language teachers
+        8448 Teachers at educational institutions other than schools (with specialisation, not elsewhere classified except driving, flying and sports instructors)
+        8449 Managers at educational institutions other than schools
+        8450 Sports instructors (without specialisation)
+        8451 Driving instructors
+        8452 Flying instructors
+        8453 Dance instructors
+        8454 Coaches in ball sports
+        8455 Trainer in fitness and gymnastics
+        8458 Sports instructors (with specialisation, not elsewhere classified)
+        9110 Occupations in philology (without specialisation)
+        9111 Occupations in German philology
+        9112 Occupations in English and American philology
+        9113 Occupations in Romance philology
+        9114 Occupations in Slavic philology
+        9115 Occupations in Arabic and Oriental philology
+        9116 Occupations in Asian philology
+        9117 Occupations in Classics
+        9118 Occupations in philology (with specialisation, not elsewhere classified)
+        9121 Occupations in philosophy, religion and ethics
+        9122 Occupations in history
+        9123 Occupations in archaeology
+        9124 Occupations in media science and theatre studies
+        9125 Occupations in regional science
+        9126 Occupations in anthropology and ethnology
+        9131 Occupations in political science
+        9132 Occupations in sociology
+        9133 Occupations in pedagogy
+        9134 Occupations in market and opinion research
+        9135 Occupations in demography
+        9138 Occupations in the social sciences (with specialisation, not elsewhere classified)
+        9140 Occupations in economics (without specialisation)
+        9148 Occupations in economics (with specialisation, not elsewhere classified)
+        9211 Occupations in advertising and marketing
+        9212 Occupations in dialog marketing
+        9213 Occupations in customer management
+        9219 Managers in advertising and marketing
+        9220 Occupations in public relations
+        9229 Managers in public relations
+        9230 Occupations in publishing and media management (without specialisation)
+        9238 Occupations in publishing and media management (other specifc fields)
+        9239 Managers in publishing and media management
+        9241 Editors and journalists
+        9242 Copy editors
+        9243 Authors and writers
+        9249 Managers in editorial work and journalism
+        9310 Occupations in product and industrial design
+        9321 Occupations in interior design
+        9322 Occupations in visual marketing
+        9323 Occupations in interior decoration
+        9329 Supervisors in interior design, visual marketing, and interior decoration
+        9330 Occupations in artisan craftwork and fine arts (without specialisation)
+        9331 Occupations in sculpting
+        9332 Painters and illustrators
+        9333 Occupations in turnery and toy manufacture
+        9334 Gilders
+        9335 Chandlers
+        9338 Occupations in artisan craftwork and fine arts (with specialisation, not elsewhere classified)
+        9339 Supervisors in artisan craftwork and fine arts
+        9341 Artisans designing ceramics
+        9342 Artisans painting glassware, ceramics and porcelain
+        9343 Artisans working in glass blowing
+        9349 Supervisors in artisan craftwork using ceramics and glassware
+        9351 Artisans working with metal
+        9352 Artisans producing jewellery or working with precious stones and metals
+        9353 Engravers
+        9354 Producers of advertising signs and illuminated advertisements
+        9359 Supervisors of artisans working with metal
+        9360 Occupations in musical instrument making (without specialisation)
+        9361 Occupations making bowed and plucked string instruments
+        9362 Occupations making woodwind instruments
+        9363 Occupations making brass instruments
+        9364 Occupations making pianos and harpsichords
+        9365 Occupations making organs and harmoniums
+        9368 Occupations in musical instrument making (with specialisation, not elsewhere classified)
+        9369 Supervisors in musical instrument making
+        9411 Musicians
+        9412 Singers
+        9413 Conductors
+        9414 Composers
+        9418 Musicians, singers and conductors (with specialisation, not elsewhere classified)
+        9421 Actors
+        9422 Dancers and choreographers
+        9423 Models
+        9424 Athletes and professional sportspersons
+        9425 Occupations in personal escort services
+        9428 Occupations in acting, dancing, athletics and related occupations (with specialisation, not elsewhere classified)
+        9430 Presenters and entertainers (without specialisation)
+        9431 Comedians and cabaret artists
+        9432 Magicians and illusionists
+        9433 Radio and television presenters
+        9434 Occupations in gambling and betting
+        9438 Occupations in presentation and entertainment (with specialisation, not elsewhere classified)
+        9440 Occupations in theatre, film and television productions (without specialisation)
+        9441 Occupations in managing theatre, film and television productions
+        9448 Occupations in theatre, film and television productions (with specialisation, not elsewhere classified)
+        9449 Supervisors and managers in theatre, film and television productions
+        9451 Technical occupation in event technology and stagecraft
+        9452 Cinematographers, camera assistants, and projectionists
+        9453 Technical occupations in video and sound production
+        9458 Occupations in event technology, cinematography, and sound engineering (with specialisation, not elsewhere classified)
+        9459 Supervisors in event technology, cinematography, and sound engineering
+        9461 Occupations in stage and costume design
+        9462 Prop designers
+        9469 Supervisors in stage, costume and prop design
+        9470 Occupations in museums (without specialisation)
+        9471 Technical occupations in museums and exhibitions
+        9472 Art experts
+        9479 Managers in museum
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Level of requirement - current/most recent job (KldB 2010) (niveau)
+niveau_en:
+           1 Unskilled/semiskilled task
+           2 Skilled task
+           3 Complex task
+           4 Highly complex task
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Part-time (teilzeit)
+teilzeit_en:
+           0 Full-time
+           1 Part-time
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Occupational status and working hours (stib)
+stib_en:
+           0 In vocational training
+           1 Unskilled workers
+           2 Skilled workers
+           3 Master craftsmen, foremen (blue-collar or white-collar)
+           4 Employees (excl. employed master craftsmen)
+           7 Home workers, Freelance home workers
+           8 Part-time up to half of full-time
+           9 Part-time more than half of full-time
+          .n n/a
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Employment status (erwstat)
+erwstat_en:
+         101 Employees liable to social security without special characteristics
+         102 Trainees without special characteristics
+         103 Employees in partial retirement
+         104 Freelance home workers
+         105 Interns
+         106 Student trainees
+         109 Marginal part-time workers
+         112 Family-member workers in agriculture
+         118 Unsteady workers
+         119 Retired persons exempt from social security payments
+         120 Retired persons with compulsory social security payments
+         121 Trainees (below marginal part-time income threshold)
+         122 Trainees (external (on-school) voc. training)
+         123 Voluntary social or ecological year or in federal volunteer service
+         124 Home workers
+         140 Sailors
+         141 Trainees in maritime shipping
+         143 Maritime pilots
+         149 Retired persons exempt from social security payments (mar. shipping)
+         201 Employees (household cheque)
+         203 Artists and publicists with compulsory social security payments
+         205 Unsteady workers
+         209 Marginal part-time workers (household cheque)
+         599 Others in labour force
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Transition zone (gleitz)
+gleitz_en:
+           0 No transition zone
+           1 Transition zone
+           2 Mixed case
+          .n n/a
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Temporary agency work (leih)
+leih_en:
+           0 No temporary agency work
+           1 Temporary agency work
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Fixed-term contract (befrist)
+befrist_en:
+           0 permanent contract
+           1 fixed-term contract
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Reason of cancellation/notification/termination (grund)
+grund_en:
+          30 Deregistration due to end of employment
+          31 Deregistration due to change of health insurance company
+          32 Deregistration due to change of contribution group
+          33 Deregistration for other reasons
+          34 Deregistration due to interruption of employment for more than one month
+          35 Deregistration due to interruption of employment for more than one month because of industrial conflict/dispute
+          36 Deregistration due to change of payroll accounting system / currency changeover
+          40 Simultaneous registration and deregistration due to end of employment
+          49 Deregistration due to death
+          50 Annual notification
+          51 Employment interruption notification due to entitlement to other compensation
+          52 Employment interruption notification due to parental leave
+          53 Employment interruption notification due to statutory official duties
+          54 Notification of a lump sum payment
+          55 Notification of credit not used as agreed (process upset)
+          56 Notification of the difference in amount in the case of earnings-replacement benefits during partial retirement
+          57 Special notification according to § 194 SGB VI
+          59 Renumeration notification for casual employees
+          70 Annual notification for employees released from work
+          71 Notification because of insolvency/ exemption
+          72 Notification at the legal end of employment
+
+____________________________________________________________________________________________________
+
+Duration of unemployment (alo_dau)
+miss_en:
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Place of residence - district (Kreis) (wo_kreis)
+wo_kreis_en:
+           0 Other foreign countries
+         124 Belgium
+         126 Denmark
+         129 France
+         131 Slovenia
+         137 Italy
+         143 Luxembourg
+         148 Netherlands
+         151 Austria
+         152 Poland
+         155 Slovakia
+         158 Switzerland
+         163 Turkey
+         164 Czech Republic
+        1001 Flensburg, City
+        1002 Kiel, Capital of the Federal State
+        1003 Luebeck, Hanseatic City
+        1004 Neumuenster, City
+        1051 Dithmarschen
+        1053 Herzogtum Lauenburg
+        1054 Nordfriesland
+        1055 Ostholstein
+        1056 Pinneberg
+        1057 Ploen
+        1058 Rendsburg-Eckernfoerde
+        1059 Schleswig-Flensburg
+        1060 Segeberg
+        1061 Steinburg
+        1062 Stormarn
+        2000 Hamburg, Free and Hanseatic City
+        3101 Braunschweig, City
+        3102 Salzgitter, City
+        3103 Wolfsburg, City
+        3151 Gifhorn
+        3153 Goslar
+        3154 Helmstedt
+        3155 Northeim
+        3157 Peine
+        3158 Wolfenbuettel
+        3159 Goettingen
+        3241 Region Hannover
+        3251 Diepholz
+        3252 Hameln-Pyrmont
+        3254 Hildesheim
+        3255 Holzminden
+        3256 Nienburg (Weser)
+        3257 Schaumburg
+        3351 Celle
+        3352 Cuxhaven
+        3353 Harburg
+        3354 Luechow-Dannenberg
+        3355 Lueneburg
+        3356 Osterholz
+        3357 Rotenburg (Wuemme)
+        3358 Heidekreis
+        3359 Stade
+        3360 Uelzen
+        3361 Verden
+        3401 Delmenhorst, City
+        3402 Emden, City
+        3403 Oldenburg (Oldenburg), City
+        3404 Osnabrueck, City
+        3405 Wilhelmshaven, City
+        3451 Ammerland
+        3452 Aurich
+        3453 Cloppenburg
+        3454 Emsland
+        3455 Friesland
+        3456 Grafschaft Bentheim
+        3457 Leer
+        3458 Oldenburg
+        3459 Osnabrueck
+        3460 Vechta
+        3461 Wesermarsch
+        3462 Wittmund
+        4011 Bremen, City
+        4012 Bremerhaven, City
+        5111 Duesseldorf, City
+        5112 Duisburg, City
+        5113 Essen, City
+        5114 Krefeld, City
+        5116 Moenchengladbach, City
+        5117 Muelheim an der Ruhr, City
+        5119 Oberhausen, City
+        5120 Remscheid, City
+        5122 Solingen, City
+        5124 Wuppertal, City
+        5154 Kleve
+        5158 Mettmann
+        5162 Rhein-Kreis Neuss
+        5166 Viersen
+        5170 Wesel
+        5314 Bonn, City
+        5315 Koeln, City
+        5316 Leverkusen, City
+        5334 Staedteregion Aachen
+        5358 Dueren
+        5362 Rhein-Erft-Kreis
+        5366 Euskirchen
+        5370 Heinsberg
+        5374 Oberbergischer Kreis
+        5378 Rheinisch-Bergischer Kreis
+        5382 Rhein-Sieg-Kreis
+        5512 Bottrop, City
+        5513 Gelsenkirchen, City
+        5515 Muenster, City
+        5554 Borken
+        5558 Coesfeld
+        5562 Recklinghausen
+        5566 Steinfurt
+        5570 Warendorf
+        5711 Bielefeld, City
+        5754 Guetersloh
+        5758 Herford
+        5762 Hoexter
+        5766 Lippe
+        5770 Minden-Luebbecke
+        5774 Paderborn
+        5911 Bochum, City
+        5913 Dortmund, City
+        5914 Hagen, City
+        5915 Hamm, City
+        5916 Herne, City
+        5954 Ennepe-Ruhr-Kreis
+        5958 Hochsauerlandkreis
+        5962 Maerkischer Kreis
+        5966 Olpe
+        5970 Siegen-Wittgenstein
+        5974 Soest
+        5978 Unna
+        6411 Darmstadt, City
+        6412 Frankfurt am Main, City
+        6413 Offenbach am Main, City
+        6414 Wiesbaden, Capital of the Federal State
+        6431 Bergstrasse
+        6432 Darmstadt-Dieburg
+        6433 Gross-Gerau
+        6434 Hochtaunuskreis
+        6435 Main-Kinzig-Kreis
+        6436 Main-Taunus-Kreis
+        6437 Odenwaldkreis
+        6438 Offenbach
+        6439 Rheingau-Taunus-Kreis
+        6440 Wetteraukreis
+        6531 Giessen
+        6532 Lahn-Dill-Kreis
+        6533 Limburg-Weilburg
+        6534 Marburg-Biedenkopf
+        6535 Vogelsbergkreis
+        6611 Kassel, City
+        6631 Fulda
+        6632 Hersfeld-Rotenburg
+        6633 Kassel
+        6634 Schwalm-Eder-Kreis
+        6635 Waldeck-Frankenberg
+        6636 Werra-Meissner-Kreis
+        7111 Koblenz, City
+        7131 Ahrweiler
+        7132 Altenkirchen (Westerwald)
+        7133 Bad Kreuznach
+        7134 Birkenfeld
+        7135 Cochem-Zell
+        7137 Mayen-Koblenz
+        7138 Neuwied
+        7140 Rhein-Hunsrueck-Kreis
+        7141 Rhein-Lahn-Kreis
+        7143 Westerwaldkreis
+        7211 Trier, City
+        7231 Bernkastel-Wittlich
+        7232 Eifelkreis Bitburg-Pruem
+        7233 Vulkaneifel
+        7235 Trier-Saarburg
+        7311 Frankenthal (Pfalz), City
+        7312 Kaiserslautern, City
+        7313 Landau in der Pfalz, City
+        7314 Ludwigshafen am Rhein, City
+        7315 Mainz, City
+        7316 Neustadt an der Weinstrasse, City
+        7317 Pirmasens, City
+        7318 Speyer, City
+        7319 Worms, City
+        7320 Zweibruecken, City
+        7331 Alzey-Worms
+        7332 Bad Duerkheim
+        7333 Donnersbergkreis
+        7334 Germersheim
+        7335 Kaiserslautern
+        7336 Kusel
+        7337 Suedliche Weinstrasse
+        7338 Rhein-Pfalz-Kreis
+        7339 Mainz-Bingen
+        7340 Suedwestpfalz
+        8111 Stuttgart, Capital of the Federal State
+        8115 Boeblingen
+        8116 Esslingen
+        8117 Goeppingen
+        8118 Ludwigsburg
+        8119 Rems-Murr-Kreis
+        8121 Heilbronn, City
+        8125 Heilbronn
+        8126 Hohenlohekreis
+        8127 Schwaebisch Hall
+        8128 Main-Tauber-Kreis
+        8135 Heidenheim
+        8136 Ostalbkreis
+        8211 Baden-Baden, City
+        8212 Karlsruhe, City
+        8215 Karlsruhe
+        8216 Rastatt
+        8221 Heidelberg, City
+        8222 Mannheim, City
+        8225 Neckar-Odenwald-Kreis
+        8226 Rhein-Neckar-Kreis
+        8231 Pforzheim, City
+        8235 Calw
+        8236 Enzkreis
+        8237 Freudenstadt
+        8311 Freiburg im Breisgau, City
+        8315 Breisgau-Hochschwarzwald
+        8316 Emmendingen
+        8317 Ortenaukreis
+        8325 Rottweil
+        8326 Schwarzwald-Baar-Kreis
+        8327 Tuttlingen
+        8335 Konstanz
+        8336 Loerrach
+        8337 Waldshut
+        8415 Reutlingen
+        8416 Tuebingen
+        8417 Zollernalbkreis
+        8421 Ulm, City
+        8425 Alb-Donau-Kreis
+        8426 Biberach
+        8435 Bodenseekreis
+        8436 Ravensburg
+        8437 Sigmaringen
+        9161 Ingolstadt, City
+        9162 Muenchen, Capital of the Federal State
+        9163 Rosenheim, City
+        9171 Altoetting
+        9172 Berchtesgadener Land
+        9173 Bad Toelz-Wolfratshausen
+        9174 Dachau
+        9175 Ebersberg
+        9176 Eichstaett
+        9177 Erding
+        9178 Freising
+        9179 Fuerstenfeldbruck
+        9180 Garmisch-Partenkirchen
+        9181 Landsberg am Lech
+        9182 Miesbach
+        9183 Muehldorf a.Inn
+        9184 Muenchen
+        9185 Neuburg-Schrobenhausen
+        9186 Pfaffenhofen a.d.Ilm
+        9187 Rosenheim
+        9188 Starnberg
+        9189 Traunstein
+        9190 Weilheim-Schongau
+        9261 Landshut, City
+        9262 Passau, City
+        9263 Straubing, City
+        9271 Deggendorf
+        9272 Freyung-Grafenau
+        9273 Kelheim
+        9274 Landshut
+        9275 Passau
+        9276 Regen
+        9277 Rottal-Inn
+        9278 Straubing-Bogen
+        9279 Dingolfing-Landau
+        9361 Amberg, City
+        9362 Regensburg, City
+        9363 Weiden i.d.OPf., City
+        9371 Amberg-Sulzbach
+        9372 Cham
+        9373 Neumarkt i.d.OPf.
+        9374 Neustadt a.d.Waldnaab
+        9375 Regensburg
+        9376 Schwandorf
+        9377 Tirschenreuth
+        9461 Bamberg, City
+        9462 Bayreuth, City
+        9463 Coburg, City
+        9464 Hof, City
+        9471 Bamberg
+        9472 Bayreuth
+        9473 Coburg
+        9474 Forchheim
+        9475 Hof
+        9476 Kronach
+        9477 Kulmbach
+        9478 Lichtenfels
+        9479 Wunsiedel i.Fichtelgebirge
+        9561 Ansbach, City
+        9562 Erlangen, City
+        9563 Fuerth, City
+        9564 Nuernberg, City
+        9565 Schwabach, City
+        9571 Ansbach
+        9572 Erlangen-Hoechstadt
+        9573 Fuerth
+        9574 Nuernberger Land
+        9575 Neustadt a.d.Aisch-Bad Windsh.
+        9576 Roth
+        9577 Weissenburg-Gunzenhausen
+        9661 Aschaffenburg, City
+        9662 Schweinfurt, City
+        9663 Wuerzburg, City
+        9671 Aschaffenburg
+        9672 Bad Kissingen
+        9673 Rhoen-Grabfeld
+        9674 Hassberge
+        9675 Kitzingen
+        9676 Miltenberg
+        9677 Main-Spessart
+        9678 Schweinfurt
+        9679 Wuerzburg
+        9761 Augsburg, City
+        9762 Kaufbeuren, City
+        9763 Kempten (Allgaeu), City
+        9764 Memmingen, City
+        9771 Aichach-Friedberg
+        9772 Augsburg
+        9773 Dillingen a.d.Donau
+        9774 Guenzburg
+        9775 Neu-Ulm
+        9776 Lindau (Bodensee)
+        9777 Ostallgaeu
+        9778 Unterallgaeu
+        9779 Donau-Ries
+        9780 Oberallgaeu
+       10041 Regionalverband Saarbruecken
+       10042 Merzig-Wadern
+       10043 Neunkirchen
+       10044 Saarlouis
+       10045 Saarpfalz-Kreis
+       10046 St. Wendel
+       11000 Berlin, City
+       12051 Brandenburg an der Havel, City
+       12052 Cottbus, City
+       12053 Frankfurt (Oder), City
+       12054 Potsdam, City
+       12060 Barnim
+       12061 Dahme-Spreewald
+       12062 Elbe-Elster
+       12063 Havelland
+       12064 Maerkisch-Oderland
+       12065 Oberhavel
+       12066 Oberspreewald-Lausitz
+       12067 Oder-Spree
+       12068 Ostprignitz-Ruppin
+       12069 Potsdam-Mittelmark
+       12070 Prignitz
+       12071 Spree-Neisse
+       12072 Teltow-Flaeming
+       12073 Uckermark
+       13003 Rostock, Hanseatic City
+       13004 Schwerin, Capital of the Federal State
+       13071 Mecklenburgische Seenplatte
+       13072 Landkreis Rostock
+       13073 Vorpommern-Ruegen
+       13074 Nordwestmecklenburg
+       13075 Vorpommern-Greifswald
+       13076 Ludwigslust-Parchim
+       14511 Chemnitz, City
+       14521 Erzgebirgskreis
+       14522 Mittelsachsen
+       14523 Vogtlandkreis
+       14524 Zwickau
+       14612 Dresden, City
+       14625 Bautzen
+       14626 Goerlitz
+       14627 Meissen
+       14628 Saechs. Schweiz-Osterzgebirge
+       14713 Leipzig, City
+       14729 Leipzig
+       14730 Nordsachsen
+       15001 Dessau-Rosslau, City
+       15002 Halle (Saale), City
+       15003 Magdeburg, Capital of the Federal State
+       15081 Altmarkkreis Salzwedel
+       15082 Anhalt-Bitterfeld
+       15083 Boerde
+       15084 Burgenlandkreis
+       15085 Harz
+       15086 Jerichower Land
+       15087 Mansfeld-Suedharz
+       15088 Saalekreis
+       15089 Salzlandkreis
+       15090 Stendal
+       15091 Wittenberg
+       16051 Erfurt, City
+       16052 Gera, City
+       16053 Jena, City
+       16054 Suhl, City
+       16055 Weimar, City
+       16056 Eisenach, City
+       16061 Eichsfeld
+       16062 Nordhausen
+       16063 Wartburgkreis
+       16064 Unstrut-Hainich-Kreis
+       16065 Kyffhaeuserkreis
+       16066 Schmalkalden-Meiningen
+       16067 Gotha
+       16068 Soemmerda
+       16069 Hildburghausen
+       16070 Ilm-Kreis
+       16071 Weimarer Land
+       16072 Sonneberg
+       16073 Saalfeld-Rudolstadt
+       16074 Saale-Holzland-Kreis
+       16075 Saale-Orla-Kreis
+       16076 Greiz
+       16077 Altenburger Land
+          .n n/a
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Place of residence - federal state (Bundesland) (wo_bula)
+wo_bula_en:
+           1 Schleswig-Holstein
+           2 Hamburg
+           3 Lower Saxony
+           4 Bremen
+           5 North Rhine-Westphalia
+           6 Hesse
+           7 Rhineland-Palatinate
+           8 Baden-Wuerttemberg
+           9 Bavaria
+          10 Saarland
+          11 Berlin
+          12 Brandenburg
+          13 Mecklenburg-Western Pomerania
+          14 Saxony
+          15 Saxony-Anhalt
+          16 Thuringia
+          .n n/a
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Place of residence - employment agency (Arbeitsagentur) (wo_aa)
+wo_aa_en:
+          30 Greifswald
+          31 Neubrandenburg
+          32 Rostock
+          33 Schwerin
+          34 Stralsund
+          35 Cottbus
+          36 Eberswalde
+          37 Frankfurt (Oder)
+          38 Neuruppin
+          39 Potsdam
+          41 Bernburg
+          42 Dessau-Rosslau Wittenberg
+          43 Halberstadt
+          44 Halle
+          45 Magdeburg
+          46 Weissenfels
+          47 Sangerhausen
+          48 Stendal
+          71 Annaberg-Buchholz
+          72 Bautzen
+          73 Chemnitz
+          74 Dresden
+          75 Leipzig
+          76 Oschatz
+          77 Pirna
+          78 Plauen
+          79 Riesa
+          80 Freiberg
+          92 Zwickau
+          93 Erfurt
+          94 Altenburg Gera
+          95 Gotha
+          96 Jena
+          97 Nordhausen
+          98 Suhl
+         111 Bad Oldesloe
+         115 Elmshorn
+         119 Flensburg
+         123 Hamburg
+         127 Heide
+         131 Kiel
+         135 Luebeck
+         139 Neumuenster
+         211 Braunschweig Goslar
+         214 Bremen Bremerhaven
+         221 Celle
+         224 Emden Leer
+         231 Goettingen
+         234 Hameln
+         237 Hannover
+         241 Helmstedt
+         244 Hildesheim
+         251 Lueneburg Uelzen
+         257 Nordhorn
+         261 Oldenburg Wilhelmshaven
+         264 Osnabrueck
+         267 Stade
+         274 Vechta
+         277 Nienburg Verden
+         311 Aachen Dueren
+         315 Bergisch Gladbach
+         317 Bielefeld
+         321 Bochum
+         323 Bonn
+         325 Bruehl
+         327 Coesfeld
+         331 Detmold
+         333 Dortmund
+         337 Duesseldorf
+         341 Duisburg
+         343 Essen
+         345 Gelsenkirchen
+         347 Hagen
+         351 Hamm
+         353 Herford
+         355 Iserlohn
+         357 Koeln
+         361 Krefeld
+         364 Mettmann
+         365 Moenchengladbach
+         367 Ahlen Muenster
+         371 Oberhausen
+         373 Paderborn
+         375 Recklinghausen
+         377 Rheine
+         381 Siegen
+         383 Meschede Soest
+         387 Wesel
+         391 Solingen Wuppertal
+         411 Bad Hersfeld Fulda
+         415 Darmstadt
+         419 Frankfurt
+         427 Giessen
+         431 Hanau
+         433 Bad Homburg
+         435 Kassel
+         439 Korbach
+         443 Limburg Wetzlar
+         447 Marburg
+         451 Offenbach
+         459 Wiesbaden
+         511 Bad Kreuznach
+         515 Kaiserslautern Pirmasens
+         519 Koblenz Mayen
+         523 Ludwigshafen
+         527 Mainz
+         535 Montabaur
+         543 Landau
+         547 Neuwied
+         555 Saarland
+         563 Trier
+         611 Aalen
+         614 Balingen
+         617 Freiburg
+         621 Goeppingen
+         624 Heidelberg
+         627 Heilbronn
+         631 Karlsruhe Rastatt
+         634 Konstanz Ravensburg
+         637 Loerrach
+         641 Ludwigsburg
+         644 Mannheim
+         647 Nagold Pforzheim
+         651 Offenburg
+         664 Reutlingen
+         671 Waiblingen
+         674 Schwaebisch Hall Tauberbischofsheim
+         677 Stuttgart
+         684 Ulm
+         687 Rottweil Villingen-Schwenningen
+         711 Ansbach Weissenburg
+         715 Aschaffenburg
+         723 Bayreuth Hof
+         727 Bamberg Coburg
+         729 Fuerth
+         735 Nuernberg
+         739 Regensburg
+         743 Schwandorf
+         747 Schweinfurt
+         751 Weiden
+         759 Wuerzburg
+         811 Augsburg
+         815 Deggendorf
+         819 Donauwoerth
+         823 Freising
+         827 Ingolstadt
+         831 Kempten Memmingen
+         835 Landshut Pfarrkirchen
+         843 Muenchen
+         847 Passau
+         855 Rosenheim
+         859 Traunstein
+         863 Weilheim
+         922 Berlin South
+         955 Berlin North
+         962 Berlin Central
+         999 Foreign Places
+          .n n/a
+          .z no entry
+
+____________________________________________________________________________________________________
+
+Place of residence - regional directorate (Regionaldirektion) (wo_rd)
+wo_rd_en:
+         101 North
+         102 Berlin-Brandenburg
+         103 Saxony-Anhalt/Thuringia
+         104 Saxony
+         105 Lower Saxony-Bremen
+         106 North Rhine-Westphalia
+         107 Hesse (incl. ZAV)
+         108 Rhineland-Palatinate-Saarland
+         109 Baden-Wuerttemberg
+         110 Bavaria
+         111 Foreign places
+          .n n/a
+          .z no entry
+
+

@@ -1,0 +1,2621 @@
+
+
+Date range for SIEED 7518 (v1), individual data
+
+This overview shows the earliest start date and the latest end date when the fea
+> ture value is filled in the record.
+
+In some cases this value may be outside the valid period of the source.
+
+________________________________________________________________________________
+
+Individual ID (persnr)
+
+------------------------------------------------------
+                      Variable | min(start)   max(end)
+-------------------------------+----------------------
+                               |       1975       2018
+------------------------------------------------------
+
+________________________________________________________________________________
+
+Establishment ID (betnr)
+
+------------------------------------------------------
+                      Variable | min(start)   max(end)
+-------------------------------+----------------------
+                               |       1975       2018
+------------------------------------------------------
+
+________________________________________________________________________________
+
+panel establishment identifier  (betnr_pan)
+
+------------------------------------------
+panel establishment            |
+identifier                     |  min  max
+-------------------------------+----------
+0 no panel establishment       | 1975 2018
+1 panel establishment          | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Observation counter per person (spell)
+
+------------------------------------------------------
+                      Variable | min(start)   max(end)
+-------------------------------+----------------------
+                               |       1975       2018
+------------------------------------------------------
+
+
+________________________________________________________________________________
+
+Original start date (begorig)
+
+------------------------------------------------------
+                      Variable | min(start)   max(end)
+-------------------------------+----------------------
+                               |       1975       2018
+------------------------------------------------------
+
+________________________________________________________________________________
+
+Original end date (endorig)
+
+------------------------------------------------------
+                      Variable | min(start)   max(end)
+-------------------------------+----------------------
+                               |       1975       2018
+------------------------------------------------------
+
+________________________________________________________________________________
+
+Episode start date (begepi)
+
+------------------------------------------------------
+                      Variable | min(start)   max(end)
+-------------------------------+----------------------
+                               |       1975       2018
+------------------------------------------------------
+
+________________________________________________________________________________
+
+Episode end date (endepi)
+
+------------------------------------------------------
+                      Variable | min(start)   max(end)
+-------------------------------+----------------------
+                               |       1975       2018
+------------------------------------------------------
+
+________________________________________________________________________________
+
+Gender (frau)
+
+------------------------------------------
+                        Gender |  min  max
+-------------------------------+----------
+0 Male                         | 1975 2018
+1 Female                       | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Year of birth (gebjahr)
+
+------------------------------------------
+                 Year of birth |  min  max
+-------------------------------+----------
+                          1899 | 1975 1975
+                          1900 | 1975 1976
+                          1901 | 1975 1977
+                          1902 | 1975 1978
+                          1903 | 1975 1979
+                          1904 | 1975 1980
+                          1905 | 1975 1981
+                          1906 | 1975 1982
+                          1907 | 1975 1983
+                          1908 | 1975 1984
+                          1909 | 1975 1985
+                          1910 | 1975 1986
+                          1911 | 1975 1987
+                          1912 | 1975 1988
+                          1913 | 1975 1989
+                          1914 | 1975 1990
+                          1915 | 1975 1991
+                          1916 | 1975 1992
+                          1917 | 1975 1993
+                          1918 | 1975 1994
+                          1919 | 1975 1995
+                          1920 | 1975 1996
+                          1921 | 1975 1997
+                          1922 | 1975 1998
+                          1923 | 1975 1999
+                          1924 | 1975 2000
+                          1925 | 1975 2001
+                          1926 | 1975 2002
+                          1927 | 1975 2003
+                          1928 | 1975 2004
+                          1929 | 1975 2005
+                          1930 | 1975 2006
+                          1931 | 1975 2007
+                          1932 | 1975 2008
+                          1933 | 1975 2009
+                          1934 | 1975 2010
+                          1935 | 1975 2011
+                          1936 | 1975 2012
+                          1937 | 1975 2013
+                          1938 | 1975 2014
+                          1939 | 1975 2015
+                          1940 | 1975 2016
+                          1941 | 1975 2017
+                          1942 | 1975 2018
+                          1943 | 1975 2018
+                          1944 | 1975 2018
+                          1945 | 1975 2018
+                          1946 | 1975 2018
+                          1947 | 1975 2018
+                          1948 | 1975 2018
+                          1949 | 1975 2018
+                          1950 | 1975 2018
+                          1951 | 1975 2018
+                          1952 | 1975 2018
+                          1953 | 1975 2018
+                          1954 | 1975 2018
+                          1955 | 1975 2018
+                          1956 | 1975 2018
+                          1957 | 1975 2018
+                          1958 | 1975 2018
+                          1959 | 1975 2018
+                          1960 | 1975 2018
+                          1961 | 1975 2018
+                          1962 | 1975 2018
+                          1963 | 1976 2018
+                          1964 | 1977 2018
+                          1965 | 1978 2018
+                          1966 | 1979 2018
+                          1967 | 1980 2018
+                          1968 | 1981 2018
+                          1969 | 1983 2018
+                          1970 | 1984 2018
+                          1971 | 1984 2018
+                          1972 | 1985 2018
+                          1973 | 1986 2018
+                          1974 | 1988 2018
+                          1975 | 1988 2018
+                          1976 | 1989 2018
+                          1977 | 1990 2018
+                          1978 | 1991 2018
+                          1979 | 1992 2018
+                          1980 | 1993 2018
+                          1981 | 1994 2018
+                          1982 | 1995 2018
+                          1983 | 1996 2018
+                          1984 | 1997 2018
+                          1985 | 1998 2018
+                          1986 | 1999 2018
+                          1987 | 2000 2018
+                          1988 | 2001 2018
+                          1989 | 2002 2018
+                          1990 | 2003 2018
+                          1991 | 2004 2018
+                          1992 | 2005 2018
+                          1993 | 2006 2018
+                          1994 | 2007 2018
+                          1995 | 2008 2018
+                          1996 | 2009 2018
+                          1997 | 2010 2018
+                          1998 | 2011 2018
+                          1999 | 2012 2018
+                          2000 | 2013 2018
+                          2001 | 2014 2018
+                          2002 | 2015 2018
+                          2003 | 2016 2018
+                          2004 | 2017 2018
+                          2005 | 2018 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Month of birth (gebmon)
+
+------------------------------------------
+                Month of birth |  min  max
+-------------------------------+----------
+1 January                      | 1975 2018
+2 February                     | 1975 2018
+3 March                        | 1975 2018
+4 April                        | 1975 2018
+5 May                          | 1975 2018
+6 June                         | 1975 2018
+7 July                         | 1975 2018
+8 August                       | 1975 2018
+9 September                    | 1975 2018
+10 October                     | 1975 2018
+11 November                    | 1975 2018
+12 December                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Nationality (nation)
+
+------------------------------------------
+                   Nationality |  min  max
+-------------------------------+----------
+0 Germany                      | 1975 2018
+121 Albania                    | 1979 2018
+122 Bosnia and Herzegovina     | 1989 2018
+123 Andorra                    | 1978 2018
+124 Belgium                    | 1975 2018
+125 Bulgaria                   | 1975 2018
+126 Denmark                    | 1975 2018
+127 Estonia                    | 1981 2018
+128 Finland                    | 1975 2018
+129 France                     | 1975 2018
+130 Croatia                    | 1978 2018
+131 Slovenia                   | 1990 2018
+132 Serbia and Montenegro      | 2000 2018
+133 Serbia                     | 1999 2018
+134 Greece                     | 1975 2018
+135 Ireland                    | 1975 2018
+136 Iceland                    | 1975 2018
+137 Italy                      | 1975 2018
+138 Yugoslavia                 | 1975 2018
+139 Latvia                     | 1975 2018
+140 Montenegro                 | 1999 2018
+141 Liechtenstein              | 1982 2018
+142 Lithuania                  | 1975 2018
+143 Luxembourg                 | 1975 2018
+144 Macedonia                  | 1992 2018
+145 Malta                      | 1975 2018
+146 Moldova                    | 1992 2018
+147 Monaco                     | 1981 2018
+148 Netherlands                | 1975 2018
+149 Norway                     | 1975 2018
+150 Kosovo                     | 1993 2018
+151 Austria                    | 1975 2018
+152 Poland                     | 1975 2018
+153 Portugal                   | 1975 2018
+154 Romania                    | 1975 2018
+155 Slovakia                   | 1989 2018
+156 San Marino                 | 1978 2018
+157 Sweden                     | 1975 2018
+158 Switzerland                | 1975 2018
+159 Former Soviet Union        | 1975 2010
+160 Russian Federation         | 1979 2018
+161 Spain                      | 1975 2018
+162 Former Czechoslovakia      | 1975 2010
+163 Turkey                     | 1975 2018
+164 Czech Republic             | 1976 2018
+165 Hungary                    | 1975 2018
+166 Ukraine                    | 1991 2018
+167 Vatican City               | 1981 2018
+168 United Kingdom             | 1975 2018
+169 Belarus                    | 1991 2018
+170 Serbia                     | 1994 2018
+181 Cyprus                     | 1989 2018
+195 UK Overseas Territories    | 1998 2010
+199 Europe (open)              | 1976 2010
+221 Algeria                    | 1975 2018
+223 Angola                     | 1979 2018
+224 Eritrea                    | 1989 2018
+225 Ethiopia                   | 1975 2018
+226 Lesotho                    | 1983 2018
+227 Botswana                   | 1979 2018
+229 Benin                      | 1977 2018
+230 Djibouti                   | 1978 2018
+231 Cote d'Ivoire              | 1978 2018
+232 Nigeria                    | 1975 2018
+233 Zimbabwe                   | 1979 2018
+236 Gabon                      | 1981 2018
+237 The Gambia                 | 1980 2018
+238 Ghana                      | 1975 2018
+239 Mauritania                 | 1978 2018
+242 Cape Verde                 | 1976 2018
+243 Kenya                      | 1975 2018
+244 Comoros                    | 1991 2018
+245 Republic of the Congo      | 1975 2018
+246 Democratic Republic of the | 1975 2018
+247 Liberia                    | 1978 2018
+248 Libya                      | 1975 2018
+249 Madagascar                 | 1976 2018
+251 Mali                       | 1978 2018
+252 Morocco                    | 1975 2018
+253 Mauritius                  | 1975 2018
+254 Mozambique                 | 1984 2018
+255 Niger                      | 1978 2018
+256 Malawi                     | 1986 2018
+257 Zambia                     | 1981 2018
+258 Burkina Faso               | 1975 2018
+259 Guinea-Bissau              | 1979 2018
+261 Guinea                     | 1975 2018
+262 Cameroon                   | 1975 2018
+263 South Africa               | 1975 2018
+265 Rwanda                     | 1978 2018
+267 Namibia                    | 1991 2018
+268 Sao Tome and Principe      | 1977 2018
+269 Senegal                    | 1975 2018
+271 Seychelles                 | 1984 2018
+272 Sierra Leone               | 1976 2018
+273 Somalia                    | 1975 2018
+274 Equatorial Guinea          | 1980 2018
+276 Sudan (incl. South Sudan)  | 1975 2012
+277 Sudan                      | 2011 2018
+278 South Sudan                | 2012 2018
+281 Swaziland                  | 1978 2018
+282 Tanzania                   | 1976 2018
+283 Togo                       | 1975 2018
+284 Chad                       | 1978 2018
+285 Tunisia                    | 1975 2018
+286 Uganda                     | 1975 2018
+287 Egypt                      | 1975 2018
+289 Central African Republic   | 1979 2018
+291 Burundi                    | 1975 2018
+295 UK Overseas Territories    | 1978 2010
+299 Africa (open)              | 1975 2010
+320 Antigua and Barbuda        | 1991 2018
+322 Barbados                   | 1978 2018
+323 Argentina                  | 1975 2018
+324 The Bahamas                | 1978 2018
+326 Bolivia                    | 1975 2018
+327 Brazil                     | 1975 2018
+328 Guyana                     | 1976 2018
+330 Belize                     | 1989 2018
+332 Chile                      | 1975 2018
+333 Dominica                   | 1983 2018
+334 Costa Rica                 | 1977 2018
+335 Dominican Republic         | 1978 2018
+336 Ecuador                    | 1975 2018
+337 El Salvador                | 1975 2018
+340 Grenada                    | 1981 2018
+345 Guatemala                  | 1978 2018
+346 Haiti                      | 1975 2018
+347 Honduras                   | 1975 2018
+348 Canada                     | 1975 2018
+349 Colombia                   | 1975 2018
+351 Cuba                       | 1983 2018
+353 Mexico                     | 1975 2018
+354 Nicaragua                  | 1978 2018
+355 Jamaica                    | 1975 2018
+357 Panama                     | 1979 2018
+359 Paraguay                   | 1978 2018
+361 Peru                       | 1975 2018
+364 Suriname                   | 1986 2018
+365 Uruguay                    | 1976 2018
+366 Saint Lucia                | 1981 2018
+367 Venezuela                  | 1977 2018
+368 United States              | 1975 2018
+369 St. Vincent and the Grenad | 1992 2018
+370 St. Kitts and Nevis        | 1994 2018
+371 Trinidad and Tobago        | 1977 2018
+395 UK Overseas Territories    | 1976 2010
+399 America (open)             | 1975 2010
+411 Hong Kong                  | 2015 2018
+412 Macao                      | 2014 2018
+421 Yemen, Arab Republic       | 1977 2018
+422 Armenia                    | 1991 2018
+423 Afghanistan                | 1976 2018
+424 Bahrein                    | 1992 2018
+425 Azerbaijan                 | 1991 2018
+426 Bhutan                     | 1978 2018
+427 Burma                      | 1978 2018
+429 Brunei                     | 1993 2018
+430 Georgia                    | 1989 2018
+431 Sri Lanka                  | 1975 2018
+432 Vietnam                    | 1976 2018
+434 North Korea, Demokratic Pe | 1975 2018
+436 India                      | 1975 2018
+437 Indonesia                  | 1975 2018
+438 Iraq                       | 1975 2018
+439 Iran                       | 1975 2018
+441 Israel                     | 1975 2018
+442 Japan                      | 1975 2018
+443 Republic of Yemen          | 1979 1997
+444 Kazakhstan                 | 1990 2018
+445 Jordan                     | 1975 2018
+446 Cambodia                   | 1977 2018
+447 Qatar                      | 1981 2018
+448 Kuwait                     | 1980 2018
+449 Laos                       | 1978 2018
+450 Kyrgyzstan                 | 1992 2018
+451 Lebanon                    | 1975 2018
+454 Maldives                   | 1998 2018
+456 Oman                       | 1990 2018
+457 Mongolia                   | 1991 2018
+458 Nepal                      | 1978 2018
+459 Palestinian Territories    | 2011 2018
+460 Bangladesh                 | 1975 2018
+461 Pakistan                   | 1975 2018
+462 Philippines                | 1975 2018
+465 China (Taiwan)             | 1975 2018
+467 South Korea, Republic of K | 1975 2018
+468 Democratic People's Republ | 1977 1997
+469 United Arab Emirates       | 1982 2018
+470 Tajikistan                 | 1989 2018
+471 Turkmenistan               | 1994 2018
+472 Saudi Arabia               | 1976 2018
+474 Singapore                  | 1976 2018
+475 Syria                      | 1975 2018
+476 Thailand                   | 1975 2018
+477 Uzbekistan                 | 1992 2018
+479 People's Republic of China | 1975 2018
+481 Cyprus                     | 1978 1997
+482 Malaysia                   | 1975 2018
+483 Timor-Leste                | 2007 2016
+495 UK Overseas Territories    | 1975 2010
+499 Asia (open)                | 1975 2012
+523 Australia                  | 1975 2018
+524 Solomon Islands            | 1990 2018
+525 Mariana Islands            | 1994 2014
+526 Fiji                       | 1981 2018
+527 Cook Islands               | 2003 2011
+530 Kiribati                   | 1991 2016
+531 Nauru                      | 1987 2018
+532 Vanuatu                    | 1985 2018
+533 Niue                       | 2006 2012
+536 New Zealand                | 1977 2018
+537 Palau                      | 1998 2018
+538 Papua New Guinea           | 1984 2018
+540 Tuvalu                     | 1982 2018
+541 Tonga                      | 1986 2018
+543 Samoa                      | 1989 2018
+544 Marshall Islands           | 2004 2018
+545 Federated States of Micron | 1999 2018
+595 Pitcairn-Island            | 1978 2010
+599 Australia (open)           | 1999 2012
+994 Sea                        | 1980 1994
+996 Foreign countries, unknown | 1999 2018
+997 Stateless                  | 1975 2018
+998 Unknown                    | 1975 2018
+.z no entry                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Nationality, grouped (nation_gr)
+
+------------------------------------------
+          Nationality, grouped |  min  max
+-------------------------------+----------
+10 Germany                     | 1975 2018
+11 Turkey                      | 1975 2018
+12 Italy                       | 1975 2018
+13 Yugoslavia, Serbia and Mont | 1975 2018
+14 Greece                      | 1975 2018
+15 France                      | 1975 2018
+16 Poland                      | 1975 2018
+17 Austria                     | 1975 2018
+18 Croatia                     | 1978 2018
+19 Portugal                    | 1975 2018
+20 Spain                       | 1975 2018
+21 Netherlands, Luxembourg     | 1975 2018
+22 Russia, Belarus, Former Sov | 1975 2018
+23 Bosnia and Herzegovina      | 1989 2018
+24 United Kingdom, Ireland, Br | 1975 2018
+25 Romania                     | 1975 2018
+26 Czech Republic, Slovakia, F | 1975 2018
+27 Ukraina, Moldova            | 1991 2018
+28 Hungary                     | 1975 2018
+29 Albania                     | 1979 2018
+30 Belgium                     | 1975 2018
+31 Macedonia                   | 1992 2018
+32 Switzerland                 | 1975 2018
+33 Bulgaria                    | 1975 2018
+34 Slovenia                    | 1990 2018
+35 Denmark, Sweden             | 1975 2018
+36 Finland                     | 1975 2018
+37 Estonia, Latvia, Lithuania  | 1975 2018
+49 Europe (open)               | 1975 2018
+50 Ethiopia                    | 1975 2018
+51 Ghana                       | 1975 2018
+52 Marocco                     | 1975 2018
+53 Tunisia                     | 1975 2018
+59 Africa (open)               | 1975 2018
+60 USA, Canada                 | 1975 2018
+69 America (open)              | 1975 2018
+70 Afghanistan                 | 1976 2018
+71 Sri Lanka                   | 1975 2018
+72 Vietnam                     | 1976 2018
+73 India                       | 1975 2018
+74 Iraq                        | 1975 2018
+75 Iran                        | 1975 2018
+76 Lebanon                     | 1975 2018
+77 Philippines                 | 1975 2018
+78 Thailand                    | 1975 2018
+79 China, incl. Tibet          | 1975 2018
+89 Asia (open)                 | 1975 2018
+90 Oceania                     | 1975 2018
+.z no entry                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Vocational training (ausbildung)
+
+------------------------------------------
+           Vocational training |  min  max
+-------------------------------+----------
+1 Without vocational training  | 1975 2018
+2 In-company voc. training/tra | 1975 2018
+11 University of applied scien | 1975 2011
+12 University without further  | 1975 2018
+.z no entry                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Vocational training (imputed) (ausbildung_imp)
+
+------------------------------------------
+ Vocational training (imputed) |  min  max
+-------------------------------+----------
+1 Secondary / intermediate sch | 1975 2018
+2 Secondary / intermediate sch | 1975 2018
+3 Upper secondary school leavi | 1975 2018
+4 Upper secondary school leavi | 1975 2018
+5 Completion of a university o | 1975 2018
+6 College / university degree  | 1975 2018
+.z no entry                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+School leaving qualification (schule)
+
+------------------------------------------
+  School leaving qualification |  min  max
+-------------------------------+----------
+1 No school leaving certificat | 2011 2018
+4 lower secondary school certi | 2011 2018
+5 Grade-/lower school certific | 1975 2011
+6 Intermediate school leaving  | 2011 2018
+8 Completion of education at a | 1975 2018
+9 Upper secondary school leavi | 1975 2011
+.z no entry                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Daily wage/daily benefit (tentgelt)
+
+------------------------------------------------------
+                      Variable | min(start)   max(end)
+-------------------------------+----------------------
+                               |       1975       2018
+------------------------------------------------------
+
+________________________________________________________________________________
+
+Occupation - current/most recent (KldB 1988) (beruf)
+
+------------------------------------------
+Occupation - current/most      |
+recent (KldB 1988)             |  min  max
+-------------------------------+----------
+11 Farmers                     | 1975 2018
+12 Winegrowers                 | 1975 2018
+21 Animal breeders             | 1975 2018
+22 Fishermen                   | 1975 2018
+31 Managers in agriculture and | 1975 2018
+32 Agricultural engineers, agr | 1975 2018
+41 Land workers                | 1975 2018
+42 Milkers                     | 1975 2011
+43 Family-member land workers, | 1975 2011
+44 Animal keepers and related  | 1975 2018
+51 Gardeners, garden workers   | 1975 2018
+52 Garden architects, garden m | 1975 2018
+53 Florists                    | 1975 2018
+61 Forestry managers, forester | 1975 2018
+62 Forest workers, forest cult | 1975 2018
+71 Miners                      | 1975 2018
+72 Mechanical, electrical, fac | 1975 2011
+81 Stone crushers              | 1975 2011
+82 Earth, gravel, sand quarrie | 1975 2011
+83 Oil, natural gas quarriers  | 1975 2011
+91 Mineral preparers, mineral  | 1975 2011
+101 Stone preparers            | 1975 2018
+102 Jewel preparers            | 1975 2018
+111 Stoneware, earthenware mak | 1975 2011
+112 Shaped brick, concrete blo | 1975 2018
+121 Ceramics workers           | 1975 2018
+131 Frit makers                | 1975 2011
+132 Hollow glassware makers    | 1975 2018
+133 Flat glass makers          | 1975 2011
+134 Glass blowers (lamps)      | 1975 2018
+135 Glass processors, glass fi | 1975 2018
+141 Chemical plant operatives  | 1975 2018
+142 Chemical laboratory worker | 1975 2011
+143 Rubber makers, processors  | 1975 2018
+144 Vulcanisers                | 1975 2018
+151 Plastics processors        | 1975 2018
+161 Paper, cellulose makers    | 1975 2018
+162 Packaging makers           | 1975 2018
+163 Book binding occupations   | 1975 2018
+164 Other paper products maker | 1975 2011
+171 Type setters, compositors  | 1975 2018
+172 Printed goods makers       | 1975 2018
+173 Printers (letterpress)     | 1975 2011
+174 Printers (flat, gravure)   | 1975 2018
+175 Special printers, screener | 1975 2011
+176 Copiers                    | 1975 2011
+177 Printer's assistants       | 1975 2018
+181 Wood preparers             | 1975 2018
+182 Wood moulders and related  | 1975 2018
+183 Wood products makers       | 1975 2018
+184 Basket and wicker products | 1975 2011
+191 Iron, metal producers, mel | 1975 2018
+192 Rollers                    | 1975 2018
+193 Metal drawers              | 1975 2011
+201 Moulders, coremakers       | 1975 2011
+202 Mould casters              | 1975 2018
+203 Semi-finished product fett | 1975 2011
+211 Sheet metal pressers, draw | 1975 2018
+212 Wire moulders, processors  | 1975 2018
+213 Other metal moulders (non- | 1975 2011
+221 Turners                    | 1975 2018
+222 Drillers                   | 1975 2011
+223 Planers                    | 1975 2011
+224 Borers                     | 1975 2011
+225 Metal grinders             | 1975 2018
+226 Other metal-cutting occupa | 1975 2011
+231 Metal polishers            | 1975 2011
+232 Engravers, chasers         | 1975 2018
+233 Metal finishers            | 1975 2011
+234 Galvanisers, metal coloure | 1975 2018
+235 Enamellers, zinc platers a | 1975 2018
+241 Welders, oxy-acetylene cut | 1975 2018
+242 Solderers                  | 1975 2011
+243 Riveters                   | 1975 2011
+244 Metal bonders and other me | 1975 2011
+251 Steel smiths               | 1975 2018
+252 Container builders, copper | 1975 2018
+261 Sheet metal workers        | 1975 2018
+262 Plumbers                   | 1975 2018
+263 Pipe, tubing fitters       | 1975 2018
+270 Locksmiths, not specified  | 1975 2011
+271 Building fitters           | 1975 2011
+272 Sheet metal, plastics fitt | 1975 2011
+273 Engine fitters             | 1975 2018
+274 Plant fitters, maintenance | 1975 2018
+275 Steel structure fitters, m | 1975 2018
+281 Motor vehicle repairers    | 1975 2018
+282 Agricultural machinery rep | 1975 2018
+283 Aircraft mechanics         | 1975 2018
+284 Precision mechanics        | 1975 2018
+285 Other mechanics            | 1975 2018
+286 Watch-, clockmakers        | 1975 2018
+291 Toolmakers                 | 1975 2018
+301 Precision fitters n.e.c.   | 1975 2018
+302 Precious metal smiths      | 1975 2011
+303 Dental technicians         | 1975 2018
+304 Opthalmic opticians        | 1975 2018
+305 Musical instrument makers  | 1975 2018
+306 Doll makers, model makers, | 1975 2018
+311 Electrical fitters, mechan | 1975 2018
+312 Telecommunications mechani | 1975 2011
+313 Electric motor, transforme | 1975 2018
+314 Electrical appliance fitte | 1975 2018
+315 Radio, sound equipment mec | 1975 2018
+321 Electrical appliance, elec | 1975 2018
+322 Other assemblers           | 1975 2018
+323 Metal workers (no further  | 1975 2011
+331 Spinners, fibre preparers  | 1975 2018
+332 Spoolers, twisters, ropema | 1975 2011
+341 Weaving preparers          | 1975 2011
+342 Weavers                    | 1975 2018
+343 Tufted goods makers        | 1975 2011
+344 Machined goods makers      | 1975 2011
+345 Felt makers, hat body make | 1975 2011
+346 Textile processing operati | 1975 2011
+351 Cutters                    | 1975 2011
+352 Clothing sewers            | 1975 2018
+353 Laundry cutters, sewers    | 1975 2011
+354 Embroiderers               | 1975 2018
+355 Hat, cap makers            | 1975 2011
+356 Sewers, n.e.c.             | 1975 2018
+357 Other textile processing o | 1975 2018
+361 Textile dyers              | 1975 2011
+362 Textile finishers          | 1975 2018
+371 Leather makers, catgut str | 1975 2018
+372 Shoemakers                 | 1975 2011
+373 Footwear makers            | 1975 2018
+374 Coarse leather goods finis | 1975 2018
+375 Fine leather goods makers  | 1975 2011
+376 Leather clothing makers an | 1975 2018
+377 Hand shoemakers            | 1975 2011
+378 Skin processing operatives | 1975 2018
+391 Bakery goods makers        | 1975 2018
+392 Confectioners (pastry)     | 1975 2011
+401 Butchers                   | 1975 2018
+402 Meat, sausage goods makers | 1975 2011
+403 Fish processing operatives | 1975 2018
+411 Cooks                      | 1975 2018
+412 Ready-to-serve meals, frui | 1975 2018
+421 Wine coopers               | 1975 2018
+422 Brewers, maltsters         | 1975 2018
+423 Other beverage makers, tas | 1975 2018
+424 Tobacco goods makers       | 1975 2018
+431 Milk, fat processing opera | 1975 2018
+432 Flour, food processors     | 1975 2018
+433 Sugar, sweets, ice-cream m | 1975 2018
+441 Bricklayers                | 1975 2018
+442 Concrete workers           | 1975 2018
+451 Carpenters                 | 1975 2018
+452 Roofers                    | 1975 2018
+453 Scaffolders                | 1975 2018
+461 Paviors                    | 1975 2018
+462 Road makers                | 1975 2018
+463 Tracklayers                | 1975 2018
+464 Explosives men (except sho | 1975 2018
+465 Land improvement, hydrauli | 1975 2018
+466 Other civil engineering wo | 1975 2018
+470 Building labourer, general | 1975 2011
+471 Earth movers               | 1975 2011
+472 Other building labourers,  | 1975 2018
+481 Stucco workers, plasterers | 1975 2018
+482 Insulators, proofers       | 1975 2018
+483 Tile setters               | 1975 2018
+484 Furnace setter, air heatin | 1975 2018
+485 Glaziers                   | 1975 2018
+486 Screed, terrazzo layers    | 1975 2018
+491 Room equippers             | 1975 2018
+492 Upholsterers, mattress mak | 1975 2018
+501 Carpenters                 | 1975 2018
+502 Model, form carpenters     | 1975 2018
+503 Cartwrights, wheelwrights, | 1975 2018
+504 Other wood and sports equi | 1975 2018
+511 Painters, lacquerers (cons | 1975 2018
+512 Goods painters, lacquerers | 1975 2018
+513 Wood surface finishers, ve | 1975 2018
+514 Ceramics, glass painters   | 1975 2018
+521 Goods examiners, sorters,  | 1975 2018
+522 Packagers, goods receivers | 1975 2011
+531 Assistants (no further spe | 1975 2011
+541 Generator machinists       | 1975 2018
+542 Winding engine drivers, ae | 1975 2011
+543 Other machinists           | 1975 2018
+544 Crane drivers              | 1975 2018
+545 Earthmoving plant drivers  | 1975 2018
+546 Construction machine atten | 1975 2018
+547 Machine attendants, machin | 1975 2018
+548 Stokers                    | 1975 2011
+549 Machine setters (no furthe | 1975 2018
+555 Disabled                   | 1975 2011
+601 Mechanical, motor engineer | 1975 2018
+602 Electrical engineers       | 1975 2018
+603 Architects, civil engineer | 1975 2018
+604 Survey engineers           | 1975 2018
+605 Mining, metallurgy, foundr | 1975 2018
+606 Other manufacturing engine | 1975 2018
+607 Other engineers            | 1975 2018
+611 Chemists, chemical enginee | 1975 2018
+612 Physicists, physics engine | 1975 2018
+621 Mechanical engineering tec | 1975 2018
+622 Electrical engineering tec | 1975 2018
+623 Building technicians       | 1975 2018
+624 Measurement technicians    | 1975 2018
+625 Mining, metallurgy, foundr | 1975 2018
+626 Chemistry, physics technic | 1975 2018
+627 Remaining manufacturing te | 1975 2018
+628 Other technicians          | 1975 2018
+629 Foremen, master mechanics  | 1975 2018
+631 Biological specialists     | 1975 2018
+632 Physical and mathematical  | 1975 2018
+633 Chemical laboratory assist | 1975 2018
+634 Photo laboratory assistant | 1975 2018
+635 Technical draughtspersons  | 1975 2018
+666 Rehabilitants              | 1975 2011
+681 Wholesale and retail trade | 1975 2018
+682 Salespersons               | 1975 2018
+683 Publishing house dealers,  | 1975 2018
+684 Druggists/chemists (pharma | 1975 2018
+685 Pharmacy aids              | 1975 2011
+686 Service-station attendants | 1975 2011
+687 Commercial agents, travell | 1975 2018
+688 Mobile traders             | 1975 2018
+691 Bank specialists           | 1975 2018
+692 Building society specialis | 1975 2011
+693 Health insurance specialis | 1975 2011
+694 Life, property insurance s | 1975 2018
+701 Forwarding business dealer | 1975 2018
+702 Tourism specialists        | 1975 2018
+703 Publicity occupations      | 1975 2018
+704 Brokers, property managers | 1975 2018
+705 Landlords, agents, auction | 1975 2018
+706 Cash collectors, cashiers, | 1975 2018
+711 Railway engine drivers     | 1975 2018
+712 Railway controllers, condu | 1975 2018
+713 Other traffic controllers, | 1975 2018
+714 Motor vehicle drivers      | 1975 2018
+715 Coachmen                   | 1975 2018
+716 Street attendants          | 1975 2018
+721 Navigating ships officers  | 1975 2018
+722 Technical ships officers,  | 1975 2018
+723 Deck seamen                | 1975 2011
+724 Inland boatmen             | 1975 2018
+725 Other water transport occu | 1975 2018
+726 Air transport occupations  | 1975 2018
+731 Post masters               | 1975 2011
+732 Postal deliverers          | 1975 2018
+733 Radio operators            | 1975 2018
+734 Telephonists               | 1975 2011
+741 Warehouse managers, wareho | 1975 2018
+742 Transportation equipment d | 1975 2018
+743 Stowers, furniture packers | 1975 2018
+744 Stores, transport workers  | 1975 2018
+751 Entrepreneurs, managing di | 1975 2018
+752 Management consultants, or | 1975 2018
+753 Chartered accountants, tax | 1975 2018
+761 Members of Parliament, Min | 1975 2018
+762 Senior government official | 1975 2018
+763 Association leaders, offic | 1975 2018
+771 Cost accountants, valuers  | 1975 2018
+772 Accountants                | 1975 2018
+773 Cashiers                   | 1975 2011
+774 Data processing specialist | 1975 2018
+781 Office specialists         | 1975 2018
+782 Stenographers, shorthand-t | 1975 2018
+783 Data typists               | 1975 2018
+784 Office auxiliary workers   | 1975 2018
+791 Factory guards, detectives | 1975 2018
+792 Watchmen, custodians       | 1975 2018
+793 Doormen, caretakers        | 1975 2018
+794 Domestic and non-domestic  | 1975 2018
+801 Soldiers, border guards, p | 1975 2018
+802 Firefighters               | 1975 2018
+803 Safety testers             | 1975 2018
+804 Chimney sweeps             | 1975 2018
+805 Health-protecting occupati | 1975 2018
+811 Arbitrators                | 1975 2018
+812 Judicial administrators    | 1975 2011
+813 Legal representatives, adv | 1975 2018
+814 Judicial enforcers         | 1975 2018
+821 Journalists                | 1975 2018
+822 Interpreters, translators  | 1975 2018
+823 Librarians, archivists, mu | 1975 2018
+831 Musicians                  | 1975 2018
+832 Artists' agents            | 1975 2018
+833 Visual, commercial artists | 1975 2018
+834 Scenery, sign painters     | 1975 2018
+835 Artistic and assisting occ | 1975 2018
+836 Interior, exhibition desig | 1975 2018
+837 Photographers              | 1975 2018
+838 Performers, professional s | 1975 2018
+841 Physicians                 | 1975 2018
+842 Dentists                   | 1975 2018
+843 Veterinary surgeons        | 1975 2018
+844 Pharmacists                | 1975 2018
+851 Non-medical practitioners  | 1975 2018
+852 Masseurs, physiotherapists | 1975 2018
+853 Nurses, midwives           | 1975 2018
+854 Nursing assistants         | 1975 2018
+855 Dietary assistants, pharma | 1975 2018
+856 Medical receptionists      | 1975 2018
+857 Medical laboratory assista | 1975 2018
+861 Social workers, care worke | 1975 2018
+862 Home wardens, social work  | 1975 2018
+863 Work, vocational advisers  | 1975 2018
+864 Nursery teachers, child nu | 1975 2018
+871 University teachers, lectu | 1975 2018
+872 Gymnasium teachers         | 1975 2011
+873 Primary, secondary (basic) | 1975 2018
+874 Technical, vocational, fac | 1975 2018
+875 Music teachers, n.e.c.     | 1975 2018
+876 Sports teachers            | 1975 2018
+877 Other teachers             | 1975 2018
+881 Economic and social scient | 1975 2018
+882 Humanities specialists, n. | 1975 2018
+883 Scientists n.e.c.          | 1975 2018
+888 Nursing staff              | 1975 2011
+891 Ministers of religion      | 1975 2018
+892 Members of religious order | 1975 2018
+893 Religious care helpers     | 1975 2018
+901 Hairdressers               | 1975 2018
+902 Other body care occupation | 1975 2018
+911 Restaurant, inn, bar keepe | 1975 2018
+912 Waiters, stewards          | 1975 2018
+913 Others attending on guests | 1975 2018
+921 Housekeeping managers      | 1975 2018
+922 Consumer advisors          | 1975 2018
+923 Other housekeeping attenda | 1975 2018
+924 Employees by household che | 1975 2011
+931 Laundry workers, pressers  | 1975 2018
+932 Textile cleaners, dyers an | 1975 2011
+933 Household cleaners         | 1975 2018
+934 Glass, buildings cleaners  | 1975 2018
+935 Street cleaners, refuse di | 1975 2018
+936 Vehicle cleaners, servicer | 1975 2018
+937 Machinery, container clean | 1975 2018
+971 Non-agricultural family as | 1975 2011
+981 Trainees with recognised t | 1975 2011
+982 Interns, unpaid trainees w | 1975 2011
+983 Workforce (job seekers) wi | 1975 2011
+991 Workforce not further spec | 1975 2011
+995 Recipients of early retire | 1985 2011
+996 Employees in partial retir | 1989 1998
+997 Recipients of compensation | 1995 2011
+.z no entry                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Occupational group - current/most recent (KldB 2010), 3-digit (beruf2010_3)
+
+------------------------------------------
+Occupational group -           |
+current/most recent (KldB      |
+2010), 3-digit                 |  min  max
+-------------------------------+----------
+11 Commissioned officers       | 2011 2018
+12 Senior non-commissioned off | 2011 2018
+13 Junior non-commissioned off | 2011 2018
+14 Armed forces personnel in o | 2011 2018
+111 Occupations in farming     | 1975 2018
+112 Occupations in animal husb | 1975 2018
+113 Occupations in horsekeepin | 1975 2018
+114 Occupations in fishing     | 1975 2018
+115 Occupations in animal care | 1975 2018
+116 Occupations in vini- and v | 1975 2018
+117 Occupations in forestry, h | 1975 2018
+121 Occupations in gardening   | 1975 2018
+122 Occupations in floristry   | 1975 2018
+211 Occupations in underground | 1975 2018
+212 Conditioning and processin | 1975 2018
+213 Occupations in industrial  | 1975 2018
+214 Occupations in industrial  | 1975 2018
+221 Occupations in plastic- an | 1975 2018
+222 Occupations in colour coat | 1975 2018
+223 Occupations in wood-workin | 1975 2018
+231 Technical occupations in p | 1975 2018
+232 Occupations in technical m | 1975 2018
+233 Occupations in photography | 1975 2018
+234 Occupations in printing te | 1975 2018
+241 Occupations in metal-makin | 1975 2018
+242 Occupations in metalworkin | 1975 2018
+243 Occupations in treatment o | 1975 2018
+244 Occupations in metal const | 1975 2018
+245 Occupations in precision m | 1975 2018
+251 Occupations in machine-bui | 1975 2018
+252 Technical occupations in t | 1975 2018
+261 Occupations in mechatronic | 2011 2018
+262 Technical occupations in e | 1975 2018
+263 Occupations in electrical  | 1975 2018
+271 Occupations in technical r | 1975 2018
+272 Draftspersons, technical d | 1975 2018
+273 Technical occupations in p | 1975 2018
+281 Occupations in textile mak | 1975 2018
+282 Occupations in the product | 1975 2018
+283 Occupations in leather- an | 1975 2018
+291 Occupations in beverage pr | 1975 2018
+292 Occupations in the product | 1975 2018
+293 Cooking occupations        | 1975 2018
+311 Occupations in constructio | 1975 2018
+312 Occupations in surveying a | 1975 2018
+321 Occupations in building co | 1975 2018
+322 Occupations in civil engin | 1975 2018
+331 Floor layers               | 1975 2018
+332 Painters and varnishers, p | 1975 2018
+333 Occupations in the interio | 1975 2018
+341 Occupations in building se | 1975 2018
+342 Occupations in plumping, s | 1975 2018
+343 Occupations in building se | 1975 2018
+411 Occupations in mathematics | 2011 2018
+412 Occupations in biology     | 1975 2018
+413 Occupations in chemistry   | 1975 2018
+414 Occupations in physics     | 1975 2018
+421 Occupations in geology, ge | 2011 2018
+422 Occupations in environment | 1975 2018
+423 Occupations in environment | 2011 2018
+431 Occupations in computer sc | 1975 2018
+432 Occupations in IT-system-a | 2011 2018
+433 Occupations in IT-network  | 2011 2018
+434 Occupations in software de | 2011 2018
+511 Technical occupations in r | 1975 2018
+512 Occupations in the inspect | 1975 2018
+513 Occupations in warehousing | 1975 2018
+514 Service occupations in pas | 2011 2018
+515 Occupations in traffic sur | 1975 2018
+516 Management assistants in t | 1975 2018
+521 Driver of vehicles in road | 1975 2018
+522 Drivers of vehicles in rai | 1975 2018
+523 Aircraft pilots            | 1975 2018
+524 Ship’s officers and mast   | 1975 2018
+525 Drivers and operators of c | 1975 2018
+531 Occupations in physical se | 1975 2018
+532 Occupations in police and  | 1975 2018
+533 Occupations in occupationa | 1975 2018
+541 Occupations in cleaning se | 1975 2018
+611 Occupations in purchasing  | 1975 2018
+612 Trading occupations        | 1975 2018
+613 Occupations in real estate | 2011 2018
+621 Sales occupations in retai | 1975 2018
+622 Sales occupations (retail  | 1975 2018
+623 Sales occupations (retail) | 2011 2018
+624 Sales occupations (retail) | 1975 2018
+625 Sales occupations (retail) | 2011 2018
+631 Occupations in tourism and | 1975 2018
+632 Occupations in hotels      | 1975 2018
+633 Gastronomy occupations     | 1975 2018
+634 Occupations in event organ | 2011 2018
+711 Managing directors and exe | 2011 2018
+712 Legislators and senior off | 1975 2018
+713 Occupations in business or | 1975 2018
+714 Office clerks and secretar | 1975 2018
+715 Occupations in human resou | 1975 2018
+721 Occupations in insurance a | 1975 2018
+722 Occupations in accounting, | 1975 2018
+723 Occupations in tax consult | 1975 2018
+731 Occupations in legal servi | 1975 2018
+732 Occupations in public admi | 1975 2018
+733 Occupations in media, docu | 1975 2018
+811 Doctors’ receptionists a   | 1975 2018
+812 Laboratory occupations in  | 1975 2018
+813 Occupations in nursing, em | 1975 2018
+814 Occupations in human medic | 1975 2018
+815 Occupations in veterinary  | 1975 2018
+816 Occupations in psychology  | 2011 2018
+817 Occupations in non-medical | 1975 2018
+818 Occupations in pharmacy    | 1975 2018
+821 Occupations in geriatric c | 2011 2018
+822 Occupations providing nutr | 2011 2018
+823 Occupations in body care   | 1975 2018
+824 Occupations in funeral ser | 2011 2018
+825 Technical occupations in m | 1975 2018
+831 Occupations in education a | 1975 2018
+832 Occupations in housekeepin | 1975 2018
+833 Occupations in theology an | 1975 2018
+841 Teachers in schools of gen | 1975 2018
+842 Teachers for occupation-sp | 1975 2018
+843 Teachers and researcher at | 1975 2018
+844 Teachers at educational in | 1975 2018
+845 Driving, flying and sports | 1975 2018
+911 Occupations in philology   | 1975 2018
+912 Occupations in the humanit | 2011 2018
+913 Occupations in the social  | 2011 2018
+914 Occupations in economics   | 1975 2018
+921 Occupations in advertising | 1975 2018
+922 Occupations in public rela | 2011 2018
+923 Occupations in publishing  | 1975 2018
+924 Occupations in editorial w | 1975 2018
+931 Occupations in product and | 2011 2018
+932 Occupations in interior de | 1975 2018
+933 Occupations in artisan cra | 1975 2018
+934 Artisans designing ceramic | 1975 2018
+935 Artisans working with meta | 1975 2018
+936 Occupations in musical ins | 1975 2018
+941 Musicians, singers and con | 1975 2018
+942 Actors, dancers, athletes  | 1975 2018
+943 Presenters and entertainer | 2011 2018
+944 Occupations in theatre, fi | 2011 2018
+945 Occupations in event techn | 1975 2018
+946 Occupations in stage, cost | 2011 2018
+947 Technical and management o | 2011 2018
+.z no entry                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Occupational sub-group - current/most recent (KldB 2010), 4-digit (beruf2010_4)
+
+------------------------------------------
+Occupational sub-group -       |
+current/most recent (KldB      |
+2010), 4-digit                 |  min  max
+-------------------------------+----------
+110 Commissioned officers      | 2011 2018
+120 Senior non-commissioned of | 2011 2018
+130 Junior non-commissioned of | 2011 2018
+140 Armed forces personnel in  | 2011 2018
+1110 Occupations in farming (w | 1975 2018
+1111 Technical occupations in  | 2011 2018
+1112 Agricultural experts      | 2011 2018
+1113 Technical laboratory occu | 2011 2018
+1118 Occupations in farming (w | 2011 2018
+1119 Supervisors and managers  | 1975 2018
+1121 Occupations in livestock  | 1975 2018
+1122 Occupations in poultry fa | 2011 2018
+1123 Occupations in beekeeping | 2011 2018
+1128 Occupations in animal hus | 2011 2018
+1129 Supervisors and managers  | 2011 2018
+1130 Occupations in horsekeepi | 2011 2018
+1131 Occupations in horse bree | 2011 2018
+1132 Occupations in horsekeepi | 2011 2018
+1133 Farrier                   | 2011 2018
+1134 Coachman                  | 1975 2018
+1139 Supervisors and managers  | 2011 2018
+1140 Occupations in fishing (w | 2011 2018
+1141 Occupations in fish farmi | 2011 2018
+1142 Occupations in fishery    | 1975 2018
+1149 Supervisors and managers  | 2011 2018
+1150 Occupations in animal car | 1975 2018
+1151 Occupations in livestock  | 2011 2018
+1152 Occupations in pet and zo | 2011 2018
+1158 Occupations in animal car | 2011 2018
+1159 Supervisors and managers  | 2011 2018
+1160 Occupations in vini- and  | 1975 2018
+1169 Supervisors and managers  | 2011 2018
+1171 Occupations in forestry   | 1975 2018
+1172 Occupations in landscape  | 2011 2018
+1173 Occupations in hunting an | 2011 2018
+1174 Picking and extracting pl | 2011 2018
+1179 Supervisors and managers  | 2011 2018
+1210 Occupations in gardening  | 1975 2018
+1211 Occupations in fruit and  | 2011 2018
+1212 Occupations in tree, pere | 2011 2018
+1213 Occupations in cemetery g | 2011 2018
+1214 Occupations in horticultu | 1975 2018
+1219 Supervisors and managers  | 2011 2018
+1220 Occupations in floristry  | 1975 2018
+1229 Supervisors and managers  | 2011 2018
+2111 Occupations in undergroun | 1975 2018
+2112 Occupations in blasting e | 1975 2018
+2119 Supervisors and managers  | 2011 2018
+2120 Conditioning and processi | 2011 2018
+2121 Conditioning and processi | 1975 2018
+2122 Production of building ma | 1975 2018
+2123 Occupations in stonemason | 1975 2018
+2129 Supervisors in conditioni | 2011 2018
+2131 Occupations in glass-maki | 1975 2018
+2132 Manufacturing of glass in | 2011 2018
+2133 Occupations in industrial | 1975 2018
+2134 Occupations in glass fini | 1975 2018
+2135 Occupations in adjusting  | 2011 2018
+2136 Occupations in precision  | 2011 2018
+2139 Supervisors in industrial | 2011 2018
+2141 Occupations in industrial | 1975 2018
+2142 Occupations in industrial | 2011 2018
+2149 Supervisors in industrial | 2011 2018
+2210 Occupations in plastic- a | 1975 2018
+2211 Technical occupations in  | 1975 2018
+2218 Occupations in plastic- a | 2011 2018
+2219 Supervisors in plastic- a | 2011 2018
+2220 Occupations in colour coa | 1975 2018
+2221 Vehicle paintwork         | 2011 2018
+2222 Occupations in varnishing | 2011 2018
+2229 Supervisors in colour coa | 2011 2018
+2230 Occupations in wood-worki | 1975 2018
+2231 Occupations in wood dryin | 2011 2018
+2232 Occupations producing woo | 2011 2018
+2233 Occupations producing fin | 1975 2018
+2234 Occupations in wood const | 2011 2018
+2235 Wickerwork manufacturers, | 1975 2018
+2238 Occupations in wood-worki | 1975 2018
+2239 Supervisors and managers  | 2011 2018
+2310 Technical occupations in  | 2011 2018
+2311 Occupations in paper-maki | 1975 2018
+2312 Occupations in paper-proc | 1975 2018
+2319 Supervisors in paper-maki | 2011 2018
+2321 Occupations in digital an | 1975 2018
+2322 Occupations in graphic, c | 1975 2018
+2328 Occupations in technical  | 2011 2018
+2329 Supervisors and managers  | 2011 2018
+2331 Occupations in photograph | 1975 2018
+2332 Occupations in photograph | 1975 2018
+2339 Supervisors in photograph | 2011 2018
+2341 Occupations in printing t | 1975 2018
+2342 Occupations in book bindi | 1975 2018
+2349 Supervisors in printing t | 2011 2018
+2410 Occupations in metal-maki | 2011 2018
+2411 Occupations in metallurgy | 1975 2018
+2412 Occupations in metal moul | 1975 2018
+2413 Occupations in industrial | 1975 2018
+2414 Occupations in manual met | 2011 2018
+2419 Supervisors in metal-maki | 2011 2018
+2420 Occupations in metalworki | 1975 2018
+2421 Occupations in  metalwork | 1975 2018
+2422 Occupations in metalworki | 1975 2018
+2423 Occupations in metalworki | 1975 2018
+2424 Occupations in laser-assi | 2011 2018
+2429 Supervisors in metalworki | 2011 2018
+2430 Occupations in treatment  | 1975 2018
+2438 Occupations in treatment  | 1975 2018
+2439 Supervisors in treatment  | 2011 2018
+2441 Occupations in metal cons | 1975 2018
+2442 Occupations in welding an | 1975 2018
+2443 Industrial divers and oth | 2011 2018
+2449 Supervisors in metal cons | 2011 2018
+2451 Occupations in precision  | 1975 2018
+2452 Occupations in tool makin | 1975 2018
+2453 Occupations in watchmakin | 1975 2018
+2459 Supervisors in precision  | 2011 2018
+2510 Occupations in machine-bu | 1975 2018
+2511 Machine and equipment ass | 1975 2018
+2512 Machine and plant operato | 1975 2018
+2513 Technical service staff i | 2011 2018
+2518 Occupations in machine-bu | 2011 2018
+2519 Supervisors and managers  | 2011 2018
+2520 Technical occupations in  | 2011 2018
+2521 Technical occupations in  | 1975 2018
+2522 Technical occupations, ag | 1975 2018
+2523 Technical occupations in  | 1975 2018
+2524 Technical occupations in  | 2011 2018
+2525 Technical occupations in  | 2011 2018
+2529 Supervisors and managers  | 2011 2018
+2611 Occupations in mechatroni | 2011 2018
+2612 Occupations in automation | 2011 2018
+2619 Supervisors in mechatroni | 2011 2018
+2621 Electricians in construct | 2011 2018
+2622 Technical occupations in  | 1975 2018
+2623 Technical occupations in  | 1975 2018
+2624 Occupations in renewable  | 2011 2018
+2625 Occupations in installing | 2011 2018
+2626 Occupations in installing | 2011 2018
+2629 Supervisors in energy tec | 2011 2018
+2630 Occupations in electrical | 1975 2018
+2631 Occupations in informatio | 1975 2018
+2632 Occupations in microsyste | 2011 2018
+2633 Occupations in aeronautic | 2011 2018
+2638 Occupations in electrical | 2011 2018
+2639 Supervisors in electrical | 2011 2018
+2710 Occupations in technical  | 1975 2018
+2718 Occupations in technical  | 2011 2018
+2719 Managers in technical res | 2011 2018
+2721 Draftspersons             | 1975 2018
+2722 Occupations in technical  | 2011 2018
+2723 Model makers              | 1975 2018
+2728 Technical draftspersons,  | 2011 2018
+2729 Supervisors and managers  | 2011 2018
+2730 Technical occupations in  | 1975 2018
+2731 Technical occupations in  | 1975 2018
+2739 Supervisors and managers  | 1975 2018
+2810 Occupations in textile ma | 2011 2018
+2811 Occupations in textile de | 1975 2018
+2812 Occupations in textile pr | 1975 2018
+2813 Occupations in spinning a | 1975 2018
+2814 Occupations in textile fi | 1975 2018
+2819 Supervisors and managers  | 2011 2018
+2821 Occupations in fashion de | 2011 2018
+2822 Occupations in the produc | 1975 2018
+2823 Occupations in manufactur | 1975 2018
+2824 Occupations in upholstery | 1975 2018
+2829 Supervisors and managers  | 2011 2018
+2830 Occupations in leather- a | 2011 2018
+2831 Occupations in leather ma | 1975 2018
+2832 Occupations in saddlery a | 1975 2018
+2833 Occupations in shoemaking | 1975 2018
+2834 Occupations in fur treatm | 1975 2018
+2839 Supervisors and managers  | 2011 2018
+2910 Occupations in beverage p | 1975 2018
+2911 Brewers and maltsters     | 1975 2018
+2912 Coopers                   | 1975 2018
+2913 Distillers                | 2011 2018
+2914 Occupations in fruit juic | 2011 2018
+2915 Tasters of foodstuffs and | 2011 2018
+2919 Supervisors and managers  | 2011 2018
+2920 Occupations in the produc | 2011 2018
+2921 Occupations in the produc | 1975 2018
+2922 Occupations in the produc | 1975 2018
+2923 Occupations in meat proce | 1975 2018
+2924 Occupations in fish proce | 1975 2018
+2925 Occupations in the produc | 1975 2018
+2926 Occupations in confection | 1975 2018
+2927 Occupations in the manufa | 1975 2018
+2928 Occupations in the produc | 1975 2018
+2929 Supervisors and managers  | 2011 2018
+2930 Cooks (without specialisa | 1975 2018
+2931 Hors d'œuvrier, pantry o  | 2011 2018
+2932 Roast, grill or fish cook | 2011 2018
+2938 Cooks (with specialisatio | 2011 2018
+2939 Supervisors and managers  | 2011 2018
+3110 Occupations in constructi | 1975 2018
+3111 Occupations in architectu | 2011 2018
+3112 Occupations in urban and  | 2011 2018
+3113 Occupations in the planni | 2011 2018
+3114 Occupations in water reso | 2011 2018
+3115 Occupations in the mainte | 2011 2018
+3116 Construction surveyors an | 2011 2018
+3117 Occupations in constructi | 2011 2018
+3119 Supervisors and managers  | 2011 2018
+3121 Occupations in surveying  | 1975 2018
+3122 Occupations in cartograph | 2011 2018
+3210 Occupations in building c | 1975 2018
+3211 Occupations in the constr | 1975 2018
+3212 Occupations in the brickl | 1975 2018
+3213 Occupations in chimney co | 2011 2018
+3214 Occupations in roofing    | 1975 2018
+3215 Occupations in facade con | 2011 2018
+3216 Occupations in scaffoldin | 1975 2018
+3217 Occupations in building d | 2011 2018
+3219 Supervisors in building c | 2011 2018
+3220 Occupations in civil engi | 1975 2018
+3221 Pavers and stone setters  | 1975 2018
+3222 Occupations in road and a | 1975 2018
+3223 Occupations in railroad c | 1975 2018
+3224 Occupations in well const | 2011 2018
+3225 Occupations in canal and  | 2011 2018
+3226 Occupations in land impro | 1975 2018
+3229 Supervisors in civil engi | 2011 2018
+3310 Floor layers (without spe | 2011 2018
+3311 Pavers, tile setters and  | 1975 2018
+3312 Composition floor and ter | 2011 2018
+3313 Parquet floor layers      | 2011 2018
+3319 Supervisors in floor layi | 2011 2018
+3321 Painters and varnishers   | 1975 2018
+3322 Plasterers                | 1975 2018
+3323 Occupations in the waterp | 2011 2018
+3324 Occupations in the preser | 2011 2018
+3329 Supervisors in the painti | 2011 2018
+3330 Occupations in the interi | 2011 2018
+3331 Occupations in insulation | 1975 2018
+3332 Carpenters                | 1975 2018
+3333 Joiners                   | 2011 2018
+3334 Glaziers                  | 1975 2018
+3335 Roller shutter and jalous | 2011 2018
+3339 Supervisors in interior c | 2011 2018
+3410 Occupations in building s | 2011 2018
+3411 Green keepers and equipme | 1975 2018
+3419 Supervisors in building s | 2011 2018
+3420 Occupations in plumping ( | 1975 2018
+3421 Occupations in sanitation | 1975 2018
+3422 Occupations in the constr | 1975 2018
+3423 Occupations in ventilatin | 2011 2018
+3429 Supervisors in sanitation | 2011 2018
+3430 Occupations in building s | 2011 2018
+3431 Technical occupations in  | 2011 2018
+3432 Occupations in pipeline c | 1975 2018
+3433 Occupations in waste mana | 1975 2018
+3434 Occupations in plant, ves | 1975 2018
+3439 Supervisors in building s | 2011 2018
+4110 Occupations in mathematic | 2011 2018
+4111 Occupations in statistics | 2011 2018
+4118 Occupations in mathematic | 2011 2018
+4119 Managers in mathematics a | 2011 2018
+4120 Occupations in biology (w | 1975 2018
+4121 Biological technical labo | 1975 2018
+4122 Occupations in the prepar | 2011 2018
+4123 Occupations in ecology    | 2011 2018
+4124 Occupations in botany     | 2011 2018
+4125 Occupations in zoology    | 2011 2018
+4126 Occupations in microbiolo | 2011 2018
+4127 Occupations in human biol | 2011 2018
+4128 Occupations in biology (w | 2011 2018
+4129 Supervisors and managers  | 2011 2018
+4130 Occupations in chemistry  | 1975 2018
+4131 Occupations in chemical a | 1975 2018
+4132 Chemical technical labora | 1975 2018
+4133 Operators of chemical pro | 2011 2018
+4134 Operators of oil and gas  | 2011 2018
+4138 Occupations in chemistry  | 2011 2018
+4139 Supervisors and managers  | 2011 2018
+4140 Occupations in physics (w | 1975 2018
+4141 Occupations in physical t | 1975 2018
+4142 Occupations in material e | 2011 2018
+4143 Occupations in constructi | 2011 2018
+4148 Occupations in physics (w | 2011 2018
+4149 Supervisors and managers  | 2011 2018
+4211 Occupations in geotechnic | 2011 2018
+4212 Occupations in geology    | 2011 2018
+4213 Occupations in geography  | 2011 2018
+4214 Occupations in meteorolog | 2011 2018
+4220 Occupations in environmen | 2011 2018
+4221 Chimney sweeps            | 1975 2018
+4228 Occupations in environmen | 2011 2018
+4229 Supervisors in environmen | 2011 2018
+4231 Occupations in environmen | 2011 2018
+4232 Water pollution and emiss | 2011 2018
+4233 Radiation protection comm | 2011 2018
+4239 Managers in environmental | 2011 2018
+4310 Occupations in computer s | 1975 2018
+4311 Occupations in business i | 2011 2018
+4312 Occupations in computer e | 2011 2018
+4313 Occupations in bio- and m | 2011 2018
+4314 Occupations in geoinforma | 2011 2018
+4315 Occupations in media info | 2011 2018
+4319 Managers in computer scie | 2011 2018
+4321 Occupations in IT-system- | 2011 2018
+4322 Occupations in IT-applica | 2011 2018
+4323 Occupations in IT-sales   | 2011 2018
+4329 Managers in IT-system-ana | 2011 2018
+4331 Occupations in IT-network | 2011 2018
+4332 Occupations in IT-coordin | 2011 2018
+4333 Occupations in IT-organis | 2011 2018
+4334 Occupations in IT-system- | 2011 2018
+4335 Occupations in database d | 2011 2018
+4336 Occupations in web admini | 2011 2018
+4338 Occupations in IT-network | 2011 2018
+4339 Managers in IT-network en | 2011 2018
+4341 Occupations in software d | 2011 2018
+4342 Occupations in programmin | 2011 2018
+4349 Managers in software deve | 2011 2018
+5111 Technical occupations in  | 2011 2018
+5112 Technical occupations in  | 2011 2018
+5113 Technical occupations in  | 1975 2018
+5118 Technical occupations in  | 1975 2018
+5119 Supervisors in railway, a | 2011 2018
+5121 Road and tunnel inspectio | 1975 2018
+5122 Occupations in the inspec | 2011 2018
+5123 Technical occupations in  | 2011 2018
+5124 Waterway and bridges insp | 1975 2018
+5129 Supervisors in the inspec | 2011 2018
+5131 Occupations in warehousin | 1975 2018
+5132 Occupations in postal and | 1975 2018
+5133 Occupations in cargo hand | 1975 2018
+5139 Supervisors and managers  | 2011 2018
+5141 Service occupations in ro | 2011 2018
+5142 Service occupations in ai | 2011 2018
+5143 Service occupations in sh | 2011 2018
+5149 Supervisors of service pe | 2011 2018
+5150 Occupations in traffic su | 2011 2018
+5151 Occupations in the survei | 1975 2018
+5152 Occupations in the survei | 1975 2018
+5153 Occupations in the survei | 2011 2018
+5154 Occupations in the survei | 2011 2018
+5158 Occupations in traffic su | 2011 2018
+5159 Supervisors and managers  | 2011 2018
+5161 Management assistants in  | 2011 2018
+5162 Forwarding agents and man | 1975 2018
+5163 Management assistants in  | 2011 2018
+5164 Management assistants in  | 2011 2018
+5165 Management assistants in  | 2011 2018
+5166 Management assistants in  | 2011 2018
+5169 Managers in transport and | 2011 2018
+5211 Professional drivers (pas | 2011 2018
+5212 Professional drivers (car | 1975 2018
+5213 Bus and tram drivers      | 2011 2018
+5218 Drivers of vehicles in ro | 2011 2018
+5220 Drivers of train engines  | 1975 2018
+5231 Pilots of planes and airl | 1975 2018
+5238 Aircraft pilots (with spe | 2011 2018
+5241 Deck officers/mates and s | 1975 2018
+5242 Ship’s masters in inlan   | 1975 2018
+5251 Drivers of agricultural a | 2011 2018
+5252 Drivers of earthmoving an | 1975 2018
+5253 Operators of cranes, lift | 1975 2018
+5259 Supervisors of drivers an | 2011 2018
+5311 Occupations in physical s | 1975 2018
+5312 Occupations focusing on w | 2011 2018
+5313 Occupations in fire prote | 1975 2018
+5314 Pool attendants and lifeg | 2011 2018
+5315 Private detectives        | 2011 2018
+5316 Debt collectors           | 2011 2018
+5318 Occupations in physical s | 2011 2018
+5319 Supervisors and managers  | 2011 2018
+5321 Uniformed police personne | 1975 2018
+5322 Detectives and police off | 2011 2018
+5323 Court officers            | 2011 2018
+5324 Police officers in penal  | 1975 2018
+5331 Occupations in occupation | 1975 2018
+5332 Occupations in public hea | 1975 2018
+5333 Occupations in food contr | 2011 2018
+5334 Occupations in disinfecti | 2011 2018
+5339 Supervisors and managers  | 2011 2018
+5410 Occupations in cleaning s | 1975 2018
+5411 Occupations in building c | 2011 2018
+5412 Occupations in glass and  | 1975 2018
+5413 Occupations in textile cl | 1975 2018
+5414 Occupations in machine an | 1975 2018
+5415 Occupations in vehicle cl | 1975 2018
+5418 Occupations in cleaning s | 2011 2018
+5419 Supervisors in cleaning s | 2011 2018
+6111 Occupations in purchasing | 2011 2018
+6112 Occupations in sales (exc | 1975 2018
+6113 Trade brokers and auction | 1975 2018
+6114 Occupations in placing an | 2011 2018
+6115 Money lenders and pawn br | 2011 2018
+6116 Occupations in rental ser | 2011 2018
+6119 Managers in purchasing an | 2011 2018
+6120 Management assistants in  | 2011 2018
+6121 Management assistants in  | 1975 2018
+6128 Management assistants in  | 2011 2018
+6129 Managers in trade         | 2011 2018
+6131 Occupations in real estat | 2011 2018
+6132 Occupations in facility m | 2011 2018
+6139 Managers in real estate a | 2011 2018
+6210 Sales occupations in reta | 1975 2018
+6211 Cashiers and ticket agent | 1975 2018
+6212 Stall and market sellers  | 2011 2018
+6218 Sales occupations in reta | 1975 2018
+6219 Supervisors and managers  | 2011 2018
+6221 Sales occupations (retail | 2011 2018
+6222 Sales occupations (retail | 2011 2018
+6223 Sales occupations (retail | 2011 2018
+6224 Sales occupations (retail | 2011 2018
+6225 Sales occupations (retail | 2011 2018
+6226 Sales occupations (retail | 2011 2018
+6227 Sales occupations (retail | 2011 2018
+6228 Sales occupations in reta | 1975 2018
+6230 Sales occupations (retail | 2011 2018
+6231 Sales occupations (retail | 2011 2018
+6232 Sales occupations (retail | 2011 2018
+6238 Sales occupations (retail | 2011 2018
+6241 Sales occupations (retail | 1975 2018
+6242 Sales occupations (retail | 2011 2018
+6251 Sales occupations (retail | 2011 2018
+6252 Sales occupations (retail | 2011 2018
+6253 Sales occupations (retail | 2011 2018
+6311 Management assistants in  | 1975 2018
+6312 Management assistants in  | 2011 2018
+6313 Animators and guest atten | 2011 2018
+6314 Tourist guides and tour g | 2011 2018
+6319 Managers in tourism and t | 2011 2018
+6321 Management assistants in  | 1975 2018
+6322 Occupations in hotel serv | 2011 2018
+6329 Supervisors and managers  | 2011 2018
+6330 Gastronomy occupations (w | 1975 2018
+6331 Occupations in system cat | 2011 2018
+6332 Barkeepers                | 1975 2018
+6338 Gastronomy occupations (w | 2011 2018
+6339 Supervisors and managers  | 2011 2018
+6340 Occupations in event orga | 2011 2018
+7110 Managing directors and ex | 2011 2018
+7121 Legislators               | 1975 2018
+7122 Senior officials of speci | 1975 2018
+7123 Elected employee represen | 2011 2018
+7130 Occupations in business a | 2011 2018
+7131 Occupations in business o | 2011 2018
+7132 Occupations in business c | 1975 2018
+7133 Occupations in business d | 2011 2018
+7138 Occupations in business o | 2011 2018
+7139 Supervisors and managers  | 1975 2018
+7140 Office clerks and secreta | 1975 2018
+7141 Foreign language secretar | 2011 2018
+7142 Interpreters and translat | 1975 2018
+7143 Shorthand and audio typis | 1975 2018
+7144 Coders, proof readers and | 1975 2018
+7145 Customer or passenger inf | 2011 2018
+7149 Supervisors of office cle | 2011 2018
+7151 Occupations in human reso | 2011 2018
+7152 Occupations in recruiting | 1975 2018
+7159 Managers in human resourc | 2011 2018
+7211 Bankers                   | 1975 2018
+7212 Investment consultants an | 2011 2018
+7213 Insurance salespersons    | 1975 2018
+7214 Financial analysts        | 2011 2018
+7218 Occupations in insurance  | 2011 2018
+7219 Managers in insurance and | 2011 2018
+7221 Occupations in accounting | 1975 2018
+7222 Occupations in cost accou | 1975 2018
+7223 Occupations in controllin | 2011 2018
+7224 Occupations in auditing   | 2011 2018
+7229 Managers in accounting, c | 2011 2018
+7230 Occupations in tax consul | 1975 2018
+7310 Occupations in legal serv | 2011 2018
+7311 Assistants in lawyers’    | 2011 2018
+7312 Notaries                  | 2011 2018
+7313 Lawyers                   | 1975 2018
+7314 Prosecutors               | 2011 2018
+7315 Judges                    | 1975 2018
+7316 Occupations in the nation | 2012 2018
+7318 Occupations in legal serv | 2011 2018
+7319 Managers in legal service | 2011 2018
+7320 Occupations in public adm | 2011 2018
+7321 Occupations in the social | 2011 2018
+7322 Administrative occupation | 2011 2018
+7323 Occupations in tax admini | 2011 2018
+7324 Occupations in the custom | 2011 2018
+7325 Occupations in the admini | 1975 2018
+7328 Occupations in public adm | 2011 2018
+7329 Supervisors and managers  | 1975 2018
+7331 Occupations in archiving  | 2011 2018
+7332 Library occupations       | 2011 2018
+7333 Occupations in documentat | 1975 2018
+7334 Occupations in medical do | 2011 2018
+7339 Managers in media, docume | 2011 2018
+8110 Medical assistants (witho | 1975 2018
+8111 Dental assistants         | 2011 2018
+8112 Podologists               | 2011 2018
+8113 Orthoptists               | 2011 2018
+8114 Veterinary assistants     | 2011 2018
+8118 Medical assistants (with  | 2011 2018
+8121 Technical laboratory occu | 1975 2018
+8122 Technical occupations in  | 2011 2018
+8123 Technical occupations in  | 2011 2018
+8124 Technical occupations in  | 2011 2018
+8129 Managers in medical labor | 2011 2018
+8130 Occupations in nursing (w | 1975 2018
+8131 Occupations in nursing sp | 2011 2018
+8132 Occupations in nursing sp | 2011 2018
+8133 Surgical and medico-techn | 2011 2018
+8134 Occupations in emergency  | 2011 2018
+8135 Occupations in obstetrics | 2011 2018
+8138 Occupations in nursing (w | 2011 2018
+8139 Supervisors and managers  | 2011 2018
+8140 Medical doctors (without  | 1975 2018
+8141 Medical doctors specialis | 2011 2018
+8142 Medical doctors specialis | 2011 2018
+8143 Medical doctors specialis | 2011 2018
+8144 Medical doctors specialis | 2011 2018
+8145 Medical doctors specialis | 2011 2018
+8146 Medical doctors specialis | 2011 2018
+8147 Dentists and orthodontist | 1975 2018
+8148 Medical doctors (with spe | 2011 2018
+8149 Managers in human medicin | 2011 2018
+8150 Veterinaries (without spe | 1975 2018
+8151 Veterinaries for large an | 2011 2018
+8152 Veterinaries for pets     | 2011 2018
+8153 Non-medical animal health | 2012 2018
+8158 Occupations in veterinary | 2011 2018
+8159 Managers in veterinary me | 2011 2018
+8161 Occupations in non-clinic | 2011 2018
+8162 Occupations in clinical p | 2011 2018
+8163 Occupations in non-medica | 2011 2018
+8171 Occupations in physiother | 1975 2018
+8172 Occupations in occupation | 2011 2018
+8173 Occupations in speech the | 2011 2018
+8174 Occupations in music and  | 2011 2018
+8175 Practitioners of alternat | 1975 2018
+8176 Dieticians and Nutritioni | 2011 2018
+8178 Occupations in non-medica | 2011 2018
+8179 Managers in non-medical t | 2011 2018
+8180 Pharmacists               | 1975 2018
+8181 Medical doctors specialis | 2011 2018
+8182 Pharmaceutical-technical  | 1975 2018
+8188 Occupations in pharmacy ( | 2011 2018
+8189 Managers in pharmacy      | 2011 2018
+8210 Occupations in geriatric  | 2011 2018
+8218 Occupations in geriatric  | 2011 2018
+8219 Managers in geriatric car | 2011 2018
+8221 Occupations providing hea | 2011 2018
+8222 Occupations in wellness   | 2011 2018
+8223 Occupations providing nut | 2011 2018
+8224 Quality assurance represe | 2011 2018
+8228 Occupations providing nut | 2011 2018
+8231 Occupations in hairdressi | 1975 2018
+8232 Occupations in cosmetics  | 1975 2018
+8233 Tattooists and piercers   | 2011 2018
+8234 Make-up artists           | 2011 2018
+8239 Supervisors in body care  | 2011 2018
+8240 Occupations in funeral se | 2011 2018
+8249 Supervisors and managers  | 2011 2018
+8250 Technical occupations in  | 2011 2018
+8251 Technical occupations in  | 2011 2018
+8252 Occupations in ophthalmic | 1975 2018
+8253 Occupations in hearing-ai | 2011 2018
+8254 Technical occupations in  | 1975 2018
+8259 Supervisors and managers  | 2011 2018
+8311 Occupations in child care | 1975 2018
+8312 Occupations in social wor | 1975 2018
+8313 Pedagogic specialists in  | 2011 2018
+8314 Social care workers speci | 2011 2018
+8315 Occupations in social, ed | 2011 2018
+8319 Supervisors and managers  | 2011 2018
+8321 Occupations in housekeepi | 1975 2018
+8322 Occupations in consumer c | 1975 2018
+8329 Supervisors in housekeepi | 2011 2018
+8331 Occupations in theology   | 1975 2018
+8332 Occupations in church com | 1975 2018
+8333 Members of religious orde | 1975 2018
+8338 Occupations in theology a | 2011 2018
+8339 Managers in theology and  | 2011 2018
+8411 Teachers in primary educa | 2011 2018
+8412 Teachers in secondary edu | 1975 2018
+8413 Teachers in schools for s | 2011 2018
+8414 Occupations in teacher tr | 2011 2018
+8418 Teachers in schools of ge | 2011 2018
+8419 Managers in schools of ge | 2011 2018
+8421 Teachers for occupation-s | 1975 2018
+8422 In-company instructors in | 2011 2018
+8429 Managers in vocational sc | 2011 2018
+8430 Teachers and researcher a | 1975 2018
+8439 Managers at universities  | 2011 2018
+8440 Teachers in adult educati | 1975 2018
+8441 Occupations in music educ | 1975 2018
+8442 Occupations in religious  | 2011 2018
+8443 Occupations in art and th | 2011 2018
+8444 Occupations in IT-applica | 2011 2018
+8445 (Foreign) Language teache | 2011 2018
+8448 Teachers at educational i | 2011 2018
+8449 Managers at educational i | 2011 2018
+8450 Sports instructors (witho | 1975 2018
+8451 Driving instructors       | 2011 2018
+8452 Flying instructors        | 2011 2018
+8453 Dance instructors         | 2011 2018
+8454 Coaches in ball sports    | 2011 2018
+8455 Trainer in fitness and gy | 2011 2018
+8458 Sports instructors (with  | 2011 2018
+9110 Occupations in philology  | 1975 2018
+9111 Occupations in German phi | 2011 2018
+9112 Occupations in English an | 2011 2018
+9113 Occupations in Romance ph | 2011 2018
+9114 Occupations in Slavic phi | 2012 2018
+9115 Occupations in Arabic and | 2011 2018
+9116 Occupations in Asian phil | 2012 2018
+9117 Occupations in Classics   | 2011 2018
+9118 Occupations in philology  | 2011 2018
+9121 Occupations in philosophy | 2011 2018
+9122 Occupations in history    | 2011 2018
+9123 Occupations in archaeolog | 2011 2018
+9124 Occupations in media scie | 2011 2018
+9125 Occupations in regional s | 2011 2018
+9126 Occupations in anthropolo | 2011 2018
+9131 Occupations in political  | 2011 2018
+9132 Occupations in sociology  | 2011 2018
+9133 Occupations in pedagogy   | 2011 2018
+9134 Occupations in market and | 2011 2018
+9135 Occupations in demography | 2011 2018
+9138 Occupations in the social | 2011 2018
+9140 Occupations in economics  | 1975 2018
+9148 Occupations in economics  | 2011 2018
+9211 Occupations in advertisin | 1975 2018
+9212 Occupations in dialog mar | 2011 2018
+9213 Occupations in customer m | 2011 2018
+9219 Managers in advertising a | 2011 2018
+9220 Occupations in public rel | 2011 2018
+9229 Managers in public relati | 2011 2018
+9230 Occupations in publishing | 1975 2018
+9238 Occupations in publishing | 2011 2018
+9239 Managers in publishing an | 2011 2018
+9241 Editors and journalists   | 1975 2018
+9242 Copy editors              | 2011 2018
+9243 Authors and writers       | 2011 2018
+9249 Managers in editorial wor | 2011 2018
+9310 Occupations in product an | 2011 2018
+9321 Occupations in interior d | 2011 2018
+9322 Occupations in visual mar | 1975 2018
+9323 Occupations in interior d | 1975 2018
+9329 Supervisors in interior d | 2011 2018
+9330 Occupations in artisan cr | 2011 2018
+9331 Occupations in sculpting  | 2011 2018
+9332 Painters and illustrators | 2011 2018
+9333 Occupations in turnery an | 1975 2018
+9334 Gilders                   | 2011 2018
+9335 Chandlers                 | 2011 2018
+9338 Occupations in artisan cr | 2011 2018
+9339 Supervisors in artisan cr | 2011 2018
+9341 Artisans designing cerami | 2011 2018
+9342 Artisans painting glasswa | 1975 2018
+9343 Artisans working in glass | 2011 2018
+9349 Supervisors in artisan cr | 2011 2018
+9351 Artisans working with met | 2011 2018
+9352 Artisans producing jewell | 1975 2018
+9353 Engravers                 | 1975 2018
+9354 Producers of advertising  | 1975 2018
+9359 Supervisors of artisans w | 2011 2018
+9360 Occupations in musical in | 1975 2018
+9361 Occupations making bowed  | 2011 2018
+9362 Occupations making woodwi | 2011 2018
+9363 Occupations making brass  | 2011 2018
+9364 Occupations making pianos | 2011 2018
+9365 Occupations making organs | 2011 2018
+9368 Occupations in musical in | 2011 2018
+9369 Supervisors in musical in | 2011 2018
+9411 Musicians                 | 1975 2018
+9412 Singers                   | 2011 2018
+9413 Conductors                | 2011 2018
+9414 Composers                 | 2011 2018
+9418 Musicians, singers and co | 2011 2018
+9421 Actors                    | 1975 2018
+9422 Dancers and choreographer | 2011 2018
+9423 Models                    | 2011 2018
+9424 Athletes and professional | 2011 2018
+9425 Occupations in personal e | 2011 2018
+9428 Occupations in acting, da | 1975 2018
+9430 Presenters and entertaine | 2011 2018
+9431 Comedians and cabaret art | 2011 2018
+9432 Magicians and illusionist | 2011 2018
+9433 Radio and television pres | 2011 2018
+9434 Occupations in gambling a | 2011 2018
+9438 Occupations in presentati | 2011 2018
+9440 Occupations in theatre, f | 2011 2018
+9441 Occupations in managing t | 2011 2018
+9448 Occupations in theatre, f | 2011 2018
+9449 Supervisors and managers  | 2011 2018
+9451 Technical occupation in e | 2011 2018
+9452 Cinematographers, camera  | 2011 2018
+9453 Technical occupations in  | 1975 2018
+9458 Occupations in event tech | 2011 2018
+9459 Supervisors in event tech | 2011 2018
+9461 Occupations in stage and  | 2011 2018
+9462 Prop designers            | 2011 2018
+9469 Supervisors in stage, cos | 2011 2018
+9470 Occupations in museums (w | 2011 2018
+9471 Technical occupations in  | 2011 2018
+9472 Art experts               | 2011 2018
+9479 Managers in museum        | 2011 2018
+.z no entry                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Level of requirement - current/most recent job (KldB 2010) (niveau)
+
+------------------------------------------
+Level of requirement -         |
+current/most recent job (KldB  |
+2010)                          |  min  max
+-------------------------------+----------
+1 Unskilled/semiskilled task   | 1975 2018
+2 Skilled task                 | 1975 2018
+3 Complex task                 | 1975 2018
+4 Highly complex task          | 1975 2018
+.z no entry                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Part-time (teilzeit)
+
+------------------------------------------
+                     Part-time |  min  max
+-------------------------------+----------
+0 Full-time                    | 1975 2018
+1 Part-time                    | 1975 2018
+.z no entry                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Occupational status and working hours (stib)
+
+------------------------------------------
+Occupational status and        |
+working hours                  |  min  max
+-------------------------------+----------
+0 In vocational training       | 1975 2010
+1 Unskilled workers            | 1975 2010
+2 Skilled workers              | 1975 2010
+3 Master craftsmen, foremen (b | 1975 2010
+4 Employees (excl. employed ma | 1975 2010
+7 Home workers, Freelance home | 1975 2010
+8 Part-time up to half of full | 1975 2010
+9 Part-time more than half of  | 1975 2010
+.n n/a                         | 2011 2018
+.z no entry                    | 1975 2010
+------------------------------------------
+
+________________________________________________________________________________
+
+Employment status (erwstat)
+
+------------------------------------------
+             Employment status |  min  max
+-------------------------------+----------
+101 Employees liable to social | 1975 2018
+102 Trainees without special c | 1975 2018
+103 Employees in partial retir | 1989 2018
+104 Freelance home workers     | 1995 2018
+105 Interns                    | 1993 2018
+106 Student trainees           | 1994 2018
+109 Marginal part-time workers | 1999 2018
+112 Family-member workers in a | 1993 2018
+118 Unsteady workers           | 1993 2018
+119 Retired persons exempt fro | 1993 2018
+120 Retired persons with compu | 1999 2018
+121 Trainees (below marginal p | 2012 2018
+122 Trainees (external (on-sch | 2012 2018
+123 Voluntary social or ecolog | 2012 2018
+124 Home workers               | 2012 2018
+140 Sailors                    | 1993 2018
+141 Trainees in maritime shipp | 1996 2018
+143 Maritime pilots            | 2004 2018
+149 Retired persons exempt fro | 2003 2018
+201 Employees (household chequ | 1975 2003
+203 Artists and publicists wit | 1975 2002
+205 Unsteady workers           | 1993 2013
+209 Marginal part-time workers | 1999 2018
+599 Others in labour force     | 1975 2018
+.z no entry                    | 1975 1998
+------------------------------------------
+
+________________________________________________________________________________
+
+Transition zone (gleitz)
+
+------------------------------------------
+               Transition zone |  min  max
+-------------------------------+----------
+0 No transition zone           | 2003 2018
+1 Transition zone              | 2003 2018
+2 Mixed case                   | 2003 2018
+.n n/a                         | 1975 2002
+.z no entry                    | 2003 2003
+------------------------------------------
+
+________________________________________________________________________________
+
+Temporary agency work (leih)
+
+------------------------------------------
+         Temporary agency work |  min  max
+-------------------------------+----------
+0 No temporary agency work     | 2011 2018
+1 Temporary agency work        | 2011 2018
+.z no entry                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Fixed-term contract (befrist)
+
+------------------------------------------
+           Fixed-term contract |  min  max
+-------------------------------+----------
+0 permanent contract           | 2011 2018
+1 fixed-term contract          | 2011 2018
+.z no entry                    | 1975 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Reason of cancellation/notification/termination (grund)
+
+------------------------------------------
+Reason of                      |
+cancellation/notification/term |
+ination                        |  min  max
+-------------------------------+----------
+30 Deregistration due to end o | 1975 2018
+31 Deregistration due to chang | 1993 2018
+32 Deregistration due to chang | 1993 2018
+33 Deregistration for other re | 1975 2018
+34 Deregistration due to inter | 1993 2018
+35 Deregistration due to inter | 1994 2018
+36 Deregistration due to chang | 1994 2018
+40 Simultaneous registration a | 1993 2018
+49 Deregistration due to death | 1977 2018
+50 Annual notification         | 1975 2018
+51 Employment interruption not | 1975 2018
+52 Employment interruption not | 1993 2018
+53 Employment interruption not | 1993 2018
+54 Notification of a lump sum  | 1975 2018
+55 Notification of credit not  | 1999 2018
+56 Notification of the differe | 1999 2018
+57 Special notification accord | 2007 2018
+59 Renumeration notification f | 1993 2013
+70 Annual notification for emp | 2007 2018
+71 Notification because of ins | 2007 2018
+72 Notification at the legal e | 2007 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Duration of unemployment (alo_dau)
+
+------------------------------------------------------
+                      Variable | min(start)   max(end)
+-------------------------------+----------------------
+                               |       1975       2018
+------------------------------------------------------
+
+________________________________________________________________________________
+
+Place of residence - district (Kreis) (wo_kreis)
+
+------------------------------------------
+Place of residence - district  |
+(Kreis)                        |  min  max
+-------------------------------+----------
+0 Other foreign countries      | 1999 2018
+124 Belgium                    | 1999 2018
+126 Denmark                    | 1999 2018
+129 France                     | 1999 2018
+131 Slovenia                   | 1999 2018
+137 Italy                      | 1999 2018
+143 Luxembourg                 | 1999 2018
+148 Netherlands                | 1999 2018
+151 Austria                    | 1999 2018
+152 Poland                     | 1999 2018
+155 Slovakia                   | 1999 2018
+158 Switzerland                | 1999 2018
+163 Turkey                     | 1999 2018
+164 Czech Republic             | 1999 2018
+1001 Flensburg, City           | 1999 2018
+1002 Kiel, Capital of the Fede | 1999 2018
+1003 Luebeck, Hanseatic City   | 1999 2018
+1004 Neumuenster, City         | 1999 2018
+1051 Dithmarschen              | 1999 2018
+1053 Herzogtum Lauenburg       | 1999 2018
+1054 Nordfriesland             | 1999 2018
+1055 Ostholstein               | 1999 2018
+1056 Pinneberg                 | 1999 2018
+1057 Ploen                     | 1999 2018
+1058 Rendsburg-Eckernfoerde    | 1999 2018
+1059 Schleswig-Flensburg       | 1999 2018
+1060 Segeberg                  | 1999 2018
+1061 Steinburg                 | 1999 2018
+1062 Stormarn                  | 1999 2018
+2000 Hamburg, Free and Hanseat | 1999 2018
+3101 Braunschweig, City        | 1999 2018
+3102 Salzgitter, City          | 1999 2018
+3103 Wolfsburg, City           | 1999 2018
+3151 Gifhorn                   | 1999 2018
+3153 Goslar                    | 1999 2018
+3154 Helmstedt                 | 1999 2018
+3155 Northeim                  | 1999 2018
+3157 Peine                     | 1999 2018
+3158 Wolfenbuettel             | 1999 2018
+3159 Goettingen                | 1999 2018
+3241 Region Hannover           | 1999 2018
+3251 Diepholz                  | 1999 2018
+3252 Hameln-Pyrmont            | 1999 2018
+3254 Hildesheim                | 1999 2018
+3255 Holzminden                | 1999 2018
+3256 Nienburg (Weser)          | 1999 2018
+3257 Schaumburg                | 1999 2018
+3351 Celle                     | 1999 2018
+3352 Cuxhaven                  | 1999 2018
+3353 Harburg                   | 1999 2018
+3354 Luechow-Dannenberg        | 1999 2018
+3355 Lueneburg                 | 1999 2018
+3356 Osterholz                 | 1999 2018
+3357 Rotenburg (Wuemme)        | 1999 2018
+3358 Heidekreis                | 1999 2018
+3359 Stade                     | 1999 2018
+3360 Uelzen                    | 1999 2018
+3361 Verden                    | 1999 2018
+3401 Delmenhorst, City         | 1999 2018
+3402 Emden, City               | 1999 2018
+3403 Oldenburg (Oldenburg), Ci | 1999 2018
+3404 Osnabrueck, City          | 1999 2018
+3405 Wilhelmshaven, City       | 1999 2018
+3451 Ammerland                 | 1999 2018
+3452 Aurich                    | 1999 2018
+3453 Cloppenburg               | 1999 2018
+3454 Emsland                   | 1999 2018
+3455 Friesland                 | 1999 2018
+3456 Grafschaft Bentheim       | 1999 2018
+3457 Leer                      | 1999 2018
+3458 Oldenburg                 | 1999 2018
+3459 Osnabrueck                | 1999 2018
+3460 Vechta                    | 1999 2018
+3461 Wesermarsch               | 1999 2018
+3462 Wittmund                  | 1999 2018
+4011 Bremen, City              | 1999 2018
+4012 Bremerhaven, City         | 1999 2018
+5111 Duesseldorf, City         | 1999 2018
+5112 Duisburg, City            | 1999 2018
+5113 Essen, City               | 1999 2018
+5114 Krefeld, City             | 1999 2018
+5116 Moenchengladbach, City    | 1999 2018
+5117 Muelheim an der Ruhr, Cit | 1999 2018
+5119 Oberhausen, City          | 1999 2018
+5120 Remscheid, City           | 1999 2018
+5122 Solingen, City            | 1999 2018
+5124 Wuppertal, City           | 1999 2018
+5154 Kleve                     | 1999 2018
+5158 Mettmann                  | 1999 2018
+5162 Rhein-Kreis Neuss         | 1999 2018
+5166 Viersen                   | 1999 2018
+5170 Wesel                     | 1999 2018
+5314 Bonn, City                | 1999 2018
+5315 Koeln, City               | 1999 2018
+5316 Leverkusen, City          | 1999 2018
+5334 Staedteregion Aachen      | 1999 2018
+5358 Dueren                    | 1999 2018
+5362 Rhein-Erft-Kreis          | 1999 2018
+5366 Euskirchen                | 1999 2018
+5370 Heinsberg                 | 1999 2018
+5374 Oberbergischer Kreis      | 1999 2018
+5378 Rheinisch-Bergischer Krei | 1999 2018
+5382 Rhein-Sieg-Kreis          | 1999 2018
+5512 Bottrop, City             | 1999 2018
+5513 Gelsenkirchen, City       | 1999 2018
+5515 Muenster, City            | 1999 2018
+5554 Borken                    | 1999 2018
+5558 Coesfeld                  | 1999 2018
+5562 Recklinghausen            | 1999 2018
+5566 Steinfurt                 | 1999 2018
+5570 Warendorf                 | 1999 2018
+5711 Bielefeld, City           | 1999 2018
+5754 Guetersloh                | 1999 2018
+5758 Herford                   | 1999 2018
+5762 Hoexter                   | 1999 2018
+5766 Lippe                     | 1999 2018
+5770 Minden-Luebbecke          | 1999 2018
+5774 Paderborn                 | 1999 2018
+5911 Bochum, City              | 1999 2018
+5913 Dortmund, City            | 1999 2018
+5914 Hagen, City               | 1999 2018
+5915 Hamm, City                | 1999 2018
+5916 Herne, City               | 1999 2018
+5954 Ennepe-Ruhr-Kreis         | 1999 2018
+5958 Hochsauerlandkreis        | 1999 2018
+5962 Maerkischer Kreis         | 1999 2018
+5966 Olpe                      | 1999 2018
+5970 Siegen-Wittgenstein       | 1999 2018
+5974 Soest                     | 1999 2018
+5978 Unna                      | 1999 2018
+6411 Darmstadt, City           | 1999 2018
+6412 Frankfurt am Main, City   | 1999 2018
+6413 Offenbach am Main, City   | 1999 2018
+6414 Wiesbaden, Capital of the | 1999 2018
+6431 Bergstrasse               | 1999 2018
+6432 Darmstadt-Dieburg         | 1999 2018
+6433 Gross-Gerau               | 1999 2018
+6434 Hochtaunuskreis           | 1999 2018
+6435 Main-Kinzig-Kreis         | 1999 2018
+6436 Main-Taunus-Kreis         | 1999 2018
+6437 Odenwaldkreis             | 1999 2018
+6438 Offenbach                 | 1999 2018
+6439 Rheingau-Taunus-Kreis     | 1999 2018
+6440 Wetteraukreis             | 1999 2018
+6531 Giessen                   | 1999 2018
+6532 Lahn-Dill-Kreis           | 1999 2018
+6533 Limburg-Weilburg          | 1999 2018
+6534 Marburg-Biedenkopf        | 1999 2018
+6535 Vogelsbergkreis           | 1999 2018
+6611 Kassel, City              | 1999 2018
+6631 Fulda                     | 1999 2018
+6632 Hersfeld-Rotenburg        | 1999 2018
+6633 Kassel                    | 1999 2018
+6634 Schwalm-Eder-Kreis        | 1999 2018
+6635 Waldeck-Frankenberg       | 1999 2018
+6636 Werra-Meissner-Kreis      | 1999 2018
+7111 Koblenz, City             | 1999 2018
+7131 Ahrweiler                 | 1999 2018
+7132 Altenkirchen (Westerwald) | 1999 2018
+7133 Bad Kreuznach             | 1999 2018
+7134 Birkenfeld                | 1999 2018
+7135 Cochem-Zell               | 1999 2018
+7137 Mayen-Koblenz             | 1999 2018
+7138 Neuwied                   | 1999 2018
+7140 Rhein-Hunsrueck-Kreis     | 1999 2018
+7141 Rhein-Lahn-Kreis          | 1999 2018
+7143 Westerwaldkreis           | 1999 2018
+7211 Trier, City               | 1999 2018
+7231 Bernkastel-Wittlich       | 1999 2018
+7232 Eifelkreis Bitburg-Pruem  | 1999 2018
+7233 Vulkaneifel               | 1999 2018
+7235 Trier-Saarburg            | 1999 2018
+7311 Frankenthal (Pfalz), City | 1999 2018
+7312 Kaiserslautern, City      | 1999 2018
+7313 Landau in der Pfalz, City | 1999 2018
+7314 Ludwigshafen am Rhein, Ci | 1999 2018
+7315 Mainz, City               | 1999 2018
+7316 Neustadt an der Weinstras | 1999 2018
+7317 Pirmasens, City           | 1999 2018
+7318 Speyer, City              | 1999 2018
+7319 Worms, City               | 1999 2018
+7320 Zweibruecken, City        | 1999 2018
+7331 Alzey-Worms               | 1999 2018
+7332 Bad Duerkheim             | 1999 2018
+7333 Donnersbergkreis          | 1999 2018
+7334 Germersheim               | 1999 2018
+7335 Kaiserslautern            | 1999 2018
+7336 Kusel                     | 1999 2018
+7337 Suedliche Weinstrasse     | 1999 2018
+7338 Rhein-Pfalz-Kreis         | 1999 2018
+7339 Mainz-Bingen              | 1999 2018
+7340 Suedwestpfalz             | 1999 2018
+8111 Stuttgart, Capital of the | 1999 2018
+8115 Boeblingen                | 1999 2018
+8116 Esslingen                 | 1999 2018
+8117 Goeppingen                | 1999 2018
+8118 Ludwigsburg               | 1999 2018
+8119 Rems-Murr-Kreis           | 1999 2018
+8121 Heilbronn, City           | 1999 2018
+8125 Heilbronn                 | 1999 2018
+8126 Hohenlohekreis            | 1999 2018
+8127 Schwaebisch Hall          | 1999 2018
+8128 Main-Tauber-Kreis         | 1999 2018
+8135 Heidenheim                | 1999 2018
+8136 Ostalbkreis               | 1999 2018
+8211 Baden-Baden, City         | 1999 2018
+8212 Karlsruhe, City           | 1999 2018
+8215 Karlsruhe                 | 1999 2018
+8216 Rastatt                   | 1999 2018
+8221 Heidelberg, City          | 1999 2018
+8222 Mannheim, City            | 1999 2018
+8225 Neckar-Odenwald-Kreis     | 1999 2018
+8226 Rhein-Neckar-Kreis        | 1999 2018
+8231 Pforzheim, City           | 1999 2018
+8235 Calw                      | 1999 2018
+8236 Enzkreis                  | 1999 2018
+8237 Freudenstadt              | 1999 2018
+8311 Freiburg im Breisgau, Cit | 1999 2018
+8315 Breisgau-Hochschwarzwald  | 1999 2018
+8316 Emmendingen               | 1999 2018
+8317 Ortenaukreis              | 1999 2018
+8325 Rottweil                  | 1999 2018
+8326 Schwarzwald-Baar-Kreis    | 1999 2018
+8327 Tuttlingen                | 1999 2018
+8335 Konstanz                  | 1999 2018
+8336 Loerrach                  | 1999 2018
+8337 Waldshut                  | 1999 2018
+8415 Reutlingen                | 1999 2018
+8416 Tuebingen                 | 1999 2018
+8417 Zollernalbkreis           | 1999 2018
+8421 Ulm, City                 | 1999 2018
+8425 Alb-Donau-Kreis           | 1999 2018
+8426 Biberach                  | 1999 2018
+8435 Bodenseekreis             | 1999 2018
+8436 Ravensburg                | 1999 2018
+8437 Sigmaringen               | 1999 2018
+9161 Ingolstadt, City          | 1999 2018
+9162 Muenchen, Capital of the  | 1999 2018
+9163 Rosenheim, City           | 1999 2018
+9171 Altoetting                | 1999 2018
+9172 Berchtesgadener Land      | 1999 2018
+9173 Bad Toelz-Wolfratshausen  | 1999 2018
+9174 Dachau                    | 1999 2018
+9175 Ebersberg                 | 1999 2018
+9176 Eichstaett                | 1999 2018
+9177 Erding                    | 1999 2018
+9178 Freising                  | 1999 2018
+9179 Fuerstenfeldbruck         | 1999 2018
+9180 Garmisch-Partenkirchen    | 1999 2018
+9181 Landsberg am Lech         | 1999 2018
+9182 Miesbach                  | 1999 2018
+9183 Muehldorf a.Inn           | 1999 2018
+9184 Muenchen                  | 1999 2018
+9185 Neuburg-Schrobenhausen    | 1999 2018
+9186 Pfaffenhofen a.d.Ilm      | 1999 2018
+9187 Rosenheim                 | 1999 2018
+9188 Starnberg                 | 1999 2018
+9189 Traunstein                | 1999 2018
+9190 Weilheim-Schongau         | 1999 2018
+9261 Landshut, City            | 1999 2018
+9262 Passau, City              | 1999 2018
+9263 Straubing, City           | 1999 2018
+9271 Deggendorf                | 1999 2018
+9272 Freyung-Grafenau          | 1999 2018
+9273 Kelheim                   | 1999 2018
+9274 Landshut                  | 1999 2018
+9275 Passau                    | 1999 2018
+9276 Regen                     | 1999 2018
+9277 Rottal-Inn                | 1999 2018
+9278 Straubing-Bogen           | 1999 2018
+9279 Dingolfing-Landau         | 1999 2018
+9361 Amberg, City              | 1999 2018
+9362 Regensburg, City          | 1999 2018
+9363 Weiden i.d.OPf., City     | 1999 2018
+9371 Amberg-Sulzbach           | 1999 2018
+9372 Cham                      | 1999 2018
+9373 Neumarkt i.d.OPf.         | 1999 2018
+9374 Neustadt a.d.Waldnaab     | 1999 2018
+9375 Regensburg                | 1999 2018
+9376 Schwandorf                | 1999 2018
+9377 Tirschenreuth             | 1999 2018
+9461 Bamberg, City             | 1999 2018
+9462 Bayreuth, City            | 1999 2018
+9463 Coburg, City              | 1999 2018
+9464 Hof, City                 | 1999 2018
+9471 Bamberg                   | 1999 2018
+9472 Bayreuth                  | 1999 2018
+9473 Coburg                    | 1999 2018
+9474 Forchheim                 | 1999 2018
+9475 Hof                       | 1999 2018
+9476 Kronach                   | 1999 2018
+9477 Kulmbach                  | 1999 2018
+9478 Lichtenfels               | 1999 2018
+9479 Wunsiedel i.Fichtelgebirg | 1999 2018
+9561 Ansbach, City             | 1999 2018
+9562 Erlangen, City            | 1999 2018
+9563 Fuerth, City              | 1999 2018
+9564 Nuernberg, City           | 1999 2018
+9565 Schwabach, City           | 1999 2018
+9571 Ansbach                   | 1999 2018
+9572 Erlangen-Hoechstadt       | 1999 2018
+9573 Fuerth                    | 1999 2018
+9574 Nuernberger Land          | 1999 2018
+9575 Neustadt a.d.Aisch-Bad Wi | 1999 2018
+9576 Roth                      | 1999 2018
+9577 Weissenburg-Gunzenhausen  | 1999 2018
+9661 Aschaffenburg, City       | 1999 2018
+9662 Schweinfurt, City         | 1999 2018
+9663 Wuerzburg, City           | 1999 2018
+9671 Aschaffenburg             | 1999 2018
+9672 Bad Kissingen             | 1999 2018
+9673 Rhoen-Grabfeld            | 1999 2018
+9674 Hassberge                 | 1999 2018
+9675 Kitzingen                 | 1999 2018
+9676 Miltenberg                | 1999 2018
+9677 Main-Spessart             | 1999 2018
+9678 Schweinfurt               | 1999 2018
+9679 Wuerzburg                 | 1999 2018
+9761 Augsburg, City            | 1999 2018
+9762 Kaufbeuren, City          | 1999 2018
+9763 Kempten (Allgaeu), City   | 1999 2018
+9764 Memmingen, City           | 1999 2018
+9771 Aichach-Friedberg         | 1999 2018
+9772 Augsburg                  | 1999 2018
+9773 Dillingen a.d.Donau       | 1999 2018
+9774 Guenzburg                 | 1999 2018
+9775 Neu-Ulm                   | 1999 2018
+9776 Lindau (Bodensee)         | 1999 2018
+9777 Ostallgaeu                | 1999 2018
+9778 Unterallgaeu              | 1999 2018
+9779 Donau-Ries                | 1999 2018
+9780 Oberallgaeu               | 1999 2018
+10041 Regionalverband Saarbrue | 1999 2018
+10042 Merzig-Wadern            | 1999 2018
+10043 Neunkirchen              | 1999 2018
+10044 Saarlouis                | 1999 2018
+10045 Saarpfalz-Kreis          | 1999 2018
+10046 St. Wendel               | 1999 2018
+11000 Berlin, City             | 1999 2018
+12051 Brandenburg an der Havel | 1999 2018
+12052 Cottbus, City            | 1999 2018
+12053 Frankfurt (Oder), City   | 1999 2018
+12054 Potsdam, City            | 1999 2018
+12060 Barnim                   | 1999 2018
+12061 Dahme-Spreewald          | 1999 2018
+12062 Elbe-Elster              | 1999 2018
+12063 Havelland                | 1999 2018
+12064 Maerkisch-Oderland       | 1999 2018
+12065 Oberhavel                | 1999 2018
+12066 Oberspreewald-Lausitz    | 1999 2018
+12067 Oder-Spree               | 1999 2018
+12068 Ostprignitz-Ruppin       | 1999 2018
+12069 Potsdam-Mittelmark       | 1999 2018
+12070 Prignitz                 | 1999 2018
+12071 Spree-Neisse             | 1999 2018
+12072 Teltow-Flaeming          | 1999 2018
+12073 Uckermark                | 1999 2018
+13003 Rostock, Hanseatic City  | 1999 2018
+13004 Schwerin, Capital of the | 1999 2018
+13071 Mecklenburgische Seenpla | 1999 2018
+13072 Landkreis Rostock        | 1999 2018
+13073 Vorpommern-Ruegen        | 1999 2018
+13074 Nordwestmecklenburg      | 1999 2018
+13075 Vorpommern-Greifswald    | 1999 2018
+13076 Ludwigslust-Parchim      | 1999 2018
+14511 Chemnitz, City           | 1999 2018
+14521 Erzgebirgskreis          | 1999 2018
+14522 Mittelsachsen            | 1999 2018
+14523 Vogtlandkreis            | 1999 2018
+14524 Zwickau                  | 1999 2018
+14612 Dresden, City            | 1999 2018
+14625 Bautzen                  | 1999 2018
+14626 Goerlitz                 | 1999 2018
+14627 Meissen                  | 1999 2018
+14628 Saechs. Schweiz-Osterzge | 1999 2018
+14713 Leipzig, City            | 1999 2018
+14729 Leipzig                  | 1999 2018
+14730 Nordsachsen              | 1999 2018
+15001 Dessau-Rosslau, City     | 1999 2018
+15002 Halle (Saale), City      | 1999 2018
+15003 Magdeburg, Capital of th | 1999 2018
+15081 Altmarkkreis Salzwedel   | 1999 2018
+15082 Anhalt-Bitterfeld        | 1999 2018
+15083 Boerde                   | 1999 2018
+15084 Burgenlandkreis          | 1999 2018
+15085 Harz                     | 1999 2018
+15086 Jerichower Land          | 1999 2018
+15087 Mansfeld-Suedharz        | 1999 2018
+15088 Saalekreis               | 1999 2018
+15089 Salzlandkreis            | 1999 2018
+15090 Stendal                  | 1999 2018
+15091 Wittenberg               | 1999 2018
+16051 Erfurt, City             | 1999 2018
+16052 Gera, City               | 1999 2018
+16053 Jena, City               | 1999 2018
+16054 Suhl, City               | 1999 2018
+16055 Weimar, City             | 1999 2018
+16056 Eisenach, City           | 1999 2018
+16061 Eichsfeld                | 1999 2018
+16062 Nordhausen               | 1999 2018
+16063 Wartburgkreis            | 1999 2018
+16064 Unstrut-Hainich-Kreis    | 1999 2018
+16065 Kyffhaeuserkreis         | 1999 2018
+16066 Schmalkalden-Meiningen   | 1999 2018
+16067 Gotha                    | 1999 2018
+16068 Soemmerda                | 1999 2018
+16069 Hildburghausen           | 1999 2018
+16070 Ilm-Kreis                | 1999 2018
+16071 Weimarer Land            | 1999 2018
+16072 Sonneberg                | 1999 2018
+16073 Saalfeld-Rudolstadt      | 1999 2018
+16074 Saale-Holzland-Kreis     | 1999 2018
+16075 Saale-Orla-Kreis         | 1999 2018
+16076 Greiz                    | 1999 2018
+16077 Altenburger Land         | 1999 2018
+.n n/a                         | 1975 1998
+.z no entry                    | 1999 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Place of residence - federal state (Bundesland) (wo_bula)
+
+------------------------------------------
+Place of residence - federal   |
+state (Bundesland)             |  min  max
+-------------------------------+----------
+1 Schleswig-Holstein           | 1999 2018
+2 Hamburg                      | 1999 2018
+3 Lower Saxony                 | 1999 2018
+4 Bremen                       | 1999 2018
+5 North Rhine-Westphalia       | 1999 2018
+6 Hesse                        | 1999 2018
+7 Rhineland-Palatinate         | 1999 2018
+8 Baden-Wuerttemberg           | 1999 2018
+9 Bavaria                      | 1999 2018
+10 Saarland                    | 1999 2018
+11 Berlin                      | 1999 2018
+12 Brandenburg                 | 1999 2018
+13 Mecklenburg-Western Pomeran | 1999 2018
+14 Saxony                      | 1999 2018
+15 Saxony-Anhalt               | 1999 2018
+16 Thuringia                   | 1999 2018
+.n n/a                         | 1975 1998
+.z no entry                    | 1999 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Place of residence - employment agency (Arbeitsagentur) (wo_aa)
+
+------------------------------------------
+Place of residence -           |
+employment agency              |
+(Arbeitsagentur)               |  min  max
+-------------------------------+----------
+30 Greifswald                  | 1999 2018
+31 Neubrandenburg              | 1999 2018
+32 Rostock                     | 1999 2018
+33 Schwerin                    | 1999 2018
+34 Stralsund                   | 1999 2018
+35 Cottbus                     | 1999 2018
+36 Eberswalde                  | 1999 2018
+37 Frankfurt (Oder)            | 1999 2018
+38 Neuruppin                   | 1999 2018
+39 Potsdam                     | 1999 2018
+41 Bernburg                    | 1999 2018
+42 Dessau-Rosslau Wittenberg   | 1999 2018
+43 Halberstadt                 | 1999 2018
+44 Halle                       | 1999 2018
+45 Magdeburg                   | 1999 2018
+46 Weissenfels                 | 1999 2018
+47 Sangerhausen                | 1999 2018
+48 Stendal                     | 1999 2018
+71 Annaberg-Buchholz           | 1999 2018
+72 Bautzen                     | 1999 2018
+73 Chemnitz                    | 1999 2018
+74 Dresden                     | 1999 2018
+75 Leipzig                     | 1999 2018
+76 Oschatz                     | 1999 2018
+77 Pirna                       | 1999 2018
+78 Plauen                      | 1999 2018
+79 Riesa                       | 1999 2018
+80 Freiberg                    | 1999 2018
+92 Zwickau                     | 1999 2018
+93 Erfurt                      | 1999 2018
+94 Altenburg Gera              | 1999 2018
+95 Gotha                       | 1999 2018
+96 Jena                        | 1999 2018
+97 Nordhausen                  | 1999 2018
+98 Suhl                        | 1999 2018
+111 Bad Oldesloe               | 1999 2018
+115 Elmshorn                   | 1999 2018
+119 Flensburg                  | 1999 2018
+123 Hamburg                    | 1999 2018
+127 Heide                      | 1999 2018
+131 Kiel                       | 1999 2018
+135 Luebeck                    | 1999 2018
+139 Neumuenster                | 1999 2018
+211 Braunschweig Goslar        | 1999 2018
+214 Bremen Bremerhaven         | 1999 2018
+221 Celle                      | 1999 2018
+224 Emden Leer                 | 1999 2018
+231 Goettingen                 | 1999 2018
+234 Hameln                     | 1999 2018
+237 Hannover                   | 1999 2018
+241 Helmstedt                  | 1999 2018
+244 Hildesheim                 | 1999 2018
+251 Lueneburg Uelzen           | 1999 2018
+257 Nordhorn                   | 1999 2018
+261 Oldenburg Wilhelmshaven    | 1999 2018
+264 Osnabrueck                 | 1999 2018
+267 Stade                      | 1999 2018
+274 Vechta                     | 1999 2018
+277 Nienburg Verden            | 1999 2018
+311 Aachen Dueren              | 1999 2018
+315 Bergisch Gladbach          | 1999 2018
+317 Bielefeld                  | 1999 2018
+321 Bochum                     | 1999 2018
+323 Bonn                       | 1999 2018
+325 Bruehl                     | 1999 2018
+327 Coesfeld                   | 1999 2018
+331 Detmold                    | 1999 2018
+333 Dortmund                   | 1999 2018
+337 Duesseldorf                | 1999 2018
+341 Duisburg                   | 1999 2018
+343 Essen                      | 1999 2018
+345 Gelsenkirchen              | 1999 2018
+347 Hagen                      | 1999 2018
+351 Hamm                       | 1999 2018
+353 Herford                    | 1999 2018
+355 Iserlohn                   | 1999 2018
+357 Koeln                      | 1999 2018
+361 Krefeld                    | 1999 2018
+364 Mettmann                   | 1999 2018
+365 Moenchengladbach           | 1999 2018
+367 Ahlen Muenster             | 1999 2018
+371 Oberhausen                 | 1999 2018
+373 Paderborn                  | 1999 2018
+375 Recklinghausen             | 1999 2018
+377 Rheine                     | 1999 2018
+381 Siegen                     | 1999 2018
+383 Meschede Soest             | 1999 2018
+387 Wesel                      | 1999 2018
+391 Solingen Wuppertal         | 1999 2018
+411 Bad Hersfeld Fulda         | 1999 2018
+415 Darmstadt                  | 1999 2018
+419 Frankfurt                  | 1999 2018
+427 Giessen                    | 1999 2018
+431 Hanau                      | 1999 2018
+433 Bad Homburg                | 1999 2018
+435 Kassel                     | 1999 2018
+439 Korbach                    | 1999 2018
+443 Limburg Wetzlar            | 1999 2018
+447 Marburg                    | 1999 2018
+451 Offenbach                  | 1999 2018
+459 Wiesbaden                  | 1999 2018
+511 Bad Kreuznach              | 1999 2018
+515 Kaiserslautern Pirmasens   | 1999 2018
+519 Koblenz Mayen              | 1999 2018
+523 Ludwigshafen               | 1999 2018
+527 Mainz                      | 1999 2018
+535 Montabaur                  | 1999 2018
+543 Landau                     | 1999 2018
+547 Neuwied                    | 1999 2018
+555 Saarland                   | 1999 2018
+563 Trier                      | 1999 2018
+611 Aalen                      | 1999 2018
+614 Balingen                   | 1999 2018
+617 Freiburg                   | 1999 2018
+621 Goeppingen                 | 1999 2018
+624 Heidelberg                 | 1999 2018
+627 Heilbronn                  | 1999 2018
+631 Karlsruhe Rastatt          | 1999 2018
+634 Konstanz Ravensburg        | 1999 2018
+637 Loerrach                   | 1999 2018
+641 Ludwigsburg                | 1999 2018
+644 Mannheim                   | 1999 2018
+647 Nagold Pforzheim           | 1999 2018
+651 Offenburg                  | 1999 2018
+664 Reutlingen                 | 1999 2018
+671 Waiblingen                 | 1999 2018
+674 Schwaebisch Hall Tauberbis | 1999 2018
+677 Stuttgart                  | 1999 2018
+684 Ulm                        | 1999 2018
+687 Rottweil Villingen-Schwenn | 1999 2018
+711 Ansbach Weissenburg        | 1999 2018
+715 Aschaffenburg              | 1999 2018
+723 Bayreuth Hof               | 1999 2018
+727 Bamberg Coburg             | 1999 2018
+729 Fuerth                     | 1999 2018
+735 Nuernberg                  | 1999 2018
+739 Regensburg                 | 1999 2018
+743 Schwandorf                 | 1999 2018
+747 Schweinfurt                | 1999 2018
+751 Weiden                     | 1999 2018
+759 Wuerzburg                  | 1999 2018
+811 Augsburg                   | 1999 2018
+815 Deggendorf                 | 1999 2018
+819 Donauwoerth                | 1999 2018
+823 Freising                   | 1999 2018
+827 Ingolstadt                 | 1999 2018
+831 Kempten Memmingen          | 1999 2018
+835 Landshut Pfarrkirchen      | 1999 2018
+843 Muenchen                   | 1999 2018
+847 Passau                     | 1999 2018
+855 Rosenheim                  | 1999 2018
+859 Traunstein                 | 1999 2018
+863 Weilheim                   | 1999 2018
+922 Berlin South               | 1999 2018
+955 Berlin North               | 1999 2018
+962 Berlin Central             | 1999 2018
+999 Foreign Places             | 1999 2018
+.n n/a                         | 1975 1998
+.z no entry                    | 1999 2018
+------------------------------------------
+
+________________________________________________________________________________
+
+Place of residence - regional directorate (Regionaldirektion) (wo_rd)
+
+------------------------------------------
+Place of residence - regional  |
+directorate                    |
+(Regionaldirektion)            |  min  max
+-------------------------------+----------
+101 North                      | 1999 2018
+102 Berlin-Brandenburg         | 1999 2018
+103 Saxony-Anhalt/Thuringia    | 1999 2018
+104 Saxony                     | 1999 2018
+105 Lower Saxony-Bremen        | 1999 2018
+106 North Rhine-Westphalia     | 1999 2018
+107 Hesse (incl. ZAV)          | 1999 2018
+108 Rhineland-Palatinate-Saarl | 1999 2018
+109 Baden-Wuerttemberg         | 1999 2018
+110 Bavaria                    | 1999 2018
+111 Foreign places             | 1999 2018
+.n n/a                         | 1975 1998
+.z no entry                    | 1999 2018
+------------------------------------------
+
