@@ -31,14 +31,14 @@ We beggin by calling the libraries as follow:
 library(data.table) #Table data handler
 library(censReg)  # For Tobit regression
 library(dplyr) #Also data handler
-library(tidyverse) #For data managment
+library(tidyverse,quietly = TRUE) #For data managment
 library(lubridate)  # For easy date handling
 library(haven) # For reading Stata files
 ```
 
-## Including Plots
+## Call the data
 
-You can also embed plots, for example:
+We call the Stata data (.dta) from our folder and store it in a list.
 
 ``` r
 dta_files = list.files("SIEED_7518_v1_test", pattern = ".dta")
@@ -48,5 +48,34 @@ print(class(dta_list))
 
     ## [1] "list"
 
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+I now print the last 10 rows of the list to see what kind of data we are
+dealing with.
+
+``` r
+print(tail(dta_files, 10))
+```
+
+    ##  [1] "SIEED_7518_v1_bhp_2015_v1.dta"    "SIEED_7518_v1_bhp_2016_v1.dta"   
+    ##  [3] "SIEED_7518_v1_bhp_2017_v1.dta"    "SIEED_7518_v1_bhp_2018_v1.dta"   
+    ##  [5] "SIEED_7518_v1_bhp_basis_v1.dta"   "SIEED_7518_v1_bhp_entry_v1.dta"  
+    ##  [7] "SIEED_7518_v1_bhp_exit_v1.dta"    "SIEED_7518_v1_bhp_inflow_v1.dta" 
+    ##  [9] "SIEED_7518_v1_bhp_outflow_v1.dta" "SIEED_7518_v1.dta"
+
+We can see that the data have one kind related with years, while the
+others have the names: basis, entry, exit, infow and outflow associated
+with them.
+
+``` r
+#On dta_files there are data with year on the name, and other without it.
+#Lets filter the ones with year on the name
+
+dta_files_2 <- dta_files[str_detect(dta_files, "^(SIEED_7518_v1_bhp_20|SIEED_7518_v1_bhp_19)")]
+
+dta_files_3 <- dta_files[!dta_files %in% dta_files_2]
+
+print(dta_files_3)
+```
+
+    ## [1] "SIEED_7518_v1_bhp_basis_v1.dta"   "SIEED_7518_v1_bhp_entry_v1.dta"  
+    ## [3] "SIEED_7518_v1_bhp_exit_v1.dta"    "SIEED_7518_v1_bhp_inflow_v1.dta" 
+    ## [5] "SIEED_7518_v1_bhp_outflow_v1.dta" "SIEED_7518_v1.dta"

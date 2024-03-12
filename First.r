@@ -28,8 +28,10 @@ for (i in 1:length(dta_list)){
     print()
 }
 
-#I think its using the last one!
-dta_list[[50]] %>%
-  head()
+print(dta_files)
+#On dta_files there are data with year on the name, and other without it. Lets filter the ones with year on the name
+dta_files_2 = dta_files[str_detect(dta_files, "^(SIEED_7518_v1_bhp_20|SIEED_7518_v1_bhp_19)")]
 
-install.packages("httpgd")
+dta_files_3 = dta_files[!dta_files %in% dta_files_2]
+
+print(dta_files_3) 
