@@ -35,3 +35,27 @@ dta_files_2 = dta_files[str_detect(dta_files, "^(SIEED_7518_v1_bhp_20|SIEED_7518
 dta_files_3 = dta_files[!dta_files %in% dta_files_2]
 
 print(dta_files_3) 
+
+dta_year = tibble("Address" = dta_files_2) %>%
+  mutate("Year" = str_sub(Address, start = 19, end = 22))
+
+#We extract the year, wich is the second four digits of the file name
+#Lets read all the dta in the Address column and store them in a list. Lets name the list with the year of the data
+dta_list_2 = lapply(dta_files_2, function(x) read_dta(paste0("SIEED_7518_v1_test/", x)))
+
+names(dta_list_2) = dta_year$Year
+#Lets merge all the data in dta_list_2, in order to create one big tibble. We also create one column with name "Year" to store the year of the data
+dta_list_3 = dta_list_2 %>%
+  bind_rows(.id = "Year") %>%
+  select(-Year)
+
+names(dta_list_3)
+
+#Lets read all the adress inside dta_files_3 and store them in a list
+dta_list_4 = lapply(dta_files_3, function(x) read_dta(paste0("SIEED_7518_v1_test/", x)))
+
+#Lets print the names of every data in dta_list_4
+for (i in 1:length(dta_list_4)){
+  print(dta_files_3[i])
+  print(names(dta_list_4[[i]]))
+}
