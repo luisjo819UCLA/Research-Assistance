@@ -621,6 +621,94 @@ value. The authors employ a methodology to estimate the actual wage
 beyond the threshold, and I plan to adopt a similar approach. The
 initial task will involve replicating their code, translating it into
 either R.</p>
+<h2 id="data-sets-managment">Data Sets managment</h2>
+<p>The documentation containts information about the datasets that
+contain yearly data and those that involve worker flows and
+establishment dynamics such as entries, exits, inflows, and outflows.
+Here is a breakdown:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Datasets with Years in Their Name</strong>: These
+datasets are annual files that contain variable blocks with data from
+each year from 1975 to 2018. They are named using the format
+<code>SIEED_7518_v1_bhp_v1_jjjj.dta</code>, where <code>jjjj</code>
+represents the specific year (e.g., <code>1975</code>,
+<code>2016</code>, etc.). Each file corresponds to a particular year and
+includes data up to the reference date of June 30th for that
+year.</p></li>
+<li><p><strong>Datasets with Entry, Exit, Inflow, and Outflow in Their
+Names</strong>: These datasets specifically contain information about
+the dynamics of the workforce within establishments:</p>
+<ul>
+<li><p><strong>Entries
+(<code>SIEED_7518_v1_bhp_entry_v1.dta</code>)</strong>: This file
+contains data about the entries into establishments, which could be
+indicative of the creation of new positions or filling of existing
+ones.</p></li>
+<li><p><strong>Exits
+(<code>SIEED_7518_v1_bhp_exit_v1.dta</code>)</strong>: This file
+includes data on exits from establishments, which might reflect layoffs,
+terminations, or retirements.</p></li>
+<li><p><strong>Inflows
+(<code>SIEED_7518_v1_bhp_inflow_v1.dta</code>)</strong>: This dataset
+captures the inflow of employees to establishments, providing insights
+into hiring trends.</p></li>
+<li><p><strong>Outflows
+(<code>SIEED_7518_v1_bhp_outflow_v1.dta</code>)</strong>: Conversely,
+this dataset records the outflow of employees from establishments, which
+could inform on turnover rates and employment stability.</p></li>
+</ul></li>
+</ol>
+<p>These datasets can be accessed and used following an approved
+application for research purposes and are essential for analyzing
+employment trends and patterns within establishments over time. The
+merging of individual-level and establishment-level data within
+statistical software such as Stata is necessary to perform comprehensive
+analyses. The datasets are meant to be linked via identifiers like the
+establishment number and the reference year.</p>
+<h2 id="structure-of-the-data">Structure of the Data</h2>
+<p>The documentation describe the dataset subsets and how to use them,
+particularly in the context of the Sample of Integrated
+Employer-Employee Data (SIEED). These subsets are designed to be used in
+conjunction with one another and are linked via specific identifiers
+such as establishment numbers and individual IDs.</p>
+<p>Here’s a brief overview of the structure and use of the dataset
+subsets as explained in the PDF:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Basis Establishment File</strong>: Contains the
+establishment number, the year, and aggregated variables about the place
+of work and economic activities as of the reference date, 30 June. It is
+meant to be linked with the Individual File for comprehensive
+analysis.</p></li>
+<li><p><strong>Individual File</strong>: Includes personal identifiers,
+personal variables, information on employment, and place of residence,
+among other details.</p></li>
+<li><p><strong>Episode Splitting</strong>: The process of dealing with
+overlapping observations within an account by creating artificial
+observations with new dates, leading to non-overlapping
+periods.</p></li>
+<li><p><strong>Sampling Procedure</strong>: Outlines the steps taken to
+select a sample of establishments and individuals for inclusion in the
+SIEED.</p></li>
+<li><p><strong>Data Use</strong>: Describes the conditions under which
+the SIEED data may be accessed and analyzed, including research visits
+and remote data access following application approval by the
+FDZ.</p></li>
+<li><p><strong>File Architecture</strong>: Discusses how data are stored
+in separate files for individual and establishment-related information,
+and that additional files with more detailed establishment information
+can be provided upon justified application.</p></li>
+</ol>
+<p>To use the data, researchers are advised to <strong>merge the
+individual-level and establishment-level</strong> data within their
+statistical software.</p>
+<p>It is suggested to merge the datasets based on establishment numbers
+and the year, which should correspond between the individual and
+establishment files.</p>
+<p>Each subset of the SIEED data has a specific role and, when combined,
+can provide a comprehensive view of employment biographies and
+establishment characteristics.</p>
+<p>For more inquiries about the data, go to the documentation link
+provided above.</p>
 <h2 id="preparing-the-data">Preparing the Data</h2>
 <p>We beggin by calling the libraries as follow:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">library</span>(data.table) <span class="co">#Table data handler</span></span>

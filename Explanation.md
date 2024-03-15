@@ -23,6 +23,100 @@ beyond the threshold, and I plan to adopt a similar approach. The
 initial task will involve replicating their code, translating it into
 either R.
 
+## Data Sets managment
+
+The documentation containts information about the datasets that contain
+yearly data and those that involve worker flows and establishment
+dynamics such as entries, exits, inflows, and outflows. Here is a
+breakdown:
+
+1.  **Datasets with Years in Their Name**: These datasets are annual
+    files that contain variable blocks with data from each year from
+    1975 to 2018. They are named using the format
+    `SIEED_7518_v1_bhp_v1_jjjj.dta`, where `jjjj` represents the
+    specific year (e.g., `1975`, `2016`, etc.). Each file corresponds to
+    a particular year and includes data up to the reference date of June
+    30th for that year.
+
+2.  **Datasets with Entry, Exit, Inflow, and Outflow in Their Names**:
+    These datasets specifically contain information about the dynamics
+    of the workforce within establishments:
+
+    - **Entries (`SIEED_7518_v1_bhp_entry_v1.dta`)**: This file contains
+      data about the entries into establishments, which could be
+      indicative of the creation of new positions or filling of existing
+      ones.
+
+    - **Exits (`SIEED_7518_v1_bhp_exit_v1.dta`)**: This file includes
+      data on exits from establishments, which might reflect layoffs,
+      terminations, or retirements.
+
+    - **Inflows (`SIEED_7518_v1_bhp_inflow_v1.dta`)**: This dataset
+      captures the inflow of employees to establishments, providing
+      insights into hiring trends.
+
+    - **Outflows (`SIEED_7518_v1_bhp_outflow_v1.dta`)**: Conversely,
+      this dataset records the outflow of employees from establishments,
+      which could inform on turnover rates and employment stability.
+
+These datasets can be accessed and used following an approved
+application for research purposes and are essential for analyzing
+employment trends and patterns within establishments over time. The
+merging of individual-level and establishment-level data within
+statistical software such as Stata is necessary to perform comprehensive
+analyses. The datasets are meant to be linked via identifiers like the
+establishment number and the reference year.
+
+## Structure of the Data
+
+The documentation describe the dataset subsets and how to use them,
+particularly in the context of the Sample of Integrated
+Employer-Employee Data (SIEED). These subsets are designed to be used in
+conjunction with one another and are linked via specific identifiers
+such as establishment numbers and individual IDs.
+
+Here’s a brief overview of the structure and use of the dataset subsets
+as explained in the PDF:
+
+1.  **Basis Establishment File**: Contains the establishment number, the
+    year, and aggregated variables about the place of work and economic
+    activities as of the reference date, 30 June. It is meant to be
+    linked with the Individual File for comprehensive analysis.
+
+2.  **Individual File**: Includes personal identifiers, personal
+    variables, information on employment, and place of residence, among
+    other details.
+
+3.  **Episode Splitting**: The process of dealing with overlapping
+    observations within an account by creating artificial observations
+    with new dates, leading to non-overlapping periods.
+
+4.  **Sampling Procedure**: Outlines the steps taken to select a sample
+    of establishments and individuals for inclusion in the SIEED.
+
+5.  **Data Use**: Describes the conditions under which the SIEED data
+    may be accessed and analyzed, including research visits and remote
+    data access following application approval by the FDZ.
+
+6.  **File Architecture**: Discusses how data are stored in separate
+    files for individual and establishment-related information, and that
+    additional files with more detailed establishment information can be
+    provided upon justified application.
+
+To use the data, researchers are advised to **merge the individual-level
+and establishment-level** data within their statistical software.
+
+It is suggested to merge the datasets based on establishment numbers and
+the year, which should correspond between the individual and
+establishment files.
+
+Each subset of the SIEED data has a specific role and, when combined,
+can provide a comprehensive view of employment biographies and
+establishment characteristics.
+
+For more inquiries about the data, go to the documentation link provided
+above.
+
 ## Preparing the Data
 
 We beggin by calling the libraries as follow:
