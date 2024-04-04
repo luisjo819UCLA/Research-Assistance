@@ -2,8 +2,8 @@
 library(data.table)
 library(survival) # For survival analysis, might need adaptations for Tobit models
 library(censReg)  # For Tobit regression
-library(dplyr)
-library(tidyverse)
+library(dplyr) # For data manipulation
+library(tidyverse) # For data manipulation
 library(lubridate)  # For easy date handling
 library(haven) # For reading Stata files
 
@@ -12,8 +12,23 @@ dta_files = list.files("SIEED_7518_v1_test", pattern = ".dta")
 
 #Lets read the dta files and store them in a list
 dta_list = lapply(dta_files, function(x) read_dta(paste0("SIEED_7518_v1_test/", x)))
+library(labelled)
+
+#q: How can i read the labels of the data using labelled?
+#A: You can use the argument label = TRUE in the read_dta function
+
+dta_list[[1]] %>% 
+  look_for()
+
+dta_labels = lapply(dta_files, function(x) read_dta(paste0("SIEED_7518_v1_test/", x), label = TRUE))
 class(dta_list)
 length(dta_list)
+
+library(readstata13)
+dta_label2 = lapply(dta_files, function(x) read.dta13(paste0("SIEED_7518_v1_test/", x)))
+
+dta_label2[[2]] %>% 
+  class()
 
 #Lets see the head of the dta_list
 for (i in 1:length(dta_list)){

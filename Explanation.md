@@ -25,6 +25,15 @@ either R.
 
 ## Data Sets managment
 
+<div class="figure">
+
+<img src="IMAGE1.png" alt="A caption" width="100%" />
+<p class="caption">
+A caption
+</p>
+
+</div>
+
 The documentation containts information about the datasets that contain
 yearly data and those that involve worker flows and establishment
 dynamics such as entries, exits, inflows, and outflows. Here is a
@@ -138,9 +147,20 @@ above.
 
 ## Notations about the data.
 
+<div class="figure">
+
+<img src="Image2.png" alt="B caption" width="100%" />
+<p class="caption">
+B caption
+</p>
+
+</div>
+
 ### Dates
 
-In the context of the SIEED data, there’s a distinction between the
+The data in this file are not longitudinal (spell data) but rather give
+information that is only valid precisely on June 30th of each year. In
+the context of the SIEED data, there’s a distinction between the
 original start/end dates and the episode start/end dates:
 
 - **Original Start/End Dates (`begorig` and `endorig`)**: These dates

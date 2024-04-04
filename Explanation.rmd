@@ -14,6 +14,10 @@ I will be utilizing matched employer-employee data from Germany. In this [link](
 This [paper](https://davidcard.berkeley.edu/papers/QJE-2013.pdf) is an excellent piece that utilizes the same dataset, implementing certain methodologies and approaches that I aim to replicate or use as a foundation for my analysis. Additionally, the paper discusses some issues with the dataset, including the fact that wages are capped. When wages exceed a specific threshold, they are recorded as the threshold value. The authors employ a methodology to estimate the actual wage beyond the threshold, and I plan to adopt a similar approach. The initial task will involve replicating their code, translating it into either R. 
 
 ## Data Sets managment
+
+```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+knitr::include_graphics("IMAGE1.png")
+```
 The documentation containts information about the datasets that contain yearly data and those that involve worker flows and establishment dynamics such as entries, exits, inflows, and outflows. Here is a breakdown:
 
 1. **Datasets with Years in Their Name**: These datasets are annual files that contain variable blocks with data from each year from 1975 to 2018. They are named using the format `SIEED_7518_v1_bhp_v1_jjjj.dta`, where `jjjj` represents the specific year (e.g., `1975`, `2016`, etc.). Each file corresponds to a particular year and includes data up to the reference date of June 30th for that year. These files provide data specific to each year and can include both individual and firm-level information, focusing on the characteristics and dynamics relevant to that particular year.
@@ -61,6 +65,10 @@ Each subset of the SIEED data has a specific role and, when combined, can provid
 For more inquiries about the data, go to the documentation link provided above.
 
 ## Notations about the data.
+
+```{r, echo=FALSE, fig.cap="B caption", out.width = '100%'}
+knitr::include_graphics("Image2.png")
+```
 
 ### Dates
 The data in this file are not longitudinal (spell data) but rather give information that is only valid precisely on June 30th of each year. 
