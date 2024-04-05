@@ -123,6 +123,7 @@ ind2 = ind_basis %>% rename(
   sic_code3 = w03_3
 )
 #Lets split federal_state into two columns, one with the number and the other with the name, using Regex
+## Data Modification ####
 ind2 = ind2 %>%
   mutate(federal_state_number = str_extract(federal_state, "\\d+") %>% as.numeric(), #Extract the number of the federal state
          federal_state_name = str_extract(federal_state, "\\D+")) %>% #Extract the name of the federal state
@@ -266,8 +267,6 @@ ind2 = ind2 %>%
 #### Graphs ####
 library(dplyr)
 library(ggplot2)
-
-
 # Calculate summary statistics by 'year'
 summary_data <- ind2 %>%
   group_by(year) %>%
