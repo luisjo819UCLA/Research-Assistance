@@ -108,7 +108,7 @@ ind2 = ind_basis %>% rename(
   id = persnr,
   firmid = betnr,
   birthyr = gebjahr,
-  education = schule,
+  education = ausbildung_imp,
   dailywage = tentgelt,
   occupation = beruf,
   year = jahr,
@@ -224,7 +224,7 @@ ind2 = ind2 %>%
 
 ind2 <- ind2 %>%
   mutate(
-    cpi = case_when(
+    cpi = case_when( #Also here
       year == 1985 ~ 80.2,
       year == 1986 ~ 80.1,
       year == 1987 ~ 80.3,
@@ -250,7 +250,7 @@ ind2 <- ind2 %>%
       year == 2007 ~ 119.1,
       year == 2008 ~ 122.2,
       year == 2009 ~ 122.7
-    )
+    ) #Find new CPI
   )  %>%  mutate(
     dailywage = dailywage * 100 / cpi,  # Adjust daily wage based on CPI
     spellearn = as.numeric(duration) * dailywage    # Calculate spell earnings
@@ -261,7 +261,7 @@ ind2$spellearn %>% hist()
 
 set.seed(9211093)
 ind2 = ind2 %>% 
-  mutate(rsample = runif(1)) %>% 
+  mutate(rsample = runif(nrow(ind2))) %>% 
   select(-begin_date, -end_date, -cpi, -ssmax, -emp_status, -occupation_status_hrs, -female)
 
 #### Graphs ####
@@ -290,4 +290,403 @@ ggplot(summary_data, aes(x = year, y = mean)) +
   geom_point(aes(y = min), color = "red") +
   geom_point(aes(y = max), color = "blue")
 
+# Filter the data
+#Lets extract the 3 numbers of the SIC code
+ind2 = ind2 %>%
+  mutate(sic_code_1_n = str_extract(sic_code1, "\\d+") %>% as.numeric(), #Extract the number of the federal state
+         sic_code_1_l = str_extract(sic_code1, "\\D+")) #Extract the name of the federal state
+  
+ind3 = ind2 %>%
+filter(rsample > 0.95, year >= 1985, year <= 1991)
+
+# Check distributions of 'occupation' and 'w73_3' by 'year'
+# For 'occupation' lets plot with tittle
+ind3$occupation %>% table() %>% barplot(main = "Occupation Distribution of 5%")
+beruf_table <- table(ind3$occupation)
+
+# For 'w73' by 'year'
+w73_year_freq <-  ind3 %>%
+  count(sic_code1, year)
+print(w73_year_freq)
+ggplot(w73_year_freq, aes(x = year, y = n, fill = sic_code1)) +
+  geom_col() +
+  labs(title = '5 percent sample, 1985-91 only',
+       x = 'Year',
+       y = 'Frequency',
+       fill = 'SIC Code (w73)') +
+  theme_minimal() + #Lets errase the legend using theme
+  theme(legend.position = "none")
+
+filtered_data_2 <- ind2 %>%
+  filter(rsample > 0.95, year >= 1992 & year <= 1998)
+
+# Compute frequency table for 'w73' by 'year'
+# You can adjust this to also include 'beruf' if needed
+w73_year_freq <- filtered_data_2 %>%
+  count(sic_code1, year)
+
+# Plotting the frequency distribution of 'w73' by 'year'
+ggplot(w73_year_freq, aes(x = year, y = n, fill = sic_code1)) +
+  geom_col() +
+  labs(title = '5 percent sample, 1992-98 only',
+       x = 'Year',
+       y = 'Frequency',
+       fill = 'SIC Code (w73)') +
+  theme_minimal() + #Lets errase the legend using theme
+  theme(legend.position = "none")
+
+filtered_data_3 <- ind2 %>%
+  filter(rsample > 0.95, year >= 1997 & year <= 2003)
+
+# Compute frequency table for 'beruf', 'w73' by 'year', and 'w93' by 'year'
+# Here we focus on 'w73' and 'w93' by 'year' as an example
+w73_year_freq <- filtered_data_3 %>%
+  count(sic_code1, year)
+
+w93_year_freq <- filtered_data_3 %>%
+  count(sic_code2, year)
+
+# Plotting the frequency distribution of 'w73' by 'year'
+ggplot(w73_year_freq, aes(x = year, y = n, fill = sic_code1)) +
+  geom_col() +
+  labs(title = '5 percent sample, 1997-2003 only',
+       x = 'Year',
+       y = 'Frequency',
+       fill = 'SIC Code (w73)') +
+  theme_minimal() + #Lets errase the legend using theme
+  theme(legend.position = "none")
+
+# Plotting the frequency distribution of 'w93' by 'year'
+ggplot(w93_year_freq, aes(x = year, y = n, fill = sic_code2)) +
+  geom_col() +
+  labs(title = '5 percent sample, 1997-2003 only',
+       x = 'Year',
+       y = 'Frequency',
+       fill = 'SIC Code (w93)') +
+  theme_minimal() + #Lets errase the legend using theme
+  theme(legend.position = "none")
+#There are some missings to see later.
+#W73: This variable indicates the economic activity as a 3-digit code in accordance with 
+#the WS73 classification and is available from 1975 up to and including 2002.
+
+#W93: This variable indicates the economic activity as a 3-digit code in accordance with
+#the WZ93 classification and is available from 1999 up to and including 2003.
+
+library(dplyr)
+library(ggplot2)
+
+# Filter the data
+filtered_data_4 <- ind2 %>%
+  filter(rsample > 0.95, year >= 2003 & year <= 2009)
+
+# Compute frequency tables for 'beruf', 'w73' by 'year', 'w93' by 'year', and 'w03' by 'year'
+beruf_freq <- filtered_data_4 %>% count(occupation)
+w73_year_freq <- filtered_data_4 %>% count(sic_code1, year)
+w93_year_freq <- filtered_data_4 %>% count(sic_code2, year)
+w03_year_freq <- filtered_data_4 %>% count(sic_code3, year)
+
+#There is not data for 273 after 2003
+# Similarly, create plots for 'w93' by 'year' and 'w03' by 'year'
+# Example for 'w93'
+ggplot(w93_year_freq, aes(x = year, y = n, fill = sic_code2)) +
+  geom_col() +
+  labs(title = '5 percent sample, 2003-2009 only, w93 by year',
+       x = 'Year',
+       y = 'Frequency',
+       fill = 'SIC Code (w93)') +
+  theme_minimal() + #Lets errase the legend using theme
+  theme(legend.position = "none")
+
+# Example for 'w03'
+ggplot(w03_year_freq, aes(x = year, y = n, fill = sic_code3)) +
+  geom_col() +
+  labs(title = '5 percent sample, 2003-2009 only, w03 by year',
+       x = 'Year',
+       y = 'Frequency',
+       fill = 'SIC Code (w03)') +
+  theme_minimal() + #Lets errase the legend using theme
+  theme(legend.position = "none")
+
+#### Tabs ####
+
+library(dplyr)
+
+# Assuming 'data' is your R data frame equivalent to WORK.one in SAS
+get_mode <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+pfy <- ind2 %>%
+  group_by(id, firmid, year) %>%
+  summarise(
+    totduration = sum(duration %>% as.numeric(), na.rm = TRUE),
+    totearn = sum(spellearn, na.rm = TRUE),
+    dailywage = totearn / totduration,
+    logwage = log(dailywage),
+    trainee = max(trainee, na.rm = TRUE),
+    age = max(age, na.rm = TRUE),
+    birthyr = max(birthyr, na.rm = TRUE),
+    occupation = get_mode(occupation),
+    w73 = get_mode(sic_code1),
+    w93 = get_mode(sic_code2),
+    w03 = get_mode(sic_code3),
+    federal_state = get_mode(federal_state),
+    education = (education %>% unique() %>% levels() %>% max()),
+    schule = (schule %>% unique() %>% levels() %>% max()),
+    censor = if (all(is.na(censor))) NA else max(censor, na.rm = TRUE)
+  ) %>% 
+  mutate(logwage = ifelse(is.infinite(logwage), NA, logwage)) 
+
+names(pfy)
+library(dplyr)
+
+# Assuming 'WORK.pfy' is loaded into an R data frame named 'pfy'
+# Calculate and display summary statistics for all numeric columns, grouped by 'year'
+pfy_stats <- pfy %>% ungroup() %>%
+  select(-id, -firmid) %>%
+  group_by(year) %>%
+  summarise(across(where(is.numeric), 
+                   list(n = ~ n(),
+                        mean = ~ mean(., na.rm = TRUE),
+                        sd = ~ sd(., na.rm = TRUE),
+                        min = ~ min(., na.rm = TRUE),
+                        max = ~ max(., na.rm = TRUE)),
+                   .names = "{.col}_{.fn}"))  # to differentiate the statistics
+
+# View the summarized data
+glimpse(pfy_stats)
+
+
+pfy_tot = pfy %>%
+  ungroup() %>%
+  arrange(id, year, desc(totearn)) %>%
+  group_by(id, year) %>%
+  slice(1) %>%
+  ungroup()
+
+#Lets plot the totearn, where x would be the year and y the totearn, and id would be the group
+ggplot(pfy_tot, aes(x = year, y = totearn)) +
+  geom_line(aes(color = as.factor(id)),alpha=0.2) +
+  labs(title = 'Total earnings by year',
+       x = 'Year',
+       y = 'Total Earnings') +
+  theme_minimal() + #Lets errase the legend using theme
+  theme(legend.position = "none") +
+  geom_smooth(se = FALSE)
+ 
+### Restriction on Real Wage####
+
+library(dplyr)
+#For this i got to rework education. 
+#Will use 0 for the qualifications of dropout, aprentice, university and missed
+# Assuming WORK.pfy data is already loaded into an R data frame named pfy
+
+WORK_py = pfy %>%
+  mutate(
+    schooling = case_when(
+      is.na(education) ~ 10.5,
+      is.na(schule) ~ 10.5,
+      education == ".z no entry" ~ 10.5, # NA_real_ is used to represent missing numeric values
+      education == "1 Secondary / intermediate school leaving certificate without completed vocational training" ~ 10.5,
+      education == "2 Secondary / intermediate school leaving certificate with completed vocational training" ~ 11,
+      education == "3 Upper secondary school leaving certificate (General or subject-specific) without completed vocational training" ~ 13,
+      schule == "8 Completion of education at a specialised upper secondary school/completion of higher education at a specialised college or upper secondary school leaving certificate, A-level equivalent, qualification for university; 13 years of schooling" ~ 13,
+      schule == "9 Upper secondary school leaving certificate, A-level equivalent, qualification for university; 13 years of schooling " ~ 13,
+      education == "4 Upper secondary school leaving certificate (General or subject-specific) with completed vocational training" ~ 15,
+      education == "5 Completion of a university of applied sciences" ~ 18,
+      education == "6 College / university degree" ~ 18,
+    )
+  ) %>% 
+  mutate(
+    edgroup = case_when(
+      schooling == 10.5 ~ 0,
+      schooling == 11 ~ 1,
+      schooling == 13 ~ 2,
+      schooling == 15 ~ 3,
+      schooling == 18 ~ 4,
+    )
+  ) %>% 
+  mutate(dropout = as.integer(edgroup == 1),
+         apprentice = as.integer(edgroup == 2),
+         somecoll = as.integer(edgroup == 3),
+         university = as.integer(edgroup == 4),
+         missed = as.integer(edgroup == 0)) %>% 
+  mutate(agegroup = case_when(
+    age >= 20 & age <= 29 ~ 2,
+    age >= 30 & age <= 39 ~ 3,
+    age >= 40 & age <= 49 ~ 4,
+    age >= 50 ~ 5
+  ),
+  exp = case_when(
+    TRUE ~ age - 25,
+    edgroup %in% c(0, 1, 2) ~ age - 18,
+    edgroup == 3 ~ age - 22
+  )) %>%
+  select(-education)
+
+#Lets merge WORK_py with pfy, only adding the columns from pfy that are not in WORK_py
+
+WORK_py = WORK_py  %>% set_variable_labels(
+                                  totearn = 'tot earns in p-f-year',
+                                  totduration = 'total days worked in p-f-year',
+                                  trainee = 'spell as trainee in p-f-year',
+                                  dailywage = 'avg daily wage, p-f cell',
+                                  logwage = 'log daily wage, dropped if under 10 e/day'
+)
+
+library(dplyr)
+
+WORK_fy <- WORK_py %>%
+  group_by(firmid, year) %>%
+  summarise(
+    emp = sum(!is.na(logwage)),  # Count of non-missing logwage values
+    fmeanlogwage = mean(logwage, na.rm = TRUE),
+    fmeancensor = mean(censor, na.rm = TRUE),
+    fmeanschooling = mean(schooling, na.rm = TRUE),
+    fmeanuniversity = mean(university, na.rm = TRUE),
+    fmeansomecoll = mean(somecoll, na.rm = TRUE),
+    fmeanapprentice = mean(apprentice, na.rm = TRUE),
+    fmeanexp = mean(exp, na.rm = TRUE),
+    fmeanexpsq = mean(exp * exp / 100, na.rm = TRUE)
+  ) %>%
+  ungroup()  # Remove the grouping structure
+
+# View the resulting data frame
+print(WORK_fy)
+
+library(dplyr)
+
+# Assuming WORK.py is already loaded into an R data frame named WORK_py
+WORK_pall <- WORK_py %>%
+  group_by(id) %>%
+  summarise(
+    pfirstyear = min(year),
+    plastyear = max(year),
+    pnyears = n(),
+    pn8589 = sum(year >= 1985 & year <= 1989),
+    pn9094 = sum(year >= 1990 & year <= 1994),
+    pn9599 = sum(year >= 1995 & year <= 1999),
+    pn0004 = sum(year >= 2000 & year <= 2004),
+    pn0509 = sum(year >= 2005 & year <= 2009),
+    pmeanlogwage = mean(logwage, na.rm = TRUE),
+    pmeancensor = mean(censor, na.rm = TRUE)
+  ) %>%
+  ungroup()  # Ensure the resulting data frame is not grouped
+
+# View the resulting data frame
+print(WORK_pall)
+
+WORK_pyx <- WORK_py %>%
+  left_join(WORK_fy, by = c("firmid", "year")) %>%
+  left_join(WORK_pall, by = "id")
+
+# View the structure of the new data frame
+WORK_pyx %>% 
+  glimpse()
+
+library(dplyr)
+
+WORK_pyx <- WORK_pyx %>%
+  mutate(
+    # Create new variables
+    onewkr = as.integer(emp == 1),
+    atbigfirm = as.integer(emp > 10),
+    oneyear = as.integer(pnyears == 1),
+    
+    # Conditional calculations for firm-level stats
+    ofmeancensor = ifelse(onewkr == 0, (fmeancensor - censor / emp) * emp / (emp - 1), 0.1),
+    ofmeanwage = ifelse(onewkr == 0, (fmeanlogwage - logwage / emp) * emp / (emp - 1), 4.8),
+    
+    # Conditional calculations for person-level stats
+    opmeancensor = ifelse(oneyear == 0, (pmeancensor - censor / pnyears) * pnyears / (pnyears - 1), 0.1),
+    opmeanwage = ifelse(oneyear == 0, (pmeanlogwage - logwage / pnyears) * pnyears / (pnyears - 1), 4.8),
+    
+    # Additional calculations
+    empsq = emp * emp / 100
+  )
+
+# Create a 3% sample for tobits using base R's runif for random number generation
+set.seed(921) # Ensure reproducibility
+WORK_pyx <- WORK_pyx %>%
+  mutate(
+    random_value = runif(n(), min = 0, max = 1),  # Generate and store random numbers
+    insub = as.integer(random_value >= 0.47 & random_value < 0.5)  # Use the stored random numbers for the condition
+  ) %>% 
+  select(-random_value)  # Remove the random number column
+# Check results
+print(head(WORK_pyx))
+
+#### Final data #####
+library(dplyr)
+
+# Assuming WORK_pyx is already loaded into an R data frame named WORK_pyx
+WORK_sub <- WORK_pyx %>%
+  filter(insub == 1) %>%
+  select(logwage, censor, age, atbigfirm, ofmeancensor, ofmeanwage, emp, empsq, onewkr,
+         fmeanuniversity, fmeanschooling, opmeancensor, opmeanwage, oneyear, year, edgroup, agegroup)
+
+# View the structure of the new data frame
+WORK_sub %>% names()
+
+### TOBIT #### 
+library(dplyr)
+
+# Create an initial empty data frame as dummy to start the loop
+WORK_tobit <- data.frame(
+  year = integer(0),
+  edgroup = integer(0),
+  agegroup = integer(0)
+)
+
+# Add an initial row
+WORK_tobit <- rbind(WORK_tobit, data.frame(year = 0, edgroup = 0, agegroup = 0))
+
+library(survival)
+
+# Loop over years, education groups, and age groups
+library(dplyr)
+library(survival)
+library(tidyr)
+
+# Initialize an empty data frame to store results
+WORK_tobit <- data.frame()
+
+# Loop structure
+for (yr in 1985:2009) {
+  for (eg in 0:4) {
+    for (ag in 2:5) {
+      subset_data <- WORK_sub %>%
+        filter(year == yr, edgroup == eg, agegroup == ag)
+      
+      if (nrow(subset_data) < 1) next
+      
+      # Fit Tobit model
+      model_fit <- tryCatch({
+        survreg(Surv(logwage, censor == 1) ~ age + atbigfirm + ofmeancensor + ofmeanwage + emp + empsq + onewkr +
+                  fmeanuniversity + fmeanschooling + opmeancensor + opmeanwage + oneyear, 
+                data = subset_data, dist = "gaussian")
+      }, error = function(e) {
+        NULL  # Return NULL on error
+      })
+      
+      if (!is.null(model_fit)) {
+        # Extract coefficients
+        temp <- data.frame(t(coef(summary(model_fit))))
+        temp$year <- yr
+        temp$edgroup <- eg
+        temp$agegroup <- ag
+        
+        WORK_tobit <- bind_rows(WORK_tobit, temp)
+      }
+    }
+  }
+}
+
+# Sort data frames
+WORK_pyx <- WORK_pyx %>% arrange(year, edgroup, agegroup)
+WORK_tobit <- WORK_tobit %>% arrange(year, edgroup, agegroup)
+
+# Merge datasets
+WORK_py <- merge(WORK_pyx, WORK_tobit, by = c("year", "edgroup", "agegroup"))
 
