@@ -614,16 +614,9 @@ library(dplyr)
 
 # Create an initial empty data frame as dummy to start the loop
 
-WORK_tobit <- data.frame(
-  year = integer(1),
-  edgroup = integer(1),
-  agegroup = integer(1)
-)
-WORK_tobit[1,] <- c(0, 0, 0)
-
 library(AER)
 library(dplyr)
-
+WORK_tobit <- data.frame()
 # Loop through the specified years, education groups, and age groups
 for (yr in 1985:2009) {
   for (eg in 0:4) {
@@ -637,17 +630,218 @@ for (yr in 1985:2009) {
       if(is.na(censoring_point)) {
         next
       }
+      
+      result <- tryCatch({
         # Fit the Tobit model
         tobit_model <- tobit(logwage ~ age + atbigfirm + ofmeancensor + ofmeanwage + emp + empsq + onewkr +
                                fmeanuniversity + fmeanschooling + opmeancensor + opmeanwage + oneyear,
                              right = censoring_point,  # Adjust as per censoring info
-                             y = -Inf,
+                             y = 0,
                              data = subset_data)
         
         # Save or output model summary; adapt this part as needed for your output requirements
-        print(summary(tobit_model))
+        model_summary <- summary(tobit_model)
+        model_coefs <- coef(tobit_model)
+        model_sigma <- sigma(tobit_model)
+        
+        # Create a row of results to add to the dataframe
+        results_row <- data.frame(
+          year = yr, 
+          edgroup = eg, 
+          agegroup = ag,
+          intercept_ = ifelse("`(Intercept)`" %in% names(model_coefs), model_coefs["`(Intercept)`"], NA),
+          scale_ = model_sigma,
+          age_ = ifelse("age" %in% names(model_coefs), model_coefs["age"], NA),
+          atbigfirm_ = ifelse("atbigfirm" %in% names(model_coefs), model_coefs["atbigfirm"], NA),
+          ofmeancensor_ = ifelse("ofmeancensor" %in% names(model_coefs), model_coefs["ofmeancensor"], NA),
+          ofmeanwage_ = ifelse("ofmeanwage" %in% names(model_coefs), model_coefs["ofmeanwage"], NA),
+          emp_ = ifelse("emp" %in% names(model_coefs), model_coefs["emp"], NA),
+          empsq_ = ifelse("empsq" %in% names(model_coefs), model_coefs["empsq"], NA),
+          onewkr_ = ifelse("onewkr" %in% names(model_coefs), model_coefs["onewkr"], NA),
+          fmeanuniversity_ = ifelse("fmeanuniversity" %in% names(model_coefs), model_coefs["fmeanuniversity"], NA),
+          fmeanschooling_ = ifelse("fmeanschooling" %in% names(model_coefs), model_coefs["fmeanschooling"], NA),
+          opmeancensor_ = ifelse("opmeancensor" %in% names(model_coefs), model_coefs["opmeancensor"], NA),
+          opmeanwage_ = ifelse("opmeanwage" %in% names(model_coefs), model_coefs["opmeanwage"], NA),
+          oneyear_ = ifelse("oneyear" %in% names(model_coefs), model_coefs["oneyear"], NA)
+        )
+        # Append this row to the results dataframe
+        WORK_tobit <- rbind(WORK_tobit, results_row)
+      }, error = function(e) {
+        message(paste("Error in Tobit model for year:", yr, "edgroup:", eg, "agegroup:", ag, "Error message:", e$message))
+        return(NULL)  # Return NULL on error and continue with the loop
+      })
       }
     }
   }
-}
 
+WORK_tobit = WORK_tobit %>%
+  filter(year > 0)
+
+library(dplyr)
+
+# Assuming work_pyx and work_tobit are already loaded into R as data frames
+# First, sort the data frames (if necessary, dplyr join functions handle unsorted data)
+work_pyx_sorted <- WORK_pyx %>%
+  arrange(year, edgroup, agegroup)
+
+work_tobit_sorted <- WORK_tobit %>%
+  arrange(year, edgroup, agegroup)
+#### Modifyng TOBIT data ####
+# Merge the sorted data frames
+work_py <- full_join(work_pyx_sorted, work_tobit_sorted, by = c("year", "edgroup", "agegroup"))
+# Assuming `work_py` is the merged data frame from the previous steps
+work_py$xb <- with(work_py, intercept_ + (age_ * age) + (atbigfirm_ * atbigfirm) + (ofmeancensor_ * ofmeancensor) +
+                     (ofmeanwage_ * ofmeanwage) + (emp_ * emp) + (empsq_ * empsq) + (onewkr_ * onewkr) +
+                     (fmeanuniversity_ * fmeanuniversity)+ (fmeanschooling_ * fmeanschooling) +
+                    (opmeancensor_ * opmeancensor) + (opmeanwage_ * opmeanwage) + (oneyear_ * oneyear))
+
+cut_points <- c(
+  "1985" = 4.720456341, "1986" = 4.765189114, "1987" = 4.773277457,
+  "1988" = 4.812194355, "1989" = 4.804099479, "1990" = 4.80711153,
+  "1991" = 4.807881698, "1992" = 4.80534936,  "1993" = 4.838698047,
+  "1994" = 4.860316468, "1995" = 4.875197323, "1996" = 4.884923575,
+  "1997" = 4.888482259, "1998" = 4.908578101, "1999" = 4.908943472,
+  "2000" = 4.9087182,   "2001" = 4.902948719, "2002" = 4.895122407,
+  "2003" = 5.012733302, "2004" = 5.002631694, "2005" = 4.998648599,
+  "2006" = 4.99477339,  "2007" = 4.972701186, "2008" = 4.952802734,
+  "2009" = 4.971577567
+)
+# Convert year to character to match the keys in 'cut_points' vector
+work_py$year_2 <- as.character(work_py$year)
+
+# Assign the cut-off points
+work_py$cut <- cut_points[work_py$year_2]
+
+work_py = work_py %>% 
+  select(-year_2)
+
+library(dplyr)
+
+# Assuming 'work_py' is your dataframe
+
+# 1. Impute an upper tail error if censored
+work_py <- work_py %>%
+  mutate(
+    ord = (cut - xb) / scale_,
+    cf = pnorm(ord),
+    u = runif(n(), min = 0, max = 1),  # Generate uniform random numbers
+    e = ifelse(cf < 0.9999, qnorm(cf + u * (1 - cf)), 3.71902),
+    logwage2 = ifelse(censor == 0, logwage, xb + scale_ * e)
+  )
+
+# 2. Drop variables
+work_py <- select(work_py, -c(intercept_, age_, atbigfirm_, ofmeancensor_, 
+                              ofmeanwage_, emp_, empsq_, onewkr_, fmeanuniversity_, 
+                              fmeanschooling_, opmeancensor_, opmeanwage_, oneyear_,
+                              cut, ord, xb, cf, u, e))
+
+# 3. Add squared and cubed experience terms
+work_py <- mutate(work_py,
+                  exp2 = exp^2 / 100,
+                  exp3 = exp^3 / 1000)
+
+# 4. Create a 5% sample for regression
+work_py <- mutate(work_py,
+                  logwager = ifelse(runif(n()) < 0.05, logwage2, NA))
+
+### GLM Models####
+
+library(dplyr)
+
+
+# Model 1 Logwage 
+#In the original code, we use logwager for making the sample smaller!
+model <- lm(logwage2 ~ missed + apprentice + somecoll + university + exp + I(exp^2) + I(exp^3) + trainee + factor(year), data = work_py)
+
+# Store the predictions in the data frame.
+#xibar contains the predicted values
+work_py1 <- mutate(work_py, xibar = predict(model, newdata = work_py))
+
+
+summary(model)
+
+#Model 2 Interactions with the year!
+# Assuming work_py1 is already loaded into R and is prepared similarly to how WORK.py1 would be prepared in SAS
+model_interaction <- lm(logwage2 ~ (missed + apprentice + somecoll + university + exp + I(exp^2) + I(exp^3) + trainee) * factor(year), data = work_py1)
+# Add predicted values to the dataframe
+work_py1$xibt <- predict(model_interaction, newdata = work_py1) #newdata does
+
+# Assuming you want to store this in a new object similar to creating a new output dataset in SAS
+work_py <- work_py1
+
+#### GLM DataFrame Modification
+
+work_py <- work_py %>%
+  mutate(
+    reswage = logwage2 - xibt
+  ) %>%
+  select(-logwager)  # Dropping logwager. Would be used for redcuing sample
+work_py <- set_variable_labels(
+  work_py,
+  reswage = "logwage2-xibt",
+  logwage2 = "log wage with imputed tail",
+  logwage = "log wage, censored",
+  pmeanlogwage = "p-mean log wage all yrs, censored",
+  fmeanlogwage = "f-mean log wage this year, censored"
+)
+
+#recalculate firm-year average data set fy with logwage2 
+
+library(dplyr)
+#Summarise by firm and year
+work_fy <- work_py %>%
+  group_by(firmid, year) %>%
+  summarise(
+    mu = mean(logwage2, na.rm = TRUE),
+    sigma = sd(logwage2, na.rm = TRUE),
+    emp = n(),
+    mu_res = mean(reswage, na.rm = TRUE),
+    sigma_res = sd(reswage, na.rm = TRUE),
+    meanxibar = mean(xibar, na.rm = TRUE),
+    stdxibar = sd(xibar, na.rm = TRUE),
+    meantrainee = mean(trainee, na.rm = TRUE),
+    .groups = 'drop'  # This drops the grouping structure from the result
+  )
+
+library(dplyr)
+#Lets summarise by firm
+# Assuming 'work_fy' is the dataframe that corresponds to the SAS dataset WORK.fy
+work_fall <- work_fy %>%
+  filter(year > 0, firmid > 0) %>%  # Filtering conditions equivalent to the SQL WHERE clause
+  group_by(firmid) %>%  # Grouping data by firmid
+  summarise(
+    firm_firstyr = min(year),
+    firm_lastyr = max(year),
+    firm_meanemp = mean(emp, na.rm = TRUE),
+    firm_meanlogemp = mean(log(emp), na.rm = TRUE),
+    firm_always3p = min(emp) >= 3,
+    firm_always1 = max(emp) == 1,
+    firm_meanmu = sum(mu * emp, na.rm = TRUE) / sum(emp, na.rm = TRUE),
+    firm_meanmu_res = sum(mu_res * emp, na.rm = TRUE) / sum(emp, na.rm = TRUE),
+    firm_meanxibar = sum(meanxibar * emp, na.rm = TRUE) / sum(emp, na.rm = TRUE),
+    firm_oneyear = firm_firstyr == firm_lastyr  # Calculating if the first and last year are the same
+  )
+
+library(dplyr)
+ ### Final data output ####
+
+iabworkfile <- work_py %>%
+  left_join(work_fy, by = c("firmid", "year")) %>%
+  left_join(work_fall, by = "firmid") %>%
+  mutate(
+    dev = logwage2 - mu,
+    dev_res = reswage - mu_res,
+    dev_xibar = xibar - meanxibar
+  )
+
+
+iabworkfile <- iabworkfile %>%
+  select(
+    everything(),  # Keeps all existing columns
+    dev,
+    dev_res,
+    dev_xibar
+  )
+
+# View the structure of the new data frame to confirm
+str(iabworkfile)
