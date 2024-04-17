@@ -1,51 +1,35 @@
 # Assuming the necessary libraries are installed
-library(data.table)
-library(survival) # For survival analysis, might need adaptations for Tobit models
-library(censReg)  # For Tobit regression
+library(data.table)#For survival analysis, might need adaptations for Tobit models
 library(dplyr) # For data manipulation
 library(tidyverse) # For data manipulation
 library(lubridate)  # For easy date handling
 library(haven) # For reading Stata files
+library(labelled)
+#This only works with the Working Directory at the folder where this file is contained
 
 #Lets see all the dta files that are in the folder SIEED_7518_v1_test
 dta_files = list.files("SIEED_7518_v1_test", pattern = ".dta")
 
 #Lets read the dta files and store them in a list
 dta_list = lapply(dta_files, function(x) read_dta(paste0("SIEED_7518_v1_test/", x)))
-library(labelled)
 
-#q: How can i read the labels of the data using labelled?
-#A: You can use the argument label = TRUE in the read_dta function
-
+#We see the labels of the data
 dta_list[[1]] %>% 
   look_for()
-
+#We read the V1 (individuals) data
 library(readstata13)
 dta_label2 = lapply(dta_files, function(x) read.dta13(paste0("SIEED_7518_v1_test/", x)))
 
 dta_label2[[2]] %>% 
   class()
+#Change the label to english
 dta_label2 = lapply(dta_label2, function(x) x %>% set.lang("en"))
 #Lets see the head of the dta_list
-for (i in 1:length(dta_list)){
-  print(dta_files[i])
-  print(head(dta_list[[i]],1))
-}
 
-for (i in 1:length(dta_list)){
-    names(dta_list[[i]]) %>%
-    str_detect("gebjahr") %>%
-    any() %>%
-    print()
-}
-
-print(dta_files)
 #On dta_files there are data with year on the name, and other without it. Lets filter the ones with year on the name
 dta_files_2 = dta_files[str_detect(dta_files, "^(SIEED_7518_v1_bhp_20|SIEED_7518_v1_bhp_19)")]
 
 dta_files_3 = dta_files[!dta_files %in% dta_files_2]
-
-print(dta_files_3) 
 
 dta_year = tibble("Address" = dta_files_2) %>%
   mutate("Year" = str_sub(Address, start = 19, end = 22))
@@ -65,44 +49,35 @@ names(dta_list_3)
 #Lets read all the adress inside dta_files_3 and store them in a list
 dta_list_4 = lapply(dta_files_3, function(x) read_dta(paste0("SIEED_7518_v1_test/", x)))
 
-#Lets print the names of every data in dta_list_4
-for (i in 1:length(dta_list_4)){
-  print(dta_files_3[i])
-  print(names(dta_list_4[[i]]))
-}
 
+### Read dta ####
 
 library(readstata13)
-#Individual
+#Individual data
 ind = read.dta13("SIEED_7518_v1_test/SIEED_7518_v1.dta") %>% 
-  set.lang("en")
+  set.lang("en") #We set the labels to english
 ind %>% attributes() %>% names()
 ind_label = ind %>%
-  attr("var.labels")
+  attr("var.labels") #we get the labels of the data
 for (i in 1:length(ind_label)){
-  ind = ind %>% set_variable_labels(!!names(ind)[i] := ind_label[[i]])
+  ind = ind %>% set_variable_labels(!!names(ind)[i] := ind_label[[i]]) #We set the labels to the data
 }
 #Business. Basis
 basis = read.dta13("SIEED_7518_v1_test/SIEED_7518_v1_bhp_basis_v1.dta") %>% 
-  set.lang("en")
+  set.lang("en") #We set the labels to english
 
 bas_label = basis %>%
-  attr("var.labels")
+  attr("var.labels") #we get the labels of the data
 for (i in 1:length(bas_label)){
-  basis = basis %>% set_variable_labels(!!names(basis)[i] := bas_label[[i]])
+  basis = basis %>% set_variable_labels(!!names(basis)[i] := bas_label[[i]]) #we set the labels to the data
 }
-#q: How to transform ind to a tibble with the labels?
-#A: You can use the labelled package to transform the data to a tibble with the labels
-
-#Transforming ind to tibble with labels
 
 #Lets merge ind and basis. We merge by jahr, which is the year of the data, and by betnr, which is the business number
 ind_basis = ind %>%
-  mutate(jahr = year(begepi)) %>% 
-  left_join(basis, by = c("jahr", "betnr"))
+  mutate(jahr = year(begepi)) %>% #We extract the year from the date
+  left_join(basis, by = c("jahr", "betnr")) #We merge by year and business number
 
 
-cat("IAB data - men age 20-60 - full time, excl marginals\n")
 #### Rename ####
 ind2 = ind_basis %>% rename(
   id = persnr,
@@ -135,38 +110,32 @@ ind2$female %>% table()
 ind2$dailywage %>% summary()
 ind2$occupation_status_hrs %>% summary()
 ind2$firmid %>% summary()
-#Filter
+#### Imposing restrictions####
 ind2 = ind2 %>%
   filter(!is.na(firmid), # no missings
          female == '0 Male', #only males
          federal_state_number >= 1 & federal_state_number <= 11, # Eliminate jobs out of the range 1-11 for federal_state
          begin_date < dmy('01-01-2010'), # Beging Date before January 1, 2010
          dailywage >= 1, # drop daily wage (in current euro) of less than 1 -- siab standard
-         !emp_status %in% c("109 Marginal part-time workers",
+         !emp_status %in% c("109 Marginal part-time workers", 
                          110, 
                          202, 
                          "209 Marginal part-time workers (household cheque)", 
-                         210), # drop marginal employment
-           occupation_status_hrs_number >= 0 & occupation_status_hrs_number <= 4) #Between vocational training, unskilled worker, skilled worker, blue/white collar and full-time employment
+                         210), # drop marginal jobs for comparability over time
+           occupation_status_hrs_number >= 0 & occupation_status_hrs_number <= 4) #Between vocational training, unskilled worker, skilled worker, blue/white collar and full-time employment (drop part time jobs)
          
 ind2$education %>% unique()
-
-
+#continue the restrictions
 ind2 = ind2 %>% 
   mutate(trainee = (year < 1999 & occupation_status_hrs_number == 0) |
-           (year >= 1999 & emp_status %in% c("102 Trainees without special characteristics",
+           (year >= 1999 & emp_status %in% c("102 Trainees without special characteristics", #define trainees
                                              "105 Interns",
                                              "106 Student trainees",
-                                             "141 Trainees in maritime shipping"))) %>% 
-  mutate(education = forcats::fct_recode(education,
-                                `0` = "7",
-                                `0` = "8 Completion of education at a specialised upper secondary school/completion of higher education at a specialised college or upper secondary school leaving certificate, A-level equivalent, qualification for university; 13 years of schooling",
-                                `0` = "9 Upper secondary school leaving certificate, A-level equivalent, qualification for university; 13 years of schooling"))
- 
-ind2$education %>% unique()
-ind2$education %>% levels()
+                                             "141 Trainees in maritime shipping"))) %>%  #Lets change the value of the factor "education" to 0 if is na
+  mutate(education = if_else(is.na(education), as.factor(0), as.factor(education)))  #Redefine education
 
-# Lets define more variables 
+
+#### Lets define new variables  ####
 ind2 =ind2 %>% 
   mutate(age = year - birthyr) %>% # Age
   # Filter rows based on age criteria
@@ -220,7 +189,7 @@ ind2 = ind2 %>%
     dailywage = ifelse(dailywage >= ssmax, ssmax, dailywage)  # Cap dailywage at ssmax
   )
 
-### CPI on Wage ####
+#### CPI on Wage ####
 
 ind2 <- ind2 %>%
   mutate(
@@ -407,18 +376,18 @@ ggplot(w03_year_freq, aes(x = year, y = n, fill = sic_code3)) +
   theme_minimal() + #Lets errase the legend using theme
   theme(legend.position = "none")
 
-#### Tabs ####
+### Collapse to person-firm-year ####
 
 library(dplyr)
 
 # Assuming 'data' is your R data frame equivalent to WORK.one in SAS
-get_mode <- function(x) {
+get_mode <- function(x) { # Define a function to get the mode of a vector (for factors)
   ux <- unique(x)
-  ux[which.max(tabulate(match(x, ux)))]
+  ux[which.max(tabulate(match(x, ux)))] # Return the most frequent value
 }
 
 pfy <- ind2 %>%
-  group_by(id, firmid, year) %>%
+  group_by(id, firmid, year) %>% # Group by 'id', 'firmid', and 'year'
   summarise(
     totduration = sum(duration %>% as.numeric(), na.rm = TRUE),
     totearn = sum(spellearn, na.rm = TRUE),
@@ -427,13 +396,13 @@ pfy <- ind2 %>%
     trainee = max(trainee, na.rm = TRUE),
     age = max(age, na.rm = TRUE),
     birthyr = max(birthyr, na.rm = TRUE),
-    occupation = get_mode(occupation),
+    occupation = get_mode(occupation), #Is max in code, but its the occupation code, so used the mode
     w73 = get_mode(sic_code1),
     w93 = get_mode(sic_code2),
     w03 = get_mode(sic_code3),
     federal_state = get_mode(federal_state),
-    education = (education %>% unique() %>% levels() %>% max()),
-    schule = (schule %>% unique() %>% levels() %>% max()),
+    education = (education %>% unique() %>% as.numeric() %>% max()),
+    schule = (schule %>% unique() %>% as.numeric() %>% max()),
     censor = if (all(is.na(censor))) NA else max(censor, na.rm = TRUE)
   ) %>% 
   mutate(logwage = ifelse(is.infinite(logwage), NA, logwage)) 
@@ -441,7 +410,6 @@ pfy <- ind2 %>%
 names(pfy)
 library(dplyr)
 
-# Assuming 'WORK.pfy' is loaded into an R data frame named 'pfy'
 # Calculate and display summary statistics for all numeric columns, grouped by 'year'
 pfy_stats <- pfy %>% ungroup() %>%
   select(-id, -firmid) %>%
@@ -456,9 +424,9 @@ pfy_stats <- pfy %>% ungroup() %>%
 
 # View the summarized data
 glimpse(pfy_stats)
+####Selecting the higest earning pfy as py ####
 
-
-pfy_tot = pfy %>%
+pfy_tot = pfy %>% 
   ungroup() %>%
   arrange(id, year, desc(totearn)) %>%
   group_by(id, year) %>%
@@ -476,26 +444,38 @@ ggplot(pfy_tot, aes(x = year, y = totearn)) +
   geom_smooth(se = FALSE)
  
 ### Restriction on Real Wage####
-
+ind2 %>% 
+  select(education) %>% 
+  mutate(otro = as.numeric(education)) %>% 
+  unique() %>% View()
 library(dplyr)
 #For this i got to rework education. 
 #Will use 0 for the qualifications of dropout, aprentice, university and missed
-# Assuming WORK.pfy data is already loaded into an R data frame named pfy
 
-WORK_py = pfy %>%
+# education == ".z no entry" ~ 10.5, # NA_real_ is used to represent missing numeric values
+# education == "1 Secondary / intermediate school leaving certificate without completed vocational training" ~ 10.5,
+# education == "2 Secondary / intermediate school leaving certificate with completed vocational training" ~ 11,
+# education == "3 Upper secondary school leaving certificate (General or subject-specific) without completed vocational training" ~ 13,
+# schule == "8 Completion of education at a specialised upper secondary school/completion of higher education at a specialised college or upper secondary school leaving certificate, A-level equivalent, qualification for university; 13 years of schooling" ~ 13,
+# schule == "9 Upper secondary school leaving certificate, A-level equivalent, qualification for university; 13 years of schooling " ~ 13,
+# education == "4 Upper secondary school leaving certificate (General or subject-specific) with completed vocational training" ~ 15,
+# education == "5 Completion of a university of applied sciences" ~ 18,
+# education == "6 College / university degree" ~ 18,
+
+WORK_py = pfy_tot %>%
   mutate(
     schooling = case_when(
       is.na(education) ~ 10.5,
       is.na(schule) ~ 10.5,
-      education == ".z no entry" ~ 10.5, # NA_real_ is used to represent missing numeric values
-      education == "1 Secondary / intermediate school leaving certificate without completed vocational training" ~ 10.5,
-      education == "2 Secondary / intermediate school leaving certificate with completed vocational training" ~ 11,
-      education == "3 Upper secondary school leaving certificate (General or subject-specific) without completed vocational training" ~ 13,
-      schule == "8 Completion of education at a specialised upper secondary school/completion of higher education at a specialised college or upper secondary school leaving certificate, A-level equivalent, qualification for university; 13 years of schooling" ~ 13,
-      schule == "9 Upper secondary school leaving certificate, A-level equivalent, qualification for university; 13 years of schooling " ~ 13,
-      education == "4 Upper secondary school leaving certificate (General or subject-specific) with completed vocational training" ~ 15,
-      education == "5 Completion of a university of applied sciences" ~ 18,
-      education == "6 College / university degree" ~ 18,
+      education == 1 ~ 10.5, # NA_real_ is used to represent missing numeric values
+      education == 2 ~ 10.5,
+      education == 3 ~ 11,
+      education == 4 ~ 13,
+      schule == 8 ~ 13,
+      schule == 9 ~ 13,
+      education == 5 ~ 15,
+      education == 6 ~ 18,
+      education == 7 ~ 18,
     )
   ) %>% 
   mutate(
@@ -506,12 +486,7 @@ WORK_py = pfy %>%
       schooling == 15 ~ 3,
       schooling == 18 ~ 4,
     )
-  ) %>% 
-  mutate(dropout = as.integer(edgroup == 1),
-         apprentice = as.integer(edgroup == 2),
-         somecoll = as.integer(edgroup == 3),
-         university = as.integer(edgroup == 4),
-         missed = as.integer(edgroup == 0)) %>% 
+  )  %>% 
   mutate(agegroup = case_when(
     age >= 20 & age <= 29 ~ 2,
     age >= 30 & age <= 39 ~ 3,
@@ -522,26 +497,31 @@ WORK_py = pfy %>%
     TRUE ~ age - 25,
     edgroup %in% c(0, 1, 2) ~ age - 18,
     edgroup == 3 ~ age - 22
-  )) %>%
+  )) %>% 
+  mutate(dropout = as.integer(edgroup == 1),
+         apprentice = as.integer(edgroup == 2),
+         somecoll = as.integer(edgroup == 3),
+         university = as.integer(edgroup == 4),
+         missed = as.integer(edgroup == 0)) %>%
   select(-education)
-
-#Lets merge WORK_py with pfy, only adding the columns from pfy that are not in WORK_py
-
+#Change labels
 WORK_py = WORK_py  %>% set_variable_labels(
-                                  totearn = 'tot earns in p-f-year',
-                                  totduration = 'total days worked in p-f-year',
-                                  trainee = 'spell as trainee in p-f-year',
-                                  dailywage = 'avg daily wage, p-f cell',
-                                  logwage = 'log daily wage, dropped if under 10 e/day'
+  totearn = 'tot earns in p-f-year',
+  totduration = 'total days worked in p-f-year',
+  trainee = 'spell as trainee in p-f-year',
+  dailywage = 'avg daily wage, p-f cell',
+  logwage = 'log daily wage, dropped if under 10 e/day'
 )
 
+
+#### Data by firm and year for TOBIT ####
 library(dplyr)
 
 WORK_fy <- WORK_py %>%
-  group_by(firmid, year) %>%
+  group_by(firmid, year) %>% #group by firm and year
   summarise(
-    emp = sum(!is.na(logwage)),  # Count of non-missing logwage values
-    fmeanlogwage = mean(logwage, na.rm = TRUE),
+    emp = sum(!is.na(logwage)),  # Count number of employes by firm and year
+    fmeanlogwage = mean(logwage, na.rm = TRUE), #average
     fmeancensor = mean(censor, na.rm = TRUE),
     fmeanschooling = mean(schooling, na.rm = TRUE),
     fmeanuniversity = mean(university, na.rm = TRUE),
@@ -557,7 +537,7 @@ print(WORK_fy)
 
 library(dplyr)
 
-# Assuming WORK.py is already loaded into an R data frame named WORK_py
+#### Now we group by id ####
 WORK_pall <- WORK_py %>%
   group_by(id) %>%
   summarise(
@@ -576,7 +556,7 @@ WORK_pall <- WORK_py %>%
 
 # View the resulting data frame
 print(WORK_pall)
-
+### Work with unified data for TOBIT ####
 WORK_pyx <- WORK_py %>%
   left_join(WORK_fy, by = c("firmid", "year")) %>%
   left_join(WORK_pall, by = "id")
@@ -590,15 +570,15 @@ library(dplyr)
 WORK_pyx <- WORK_pyx %>%
   mutate(
     # Create new variables
-    onewkr = as.integer(emp == 1),
+    onewkr = as.integer(emp == 1), #One employer firm
     atbigfirm = as.integer(emp > 10),
-    oneyear = as.integer(pnyears == 1),
+    oneyear = as.integer(pnyears == 1), #One year worker
     
-    # Conditional calculations for firm-level stats
+    # Conditional calculations for firm-level stats (one worker firm)
     ofmeancensor = ifelse(onewkr == 0, (fmeancensor - censor / emp) * emp / (emp - 1), 0.1),
     ofmeanwage = ifelse(onewkr == 0, (fmeanlogwage - logwage / emp) * emp / (emp - 1), 4.8),
     
-    # Conditional calculations for person-level stats
+    # Conditional calculations for person-level stats (just one year period)
     opmeancensor = ifelse(oneyear == 0, (pmeancensor - censor / pnyears) * pnyears / (pnyears - 1), 0.1),
     opmeanwage = ifelse(oneyear == 0, (pmeanlogwage - logwage / pnyears) * pnyears / (pnyears - 1), 4.8),
     
@@ -622,7 +602,7 @@ library(dplyr)
 
 # Assuming WORK_pyx is already loaded into an R data frame named WORK_pyx
 WORK_sub <- WORK_pyx %>%
-  filter(insub == 1) %>%
+  #filter(insub == 1) %>%
   select(logwage, censor, age, atbigfirm, ofmeancensor, ofmeanwage, emp, empsq, onewkr,
          fmeanuniversity, fmeanschooling, opmeancensor, opmeanwage, oneyear, year, edgroup, agegroup)
 
@@ -633,60 +613,41 @@ WORK_sub %>% names()
 library(dplyr)
 
 # Create an initial empty data frame as dummy to start the loop
+
 WORK_tobit <- data.frame(
-  year = integer(0),
-  edgroup = integer(0),
-  agegroup = integer(0)
+  year = integer(1),
+  edgroup = integer(1),
+  agegroup = integer(1)
 )
+WORK_tobit[1,] <- c(0, 0, 0)
 
-# Add an initial row
-WORK_tobit <- rbind(WORK_tobit, data.frame(year = 0, edgroup = 0, agegroup = 0))
-
-library(survival)
-
-# Loop over years, education groups, and age groups
+library(AER)
 library(dplyr)
-library(survival)
-library(tidyr)
 
-# Initialize an empty data frame to store results
-WORK_tobit <- data.frame()
-
-# Loop structure
+# Loop through the specified years, education groups, and age groups
 for (yr in 1985:2009) {
   for (eg in 0:4) {
     for (ag in 2:5) {
-      subset_data <- WORK_sub %>%
+      # Filter data for the current subgroup
+      subset_data <- WORK_sub %>% 
+        ungroup() %>% 
         filter(year == yr, edgroup == eg, agegroup == ag)
       
-      if (nrow(subset_data) < 1) next
-      
-      # Fit Tobit model
-      model_fit <- tryCatch({
-        survreg(Surv(logwage, censor == 1) ~ age + atbigfirm + ofmeancensor + ofmeanwage + emp + empsq + onewkr +
-                  fmeanuniversity + fmeanschooling + opmeancensor + opmeanwage + oneyear, 
-                data = subset_data, dist = "gaussian")
-      }, error = function(e) {
-        NULL  # Return NULL on error
-      })
-      
-      if (!is.null(model_fit)) {
-        # Extract coefficients
-        temp <- data.frame(t(coef(summary(model_fit))))
-        temp$year <- yr
-        temp$edgroup <- eg
-        temp$agegroup <- ag
+      censoring_point = mean(subset_data$logwage[subset_data$censor == 1], na.rm=TRUE)
+      if(is.na(censoring_point)) {
+        next
+      }
+        # Fit the Tobit model
+        tobit_model <- tobit(logwage ~ age + atbigfirm + ofmeancensor + ofmeanwage + emp + empsq + onewkr +
+                               fmeanuniversity + fmeanschooling + opmeancensor + opmeanwage + oneyear,
+                             right = censoring_point,  # Adjust as per censoring info
+                             y = -Inf,
+                             data = subset_data)
         
-        WORK_tobit <- bind_rows(WORK_tobit, temp)
+        # Save or output model summary; adapt this part as needed for your output requirements
+        print(summary(tobit_model))
       }
     }
   }
 }
-
-# Sort data frames
-WORK_pyx <- WORK_pyx %>% arrange(year, edgroup, agegroup)
-WORK_tobit <- WORK_tobit %>% arrange(year, edgroup, agegroup)
-
-# Merge datasets
-WORK_py <- merge(WORK_pyx, WORK_tobit, by = c("year", "edgroup", "agegroup"))
 
