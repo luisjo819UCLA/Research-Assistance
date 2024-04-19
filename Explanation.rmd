@@ -174,3 +174,32 @@ We still have to understand better the way the data is gathered. We have to read
 ```{r}
 print(dta_files_3)
 ```
+
+
+The R script mimics the functionality of a comprehensive SAS code for data manipulation, transformation, and statistical analysis with a focus on automation of repetitive tasks and detailed deployment of Tobit and GLM models. Here’s a breakdown of the major tasks and how they are structured in the script:
+
+### Major Tasks and Subtasks
+
+1. **Data Preparation and Transformation**
+   - **Data Import and Initial Setup**: Multiple data files are loaded and merged, with variable names standardized across different datasets.
+   - **Data Cleaning**: Filters and transformations are applied to clean and restrict data to relevant records, which involves handling missing values, renaming variables, and filtering based on specific criteria such as employment status and geographic area.
+   - **Variable Definitions and Transformations**: New variables are calculated (e.g., trainee status, categorical transformations of education levels), and labels are defined for clarity in later analysis stages.
+
+2. **Data Aggregation and Derivation**
+   - **Advanced Grouping and Aggregation**: Data is grouped by unique identifiers (e.g., person, firm, year) to reduce redundancy, computing aggregated summaries like total duration and earnings. Functions like `summarise()` are extensively used to calculate statistics such as mean wages and maximum values.
+   - **Creation of New Metrics**: New metrics are derived from the aggregated data for further analysis, such as computing log wages or identifying categorical variables from continuous ones.
+
+3. **Automated Statistical Analysis Using Macros**
+   - **Macros for Model Deployment**: The script does not use actual R macros but mimics the SAS macro functionality using loops (`for` loops in R) to automate the processing of Tobit models and GLMs across different subgroups defined by combinations of year, education group, and age group.
+   - **Tobit Model Execution**: Implemented using the `AER` package to handle censored data, fitting models iteratively across different subgroups and capturing the effects of various predictors on log wages under censoring conditions.
+   - **GLM Model Execution**: GLMs are run to explore relationships between employment characteristics and wages, outputting predictions that are used for further analysis and adjustments. Two models are run considering and without considering interaction between the year variable and the other predictors.
+   - **Dynamic Model Adjustments**: Based on the model outputs, new variables are computed, such as predicted wages and residuals, which are crucial for diagnostic checks and further exploratory analysis.
+
+4. **Integration and Final Analysis**
+   - **Data Merging and Enrichment**: Different data layers are merged to create comprehensive datasets that combine individual and firm-level data with statistical summaries.
+   - **Calculation of Derived Metrics**: Post-merging, additional metrics are calculated directly from the combined data, providing deeper insights into factors like wage disparities and employment dynamics.
+   - **Predictive Modelling and Output**: Using the results from Tobit and GLM models, further calculations are performed to adjust and impute values, preparing the dataset for final reporting or further analysis.
+
+5. **Error Handling and Output Preparation**
+   - **Error Handling in Model Runs**: The script includes error handling during model execution to ensure that the loop continues even if a model fails to converge, thereby improving robustness. For example, in the TOBIT model we skip the modeling for subsets that have less than 10 rows, or less than 3 censored observations.
+   - **Final Data Preparation**: After all analyses, the data is prepared for output, including setting variable labels and cleaning up the dataset for final use or export.

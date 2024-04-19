@@ -18,39 +18,39 @@ dta_list[[1]] %>%
   look_for()
 #We read the V1 (individuals) data
 library(readstata13)
-dta_label2 = lapply(dta_files, function(x) read.dta13(paste0("SIEED_7518_v1_test/", x)))
-
-dta_label2[[2]] %>% 
-  class()
-#Change the label to english
-dta_label2 = lapply(dta_label2, function(x) x %>% set.lang("en"))
-#Lets see the head of the dta_list
-
-#On dta_files there are data with year on the name, and other without it. Lets filter the ones with year on the name
-dta_files_2 = dta_files[str_detect(dta_files, "^(SIEED_7518_v1_bhp_20|SIEED_7518_v1_bhp_19)")]
-
-dta_files_3 = dta_files[!dta_files %in% dta_files_2]
-
-dta_year = tibble("Address" = dta_files_2) %>%
-  mutate("Year" = str_sub(Address, start = 19, end = 22))
-
-#We extract the year, wich is the second four digits of the file name
-#Lets read all the dta in the Address column and store them in a list. Lets name the list with the year of the data
-dta_list_2 = lapply(dta_files_2, function(x) read_dta(paste0("SIEED_7518_v1_test/", x)))
-
-names(dta_list_2) = dta_year$Year
-#Lets merge all the data in dta_list_2, in order to create one big tibble. We also create one column with name "Year" to store the year of the data
-dta_list_3 = dta_list_2 %>%
-  bind_rows(.id = "Year") %>%
-  select(-Year)
-
-names(dta_list_3)
-
-#Lets read all the adress inside dta_files_3 and store them in a list
-dta_list_4 = lapply(dta_files_3, function(x) read_dta(paste0("SIEED_7518_v1_test/", x)))
-
-
-### Read dta ####
+# dta_label2 = lapply(dta_files, function(x) read.dta13(paste0("SIEED_7518_v1_test/", x)))
+# 
+# dta_label2[[2]] %>% 
+#   class()
+# #Change the label to english
+# dta_label2 = lapply(dta_label2, function(x) x %>% set.lang("en"))
+# #Lets see the head of the dta_list
+# 
+# #On dta_files there are data with year on the name, and other without it. Lets filter the ones with year on the name
+# dta_files_2 = dta_files[str_detect(dta_files, "^(SIEED_7518_v1_bhp_20|SIEED_7518_v1_bhp_19)")]
+# 
+# dta_files_3 = dta_files[!dta_files %in% dta_files_2]
+# 
+# dta_year = tibble("Address" = dta_files_2) %>%
+#   mutate("Year" = str_sub(Address, start = 19, end = 22))
+# 
+# #We extract the year, wich is the second four digits of the file name
+# #Lets read all the dta in the Address column and store them in a list. Lets name the list with the year of the data
+# dta_list_2 = lapply(dta_files_2, function(x) read_dta(paste0("SIEED_7518_v1_test/", x)))
+# 
+# names(dta_list_2) = dta_year$Year
+# #Lets merge all the data in dta_list_2, in order to create one big tibble. We also create one column with name "Year" to store the year of the data
+# dta_list_3 = dta_list_2 %>%
+#   bind_rows(.id = "Year") %>%
+#   select(-Year)
+# 
+# names(dta_list_3)
+# 
+# #Lets read all the adress inside dta_files_3 and store them in a list
+# dta_list_4 = lapply(dta_files_3, function(x) read_dta(paste0("SIEED_7518_v1_test/", x)))
+# 
+# 
+# ### Read dta ####
 
 library(readstata13)
 #Individual data
@@ -226,7 +226,7 @@ ind2 <- ind2 %>%
   )
 
 #Get the days as number of column duration
-ind2$spellearn %>% hist()
+#ind2$spellearn %>% hist() #Total earnings during the speel period
 
 set.seed(9211093)
 ind2 = ind2 %>% 
@@ -237,27 +237,27 @@ ind2 = ind2 %>%
 library(dplyr)
 library(ggplot2)
 # Calculate summary statistics by 'year'
-summary_data <- ind2 %>%
-  group_by(year) %>%
-  summarise(
-    count = n(),
-    mean = mean(dailywage, na.rm = TRUE),
-    sd = sd(dailywage, na.rm = TRUE),
-    min = min(dailywage, na.rm = TRUE),
-    max = max(dailywage, na.rm = TRUE)
-  )
-
-# Display the summary table
-print(summary_data)
-
-# For the title, in R, titles are typically used in plots or reports
-# Here's an example of how you might set a title in a ggplot chart
-ggplot(summary_data, aes(x = year, y = mean)) +
-  geom_line() +
-  labs(title = 'FT non-marginal jobs, MEN 1985+, wage>=1, west Germany only') +
-  #Lets also add the min and max wage
-  geom_point(aes(y = min), color = "red") +
-  geom_point(aes(y = max), color = "blue")
+# summary_data <- ind2 %>%
+#   group_by(year) %>%
+#   summarise(
+#     count = n(),
+#     mean = mean(dailywage, na.rm = TRUE),
+#     sd = sd(dailywage, na.rm = TRUE),
+#     min = min(dailywage, na.rm = TRUE),
+#     max = max(dailywage, na.rm = TRUE)
+#   )
+# 
+# # Display the summary table
+# print(summary_data)
+# 
+# # For the title, in R, titles are typically used in plots or reports
+# # Here's an example of how you might set a title in a ggplot chart
+# ggplot(summary_data, aes(x = year, y = mean)) +
+#   geom_line() +
+#   labs(title = 'FT non-marginal jobs, MEN 1985+, wage>=1, west Germany only') +
+#   #Lets also add the min and max wage
+#   geom_point(aes(y = min), color = "red") +
+#   geom_point(aes(y = max), color = "blue")
 
 # Filter the data
 #Lets extract the 3 numbers of the SIC code
@@ -271,112 +271,112 @@ filter(rsample > 0.95, year >= 1985, year <= 1991)
 # Check distributions of 'occupation' and 'w73_3' by 'year'
 # For 'occupation' lets plot with tittle
 ind3$occupation %>% table() %>% barplot(main = "Occupation Distribution of 5%")
-beruf_table <- table(ind3$occupation)
-
-# For 'w73' by 'year'
-w73_year_freq <-  ind3 %>%
-  count(sic_code1, year)
-print(w73_year_freq)
-ggplot(w73_year_freq, aes(x = year, y = n, fill = sic_code1)) +
-  geom_col() +
-  labs(title = '5 percent sample, 1985-91 only',
-       x = 'Year',
-       y = 'Frequency',
-       fill = 'SIC Code (w73)') +
-  theme_minimal() + #Lets errase the legend using theme
-  theme(legend.position = "none")
-
-filtered_data_2 <- ind2 %>%
-  filter(rsample > 0.95, year >= 1992 & year <= 1998)
-
-# Compute frequency table for 'w73' by 'year'
-# You can adjust this to also include 'beruf' if needed
-w73_year_freq <- filtered_data_2 %>%
-  count(sic_code1, year)
-
-# Plotting the frequency distribution of 'w73' by 'year'
-ggplot(w73_year_freq, aes(x = year, y = n, fill = sic_code1)) +
-  geom_col() +
-  labs(title = '5 percent sample, 1992-98 only',
-       x = 'Year',
-       y = 'Frequency',
-       fill = 'SIC Code (w73)') +
-  theme_minimal() + #Lets errase the legend using theme
-  theme(legend.position = "none")
-
-filtered_data_3 <- ind2 %>%
-  filter(rsample > 0.95, year >= 1997 & year <= 2003)
-
-# Compute frequency table for 'beruf', 'w73' by 'year', and 'w93' by 'year'
-# Here we focus on 'w73' and 'w93' by 'year' as an example
-w73_year_freq <- filtered_data_3 %>%
-  count(sic_code1, year)
-
-w93_year_freq <- filtered_data_3 %>%
-  count(sic_code2, year)
-
-# Plotting the frequency distribution of 'w73' by 'year'
-ggplot(w73_year_freq, aes(x = year, y = n, fill = sic_code1)) +
-  geom_col() +
-  labs(title = '5 percent sample, 1997-2003 only',
-       x = 'Year',
-       y = 'Frequency',
-       fill = 'SIC Code (w73)') +
-  theme_minimal() + #Lets errase the legend using theme
-  theme(legend.position = "none")
-
-# Plotting the frequency distribution of 'w93' by 'year'
-ggplot(w93_year_freq, aes(x = year, y = n, fill = sic_code2)) +
-  geom_col() +
-  labs(title = '5 percent sample, 1997-2003 only',
-       x = 'Year',
-       y = 'Frequency',
-       fill = 'SIC Code (w93)') +
-  theme_minimal() + #Lets errase the legend using theme
-  theme(legend.position = "none")
-#There are some missings to see later.
-#W73: This variable indicates the economic activity as a 3-digit code in accordance with 
-#the WS73 classification and is available from 1975 up to and including 2002.
-
-#W93: This variable indicates the economic activity as a 3-digit code in accordance with
-#the WZ93 classification and is available from 1999 up to and including 2003.
+# beruf_table <- table(ind3$occupation)
+# 
+# # For 'w73' by 'year'
+# w73_year_freq <-  ind3 %>%
+#   count(sic_code1, year)
+# print(w73_year_freq)
+# ggplot(w73_year_freq, aes(x = year, y = n, fill = sic_code1)) +
+#   geom_col() +
+#   labs(title = '5 percent sample, 1985-91 only',
+#        x = 'Year',
+#        y = 'Frequency',
+#        fill = 'SIC Code (w73)') +
+#   theme_minimal() + #Lets errase the legend using theme
+#   theme(legend.position = "none")
+# 
+# filtered_data_2 <- ind2 %>%
+#   filter(rsample > 0.95, year >= 1992 & year <= 1998)
+# 
+# # Compute frequency table for 'w73' by 'year'
+# # You can adjust this to also include 'beruf' if needed
+# w73_year_freq <- filtered_data_2 %>%
+#   count(sic_code1, year)
+# 
+# # Plotting the frequency distribution of 'w73' by 'year'
+# ggplot(w73_year_freq, aes(x = year, y = n, fill = sic_code1)) +
+#   geom_col() +
+#   labs(title = '5 percent sample, 1992-98 only',
+#        x = 'Year',
+#        y = 'Frequency',
+#        fill = 'SIC Code (w73)') +
+#   theme_minimal() + #Lets errase the legend using theme
+#   theme(legend.position = "none")
+# 
+# filtered_data_3 <- ind2 %>%
+#   filter(rsample > 0.95, year >= 1997 & year <= 2003)
+# 
+# # Compute frequency table for 'beruf', 'w73' by 'year', and 'w93' by 'year'
+# # Here we focus on 'w73' and 'w93' by 'year' as an example
+# w73_year_freq <- filtered_data_3 %>%
+#   count(sic_code1, year)
+# 
+# w93_year_freq <- filtered_data_3 %>%
+#   count(sic_code2, year)
+# 
+# # Plotting the frequency distribution of 'w73' by 'year'
+# ggplot(w73_year_freq, aes(x = year, y = n, fill = sic_code1)) +
+#   geom_col() +
+#   labs(title = '5 percent sample, 1997-2003 only',
+#        x = 'Year',
+#        y = 'Frequency',
+#        fill = 'SIC Code (w73)') +
+#   theme_minimal() + #Lets errase the legend using theme
+#   theme(legend.position = "none")
+# 
+# # Plotting the frequency distribution of 'w93' by 'year'
+# ggplot(w93_year_freq, aes(x = year, y = n, fill = sic_code2)) +
+#   geom_col() +
+#   labs(title = '5 percent sample, 1997-2003 only',
+#        x = 'Year',
+#        y = 'Frequency',
+#        fill = 'SIC Code (w93)') +
+#   theme_minimal() + #Lets errase the legend using theme
+#   theme(legend.position = "none")
+# #There are some missings to see later.
+# #W73: This variable indicates the economic activity as a 3-digit code in accordance with 
+# #the WS73 classification and is available from 1975 up to and including 2002.
+# 
+# #W93: This variable indicates the economic activity as a 3-digit code in accordance with
+# #the WZ93 classification and is available from 1999 up to and including 2003.
 
 library(dplyr)
 library(ggplot2)
 
 # Filter the data
-filtered_data_4 <- ind2 %>%
-  filter(rsample > 0.95, year >= 2003 & year <= 2009)
-
-# Compute frequency tables for 'beruf', 'w73' by 'year', 'w93' by 'year', and 'w03' by 'year'
-beruf_freq <- filtered_data_4 %>% count(occupation)
-w73_year_freq <- filtered_data_4 %>% count(sic_code1, year)
-w93_year_freq <- filtered_data_4 %>% count(sic_code2, year)
-w03_year_freq <- filtered_data_4 %>% count(sic_code3, year)
-
-#There is not data for 273 after 2003
-# Similarly, create plots for 'w93' by 'year' and 'w03' by 'year'
-# Example for 'w93'
-ggplot(w93_year_freq, aes(x = year, y = n, fill = sic_code2)) +
-  geom_col() +
-  labs(title = '5 percent sample, 2003-2009 only, w93 by year',
-       x = 'Year',
-       y = 'Frequency',
-       fill = 'SIC Code (w93)') +
-  theme_minimal() + #Lets errase the legend using theme
-  theme(legend.position = "none")
-
-# Example for 'w03'
-ggplot(w03_year_freq, aes(x = year, y = n, fill = sic_code3)) +
-  geom_col() +
-  labs(title = '5 percent sample, 2003-2009 only, w03 by year',
-       x = 'Year',
-       y = 'Frequency',
-       fill = 'SIC Code (w03)') +
-  theme_minimal() + #Lets errase the legend using theme
-  theme(legend.position = "none")
-
-### Collapse to person-firm-year ####
+# filtered_data_4 <- ind2 %>%
+#   filter(rsample > 0.95, year >= 2003 & year <= 2009)
+# 
+# # Compute frequency tables for 'beruf', 'w73' by 'year', 'w93' by 'year', and 'w03' by 'year'
+# beruf_freq <- filtered_data_4 %>% count(occupation)
+# w73_year_freq <- filtered_data_4 %>% count(sic_code1, year)
+# w93_year_freq <- filtered_data_4 %>% count(sic_code2, year)
+# w03_year_freq <- filtered_data_4 %>% count(sic_code3, year)
+# 
+# #There is not data for 273 after 2003
+# # Similarly, create plots for 'w93' by 'year' and 'w03' by 'year'
+# # Example for 'w93'
+# ggplot(w93_year_freq, aes(x = year, y = n, fill = sic_code2)) +
+#   geom_col() +
+#   labs(title = '5 percent sample, 2003-2009 only, w93 by year',
+#        x = 'Year',
+#        y = 'Frequency',
+#        fill = 'SIC Code (w93)') +
+#   theme_minimal() + #Lets errase the legend using theme
+#   theme(legend.position = "none")
+# 
+# # Example for 'w03'
+# ggplot(w03_year_freq, aes(x = year, y = n, fill = sic_code3)) +
+#   geom_col() +
+#   labs(title = '5 percent sample, 2003-2009 only, w03 by year',
+#        x = 'Year',
+#        y = 'Frequency',
+#        fill = 'SIC Code (w03)') +
+#   theme_minimal() + #Lets errase the legend using theme
+#   theme(legend.position = "none")
+# 
+# ### Collapse to person-firm-year ####
 
 library(dplyr)
 
@@ -432,22 +432,22 @@ pfy_tot = pfy %>%
   group_by(id, year) %>%
   slice(1) %>%
   ungroup()
-
-#Lets plot the totearn, where x would be the year and y the totearn, and id would be the group
-ggplot(pfy_tot, aes(x = year, y = totearn)) +
-  geom_line(aes(color = as.factor(id)),alpha=0.2) +
-  labs(title = 'Total earnings by year',
-       x = 'Year',
-       y = 'Total Earnings') +
-  theme_minimal() + #Lets errase the legend using theme
-  theme(legend.position = "none") +
-  geom_smooth(se = FALSE)
- 
+# 
+# #Lets plot the totearn, where x would be the year and y the totearn, and id would be the group
+# ggplot(pfy_tot, aes(x = year, y = totearn)) +
+#   geom_line(aes(color = as.factor(id)),alpha=0.2) +
+#   labs(title = 'Total earnings by year',
+#        x = 'Year',
+#        y = 'Total Earnings') +
+#   theme_minimal() + #Lets errase the legend using theme
+#   theme(legend.position = "none") +
+#   geom_smooth(se = FALSE)
+#  
 ### Restriction on Real Wage####
-ind2 %>% 
-  select(education) %>% 
-  mutate(otro = as.numeric(education)) %>% 
-  unique() %>% View()
+# ind2 %>% 
+#   select(education) %>% 
+#   mutate(otro = as.numeric(education)) %>% 
+#   unique() %>% View()
 library(dplyr)
 #For this i got to rework education. 
 #Will use 0 for the qualifications of dropout, aprentice, university and missed
@@ -617,6 +617,7 @@ library(dplyr)
 library(AER)
 library(dplyr)
 WORK_tobit <- data.frame()
+
 # Loop through the specified years, education groups, and age groups
 for (yr in 1985:2009) {
   for (eg in 0:4) {
@@ -625,22 +626,21 @@ for (yr in 1985:2009) {
       subset_data <- WORK_sub %>% 
         ungroup() %>% 
         filter(year == yr, edgroup == eg, agegroup == ag)
-      
+   print(paste("Loop:",yr,eg,ag))
       censoring_point = mean(subset_data$logwage[subset_data$censor == 1], na.rm=TRUE)
-      if(is.na(censoring_point)) {
-        next
-      }
+      if((!is.nan(censoring_point) & (nrow(subset_data) > 10))&((subset_data$logwage[subset_data$censor == 1] %>% length())>3)) {
       
-      result <- tryCatch({
         # Fit the Tobit model
         tobit_model <- tobit(logwage ~ age + atbigfirm + ofmeancensor + ofmeanwage + emp + empsq + onewkr +
                                fmeanuniversity + fmeanschooling + opmeancensor + opmeanwage + oneyear,
                              right = censoring_point,  # Adjust as per censoring info
                              y = 0,
                              data = subset_data)
+        Sys.sleep(0.5)
+        #Because of the sample size, some coefficients could be 0. We just dont take them into account.
         
         # Save or output model summary; adapt this part as needed for your output requirements
-        model_summary <- summary(tobit_model)
+        #model_summary <- summary(tobit_model)
         model_coefs <- coef(tobit_model)
         model_sigma <- sigma(tobit_model)
         
@@ -666,10 +666,7 @@ for (yr in 1985:2009) {
         )
         # Append this row to the results dataframe
         WORK_tobit <- rbind(WORK_tobit, results_row)
-      }, error = function(e) {
-        message(paste("Error in Tobit model for year:", yr, "edgroup:", eg, "agegroup:", ag, "Error message:", e$message))
-        return(NULL)  # Return NULL on error and continue with the loop
-      })
+      }
       }
     }
   }
@@ -742,7 +739,8 @@ work_py <- mutate(work_py,
 
 # 4. Create a 5% sample for regression
 work_py <- mutate(work_py,
-                  logwager = ifelse(runif(n()) < 0.05, logwage2, NA))
+                  logwager = ifelse(runif(n()) < 0.05, logwage2, NA)) %>% 
+  filter(year > 1984)
 
 ### GLM Models####
 
