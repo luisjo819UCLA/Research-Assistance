@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains an R script designed to translate a comprehensive SAS code to R, with a focus on data transformation, manipulation, and Tobit model analysis for wages data. The project loads, cleans, and processes multiple datasets to prepare them for statistical modeling, with specific transformations tailored to align with SAS-specific operations.
+This repository contains an R script designed to translate a comprehensive SAS code to R, with a focus on data transformation, manipulation, and Tobit model analysis for wages data. The project loads, cleans, and processes multiple datasets to prepare them for statistical modeling, with specific transformations tailored to align with SAS-specific operations. The dataset used is the "14|2020 EN Sample of Integrated Employer-Employee Data (SIEED) 1975-2018," which provides wage information for the German labor market. This research aims to analyze employer competition within segmented labor markets (distinguishing between high- and low-skilled employees) and assess its impact on wages and other key indicators.
 
 ## Objectives
 
